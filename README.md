@@ -1,5 +1,7 @@
 # SptQuestLive
 
+**Language: [한국어](README.md) | [English](README.en.md)**
+
 [SPT (Single Player Tarkov)](https://sp-tarkov.com/) 서버용 퀘스트 오버라이드 모드입니다.
 `db/quests.json`, `db/locales/*.json`에 정의한 내용으로 원본 퀘스트 조건/보상과 로케일 문자열을 서버 로딩 시점에 덮어씁니다.
 
