@@ -1,9 +1,9 @@
 using System.Reflection;
+using SPTarkov.Common.Models.Logging;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
-using SPTarkov.Server.Core.Helpers;
-using SPTarkov.Server.Core.Models.Utils;
-using SPTarkov.Server.Core.Services;
+using SPTarkov.Server.Core.Helpers.Server;
+using SPTarkov.Server.Core.Models.Spt.Tables;
 
 namespace SptQuestLive;
 
@@ -12,15 +12,15 @@ namespace SptQuestLive;
 /// 해당 언어 로케일에 문자열을 덮어쓴다. 로케일은 지연 로딩되므로 트랜스포머로 등록한다.
 /// 파일이 없는 언어는 조용히 건너뛴다.
 /// </summary>
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
 public class LocaleFixesLoader(
     ISptLogger<LocaleFixesLoader> logger,
     ModHelper modHelper,
-    DatabaseService databaseService) : IOnLoad
+    LocaleTable localeTable) : IOnLoad
 {
     private const string LocalesFolderRelativePath = "db/locales";
 
-    public Task OnLoad()
+    public Task OnLoadAsync(CancellationToken cancellationToken)
     {
         var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
         var localesDir = Path.Combine(modPath, LocalesFolderRelativePath);
@@ -31,7 +31,7 @@ public class LocaleFixesLoader(
             return Task.CompletedTask;
         }
 
-        var globalLocales = databaseService.GetLocales().Global;
+        var globalLocales = localeTable.Global;
 
         foreach (var filePath in Directory.GetFiles(localesDir, "*.json"))
         {
@@ -48,9 +48,13 @@ public class LocaleFixesLoader(
 
             lazyLoadedLocale.AddTransformer(localeData =>
             {
+                // GlobalLocaleDictionary는 Dictionary<string, string>을 상속하는 타입이라
+                // System.Text.Json이 인스턴스 자체를 딕셔너리로 직렬화한다. ExtensionData 프로퍼티에
+                // 쓰면 [JsonExtensionData]가 있어도 직렬화 시 통째로 무시되므로, 반드시 딕셔너리
+                // 자체(인덱서)에 써야 클라이언트로 실제 전달된다.
                 foreach (var (key, value) in overrides)
                 {
-                    localeData[key] = value;
+                    localeData![key] = value;
                 }
 
                 return localeData;
