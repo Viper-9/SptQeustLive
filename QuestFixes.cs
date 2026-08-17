@@ -16,11 +16,11 @@ namespace SptQuestLive;
 /// </summary>
 public record ModMetadata : IModMetadata
 {
-    public string ModGuid { get; init; } = "com.rlrud.sptquestlive";
+    public string ModGuid { get; init; } = "com.viper.sptquestlive";
     public string Name { get; init; } = "SptQuestLive";
-    public string Author { get; init; } = "rlrud";
+    public string Author { get; init; } = "Viper-9";
     public List<string>? Contributors { get; init; }
-    public SemanticVersioning.Version Version { get; init; } = new("1.0.0");
+    public SemanticVersioning.Version Version { get; init; } = new("0.0.3");
     public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.2");
     public bool HasPrepatcher { get; init; } = false;
     public List<string>? Incompatibilities { get; init; }
