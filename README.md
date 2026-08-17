@@ -23,6 +23,8 @@
 
 라이트키퍼(Lightkeeper), 레프(Ref) 트레이더 퀘스트는 수정 대상에서 제외합니다. 레프 퀘스트는 대부분 아레나(Arena) 연동 퀘스트라 손댈 필요가 없고, 라이트키퍼는 엔드컨텐츠 이후 퀘스트라 추후 별도로 검토할 예정입니다.
 
+The Tarkov Shooter - Part 5는 의도적으로 오버라이드하지 않습니다. 현재 라이브 버전 계정 덤프를 확인한 결과 이 퀘스트에 해당하는 항목 자체가 사라졌고, 이후 파트 6·7·8이 각각 한 칸씩 당겨져 있어 SPT 원본과 1:1로 대응되는 덤프 데이터가 없습니다. 그래서 SPT 원본 상태(야간 21:00~05:00, Customs 한정) 그대로 둡니다.
+
 ## 포함된 퀘스트 오버라이드
 
 `db/quests.json`에 정의된 퀘스트 목록입니다.
@@ -50,9 +52,20 @@
 - Peacekeeping Mission (평화 유지 임무)
 - Trophies (전리품)
 - Long Line (대기줄)
+- The Tarkov Shooter - Part 1 (타르코프의 저격수 - 파트 1)
+- The Tarkov Shooter - Part 2 (타르코프의 저격수 - 파트 2)
+- The Tarkov Shooter - Part 3 (타르코프의 저격수 - 파트 3)
 - The Tarkov Shooter - Part 4 (타르코프의 저격수 - 파트 4)
-- The Tarkov Shooter - Part 5 (타르코프의 저격수 - 파트 5)
+- The Tarkov Shooter - Part 6 (타르코프의 저격수 - 파트 6)
+- The Tarkov Shooter - Part 7 (타르코프의 저격수 - 파트 7)
+- The Tarkov Shooter - Part 8 (타르코프의 저격수 - 파트 8)
 - Long Road (긴 도로)
+- Grenadier (척탄병)
+- The Punisher - Part 1 (퍼니셔 - 파트 1)
+- The Punisher - Part 2 (퍼니셔 - 파트 2)
+- The Punisher - Part 3 (퍼니셔 - 파트 3)
+- Golden Swag (황금빛 스웩)
+- Rite of Passage (통과의례)
 
 ## 로케일
 
