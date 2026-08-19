@@ -64,6 +64,15 @@ Quests defined in `db/quests.json`:
 - The Punisher - Part 3
 - Golden Swag
 - Rite of Passage
+- The Survivalist Path - Unprotected but Dangerous
+- The Survivalist Path - Thrifty
+- The Survivalist Path - Zhivchik
+- The Survivalist Path - Wounded Beast
+- The Survivalist Path - Tough Guy
+- The Survivalist Path - Cold Blooded
+- The Survivalist Path - Eagle-Owl
+- The Survivalist Path - Combat Medic
+- The Survivalist Path - Junkie
 
 ## Locales
 

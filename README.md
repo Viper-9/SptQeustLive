@@ -66,6 +66,15 @@ The Tarkov Shooter - Part 5는 의도적으로 오버라이드하지 않습니�
 - The Punisher - Part 3 (퍼니셔 - 파트 3)
 - Golden Swag (황금빛 스웩)
 - Rite of Passage (통과의례)
+- The Survivalist Path - Unprotected but Dangerous (생존가의 길 - 무방비하지만 위험한)
+- The Survivalist Path - Thrifty (생존가의 길 - 비축)
+- The Survivalist Path - Zhivchik (생존가의 길 - 지브치크)
+- The Survivalist Path - Wounded Beast (생존가의 길 - 상처 입은 짐승)
+- The Survivalist Path - Tough Guy (생존가의 길 - 상남자)
+- The Survivalist Path - Cold Blooded (생존가의 길 - 냉혈한)
+- The Survivalist Path - Eagle-Owl (생존가의 길 - 수리부엉이)
+- The Survivalist Path - Combat Medic (생존가의 길 - 의무병)
+- The Survivalist Path - Junkie (생존가의 길 - 약쟁이)
 
 ## 로케일
 
