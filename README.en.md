@@ -7,8 +7,9 @@ It overwrites the original quest conditions/rewards and locale strings at server
 
 - SPT server `~4.1.2`
 - .NET 10 SDK (only if building from source)
-- (Optional) [WTT-ContentBackport](https://hub.sp-tarkov.com/) `2.0.0` — the mod works fine without it, but if a quest's
-  issued gear references an item added by ContentBackport, that specific item will simply be skipped when it's not installed.
+- (Optional) [WTT-ContentBackport](https://hub.sp-tarkov.com/) `2.0.0` — the mod works fine without it, but some
+  quests' issued gear/attachments reference items added by ContentBackport, and those specific items may be skipped
+  when it's not installed.
 
 ## Installation
 
@@ -21,7 +22,6 @@ It overwrites the original quest conditions/rewards and locale strings at server
 
 Lightkeeper and Ref trader quests are excluded from changes. Ref's quests are mostly tied to Arena and don't need touching, and Lightkeeper's quests are end-game content that will be reviewed separately later.
 
-The Tarkov Shooter - Part 5 is intentionally left un-overridden. A live-account data dump shows this quest no longer exists in the current game version — Parts 6/7/8 have each shifted down by one — so there's no 1:1 live data to override it with. It's left as vanilla SPT (night 21:00–05:00, Customs only).
 
 ## Included quest overrides
 
@@ -73,6 +73,9 @@ Quests defined in `db/quests.json`:
 - The Survivalist Path - Eagle-Owl
 - The Survivalist Path - Combat Medic
 - The Survivalist Path - Junkie
+- The Cleaner
+- A Shooter Born in Heaven
+- Psycho Sniper
 
 ## Locales
 
