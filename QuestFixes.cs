@@ -8,6 +8,7 @@ using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Spt.Tables;
+using WTTServerCommonLib.Services;
 
 namespace SptQuestLive;
 
@@ -24,7 +25,10 @@ public record ModMetadata : IModMetadata
     public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.2");
     public bool HasPrepatcher { get; init; } = false;
     public List<string>? Incompatibilities { get; init; }
-    public Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; }
+    public Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; } = new()
+    {
+        ["com.wtt.commonlib"] = new SemanticVersioning.Range(">=3.0.4"),
+    };
     public string? Url { get; init; }
     public string License { get; init; } = "MIT";
 }
@@ -119,5 +123,22 @@ public class QuestFixesLoader(
                 reward.Items = reward.Items.Where(item => !missingIds.Contains(item.Id.ToString())).ToList();
             }
         }
+    }
+}
+
+/// <summary>
+/// db/CustomQuestZones에 담긴 커스텀 퀘스트 존(WTT-CommonLib 런타임 트리거)을 등록한다.
+/// 원본 EFT 맵 애셋엔 없는 zoneId(예: golden_zibbo_303)를 WTT-ClientCommonLib이 레이드 로드 시점에
+/// 런타임으로 생성해주기 때문에, 서버 쪽은 이 좌표 데이터를 CustomQuestZoneService에 등록만 해주면 된다.
+/// </summary>
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
+public class QuestZoneLoader(
+    ISptLogger<QuestZoneLoader> logger,
+    WTTCustomQuestZoneService zoneService) : IOnLoad
+{
+    public async Task OnLoadAsync(CancellationToken cancellationToken)
+    {
+        await zoneService.CreateCustomQuestZones(Assembly.GetExecutingAssembly());
+        logger.Success("[SptQuestLive] 커스텀 퀘스트 존을 등록했습니다.");
     }
 }
