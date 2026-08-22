@@ -14,13 +14,13 @@ EFT는 퀘스트 구조나 연계, 상인 평판구조까지 대대적으로 바
 
 - SPT 서버 `~4.1.2`
 - .NET 10 SDK (직접 빌드할 경우)
-- (선택) [WTT-ContentBackport](https://hub.sp-tarkov.com/) `2.0.0` — 없어도 정상 작동하지만, 일부 퀘스트의
+- (권장) [WTT-ContentBackport](https://hub.sp-tarkov.com/) `2.0.0` — 없어도 정상 작동하지만, 일부 퀘스트의
   지급장비·부착물이 이 모드가 추가하는 아이템을 사용하는 경우 해당 아이템만 빠지고 지급될 수 있습니다.
 
 ## 설치
 
 1. [Releases](../../releases)에서 원하는 버전의 `sptQuestLive.zip`을 다운로드합니다.
-2. 압축을 풀어 나오는 `SPT_Runtime` 폴더를 SPT 설치 루트(예: `C:\SPT4.1.2`, `SPT.Server.exe`가 든 `SPT_Runtime` 폴더의 상위 폴더)에 그대로 덮어씁니다. (`SPT_Runtime/user/mods/sptQuestLive/...` 구조)
+2. 압축을 풀어 나오는 `SPT_Runtime` 폴더를 SPT 설치 루트(예: `C:\SPT`, `SPT.Server.exe`가 든 `SPT_Runtime` 폴더의 상위 폴더)에 그대로 덮어씁니다. (`SPT_Runtime/user/mods/sptQuestLive/...` 구조)
    - `SPT_Runtime` 폴더 자체가 서버 루트인 구조(구버전 SPT)라면, 압축 안의 `SPT_Runtime\user\mods\sptQuestLive` 폴더만 서버 루트의 `user\mods\`에 복사해도 됩니다.
 3. 서버를 재시작합니다.
 
@@ -56,18 +56,10 @@ EFT는 퀘스트 구조나 연계, 상인 평판구조까지 대대적으로 바
 - Peacekeeping Mission (평화 유지 임무)
 - Trophies (전리품)
 - Long Line (대기줄)
-- The Tarkov Shooter - Part 1 (타르코프의 저격수 - 파트 1)
-- The Tarkov Shooter - Part 2 (타르코프의 저격수 - 파트 2)
-- The Tarkov Shooter - Part 3 (타르코프의 저격수 - 파트 3)
-- The Tarkov Shooter - Part 4 (타르코프의 저격수 - 파트 4)
-- The Tarkov Shooter - Part 6 (타르코프의 저격수 - 파트 6)
-- The Tarkov Shooter - Part 7 (타르코프의 저격수 - 파트 7)
-- The Tarkov Shooter - Part 8 (타르코프의 저격수 - 파트 8)
+- The Tarkov Shooter - Part 1~4, 6~8 (타르코프의 저격수 - 파트 1~4, 6~8)
 - Long Road (긴 도로)
 - Grenadier (척탄병)
-- The Punisher - Part 1 (퍼니셔 - 파트 1)
-- The Punisher - Part 2 (퍼니셔 - 파트 2)
-- The Punisher - Part 3 (퍼니셔 - 파트 3)
+- The Punisher - Part 1~3 (퍼니셔 - 파트 1~3)
 - Golden Swag (황금빛 스웩)
 - Rite of Passage (통과의례)
 - The Survivalist Path - Unprotected but Dangerous (생존가의 길 - 무방비하지만 위험한)
@@ -79,9 +71,21 @@ EFT는 퀘스트 구조나 연계, 상인 평판구조까지 대대적으로 바
 - The Survivalist Path - Eagle-Owl (생존가의 길 - 수리부엉이)
 - The Survivalist Path - Combat Medic (생존가의 길 - 의무병)
 - The Survivalist Path - Junkie (생존가의 길 - 약쟁이)
+- The Huntsman Path - Trophy (사냥꾼의 길 - 트로피)
+- The Huntsman Path - Forest Cleaning (사냥꾼의 길 - 삼림 청소)
+- The Huntsman Path - Controller (사냥꾼의 길 - 상황 통제)
+- The Huntsman Path - Justice (사냥꾼의 길 - 정의)
+- The Huntsman Path - Evil Watchman (사냥꾼의 길 - 사악한 경비원)
+- The Huntsman Path - Eraser - Part 1 (사냥꾼의 길 - 말살자 - 파트 1)
+- The Huntsman Path - Sadist (사냥꾼의 길 - 사디스트)
+- The Huntsman Path - Relentless (사냥꾼의 길 - 가차없는)
+- The Huntsman Path - Big Game (사냥꾼의 길 - 빅 게임)
+- The Huntsman Path - Crooked Cop (사냥꾼의 길 - 비리 경찰)
 - The Cleaner (청소부)
 - A Shooter Born in Heaven (천국에서 태어난 저격수)
 - Psycho Sniper (사이코 저격수)
+- Gunsmith - Part 1~19, 22, 24 (건스미스 - 파트 1~19, 22, 24)
+- Gunsmith - Old Friend's Request (건스미스 - 옛 친구의 부탁)
 
 ## 로케일
 

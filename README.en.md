@@ -1,20 +1,27 @@
 # SptQuestLive
 
+**Language: [한국어](README.md) | [English](README.en.md)**
+
 A quest override mod for [SPT (Single Player Tarkov)](https://sp-tarkov.com/) servers.
 It overwrites the original quest conditions/rewards and locale strings at server load time, using the data defined in `db/quests.json` and `db/locales/*.json`.
+
+## Purpose
+
+Overrides quests to match the latest version of EFT, on top of SPT.
+Since EFT has drastically changed quest structure, quest chains, and the trader reputation system, this mod does not apply EFT's EXP/roubles/reputation reward balance, as it no longer fits the current SPT version — start conditions and quest-chain requirements are kept as-is from SPT. Instead, it mainly changes kill conditions, map conditions, issued gear, and turn-in items.
 
 ## Requirements
 
 - SPT server `~4.1.2`
 - .NET 10 SDK (only if building from source)
-- (Optional) [WTT-ContentBackport](https://hub.sp-tarkov.com/) `2.0.0` — the mod works fine without it, but some
+- (Recommended) [WTT-ContentBackport](https://hub.sp-tarkov.com/) `2.0.0` — the mod works fine without it, but some
   quests' issued gear/attachments reference items added by ContentBackport, and those specific items may be skipped
   when it's not installed.
 
 ## Installation
 
 1. Download `sptQuestLive.zip` for the version you want from [Releases](../../releases).
-2. Extract it and overwrite the resulting `SPT_Runtime` folder into your SPT install root (e.g. `F:\SPT4.1.2`, the parent folder of the `SPT_Runtime` folder containing `SPT.Server.exe`). (`SPT_Runtime/user/mods/sptQuestLive/...` structure)
+2. Extract it and overwrite the resulting `SPT_Runtime` folder into your SPT install root (e.g. `C:\SPT`, the parent folder of the `SPT_Runtime` folder containing `SPT.Server.exe`). (`SPT_Runtime/user/mods/sptQuestLive/...` structure)
    - If your server root *is* the `SPT_Runtime` folder itself (older SPT layout), you can instead copy just the `SPT_Runtime\user\mods\sptQuestLive` folder from the zip into your server root's `user\mods\`.
 3. Restart the server.
 
@@ -50,18 +57,10 @@ Quests defined in `db/quests.json`:
 - Peacekeeping Mission
 - Trophies
 - Long Line
-- The Tarkov Shooter - Part 1
-- The Tarkov Shooter - Part 2
-- The Tarkov Shooter - Part 3
-- The Tarkov Shooter - Part 4
-- The Tarkov Shooter - Part 6
-- The Tarkov Shooter - Part 7
-- The Tarkov Shooter - Part 8
+- The Tarkov Shooter - Part 1~4, 6~8
 - Long Road
 - Grenadier
-- The Punisher - Part 1
-- The Punisher - Part 2
-- The Punisher - Part 3
+- The Punisher - Part 1~3
 - Golden Swag
 - Rite of Passage
 - The Survivalist Path - Unprotected but Dangerous
@@ -73,9 +72,21 @@ Quests defined in `db/quests.json`:
 - The Survivalist Path - Eagle-Owl
 - The Survivalist Path - Combat Medic
 - The Survivalist Path - Junkie
+- The Huntsman Path - Trophy
+- The Huntsman Path - Forest Cleaning
+- The Huntsman Path - Controller
+- The Huntsman Path - Justice
+- The Huntsman Path - Evil Watchman
+- The Huntsman Path - Eraser - Part 1
+- The Huntsman Path - Sadist
+- The Huntsman Path - Relentless
+- The Huntsman Path - Big Game
+- The Huntsman Path - Crooked Cop
 - The Cleaner
 - A Shooter Born in Heaven
 - Psycho Sniper
+- Gunsmith - Part 1~19, 22, 24
+- Gunsmith - Old Friend's Request
 
 ## Locales
 
