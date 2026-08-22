@@ -1,0 +1,29 @@
+[
+  {
+    "ZoneId": "jaegar_pest_control",
+    "ZoneName": "jaegar_pest_control",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "botkillzone",
+    "FlareType": "",
+    "Position": {
+      "X": "-120.8822",
+      "Y": "0.3169889",
+      "Z": "50.33869",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1240344",
+      "Z": "0",
+      "W": "0.9922779"
+    },
+    "Scale": {
+      "X": "101.5",
+      "Y": "16",
+      "Z": "107.25",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  }
+]

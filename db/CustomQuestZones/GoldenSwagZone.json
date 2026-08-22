@@ -1,0 +1,29 @@
+[
+  {
+    "ZoneId": "golden_zibbo_303",
+    "ZoneName": "golden_zibbo_303",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "Quest",
+    "Position": {
+      "X": "180.7352",
+      "Y": "6.607049",
+      "Z": "149.8737",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "1.5",
+      "Y": "1.5",
+      "Z": "0.5",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  }
+]
