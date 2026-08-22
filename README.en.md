@@ -14,7 +14,9 @@ Since EFT has drastically changed quest structure, quest chains, and the trader 
 
 - SPT server `~4.1.2`
 - .NET 10 SDK (only if building from source)
-- (Recommended) [WTT-ContentBackport](https://hub.sp-tarkov.com/) `2.0.0` — the mod works fine without it, but some
+- **(Required)** [WTT-CommonLib] `>=3.0.4` (both WTT-ServerCommonLib and WTT-ClientCommonLib) —
+  Pest Control and other quests rely on this mod's custom trigger zone feature (`db/CustomQuestZones/`).
+- (Recommended) [WTT-ContentBackport] `2.0.0` — the mod works fine without it, but some
   quests' issued gear/attachments reference items added by ContentBackport, and those specific items may be skipped
   when it's not installed.
 
@@ -62,6 +64,7 @@ Quests defined in `db/quests.json`:
 - Grenadier
 - The Punisher - Part 1~3
 - Golden Swag
+- Pest Control
 - Rite of Passage
 - The Survivalist Path - Unprotected but Dangerous
 - The Survivalist Path - Thrifty
