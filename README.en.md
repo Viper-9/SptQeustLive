@@ -31,6 +31,15 @@ Since EFT has drastically changed quest structure, quest chains, and the trader 
 
 Lightkeeper and Ref trader quests are excluded from changes. Ref's quests are mostly tied to Arena and don't need touching, and Lightkeeper's quests are end-game content that will be reviewed separately later.
 
+## Experimental feature: removing the trader sales-volume requirement
+
+An experimental beta feature toggled via `disableSalesVolumeRequirement` in `db/TraderLevelConfig.json`.
+
+- `false` (default): unchanged behavior. Trader loyalty level-ups still require level, reputation, and sales volume, and the sales volume is still shown in the UI.
+- `true`: removes the sales-volume (`minSalesSum`) requirement from every trader's loyalty levels. Level-ups then depend only on level and reputation, and the sales-volume display is also hidden in the trade UI. (Hiding it in the UI requires the `SptQuestLive.Client` BepInEx plugin to also be installed.)
+
+Set this to `true` yourself if you want to use it.
+
 
 ## Included quest overrides
 
@@ -90,6 +99,7 @@ Quests defined in `db/quests.json`:
 - Psycho Sniper
 - Gunsmith - Part 1~19, 22, 24
 - Gunsmith - Old Friend's Request
+- Health Care Privacy - Part 1~5
 
 ## Locales
 
