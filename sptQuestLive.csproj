@@ -6,8 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Library</OutputType>
-    <Version>0.0.3</Version>
-    <!-- 빌드 결과물이 SPT user/mods 폴더 구조와 맞도록 정리 -->
+    <Version>0.0.6</Version>
     <OutputPath>bin\$(Configuration)\$(ProjectName)\$(AssemblyName)\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
@@ -16,7 +15,16 @@
     <PackageReference Include="SPTarkov.Common" Version="4.1.2" />
     <PackageReference Include="SPTarkov.DI" Version="4.1.2" />
     <PackageReference Include="SPTarkov.Server.Core" Version="4.1.2" />
+    <PackageReference Include="SPTarkov.Reflection" Version="4.1.0" />
     <PackageReference Include="WTT-ServerCommonLib" Version="3.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="client\**\*.cs" />
+    <Compile Remove="client\**" />
+    <None Remove="client\**" />
+    <Compile Remove="bin\**" />
+    <Compile Remove="obj\**" />
   </ItemGroup>
 
 </Project>
