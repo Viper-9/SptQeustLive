@@ -22,7 +22,8 @@ EFT는 퀘스트 구조나 연계, 상인 평판구조까지 대대적으로 바
 ## 설치
 
 1. [Releases](../../releases)에서 원하는 버전의 `sptQuestLive.zip`을 다운로드합니다.
-2. 압축을 풀어 나오는 `SPT_Runtime` 폴더를 SPT 설치 루트(예: `C:\SPT`, `SPT.Server.exe`가 든 `SPT_Runtime` 폴더의 상위 폴더)에 그대로 덮어씁니다. (`SPT_Runtime/user/mods/sptQuestLive/...` 구조)
+2. 압축을 풀어 나오는 `SPT_Runtime`, `BepInEx` 폴더를 SPT 설치 루트(예: `C:\SPT`, `SPT.Server.exe`가 든 `SPT_Runtime` 폴더의 상위 폴더)에 그대로 덮어씁니다. (`SPT_Runtime/user/mods/sptQuestLive/...`, `BepInEx/plugins/SptQuestLive.Client/...` 구조)
+   - `BepInEx` 폴더에 들어있는 건 [실험적 기능](#실험적-기능-상인-거래량-조건-제거)의 UI 숨김 기능을 위한 클라이언트 플러그인입니다. 실험적 기능을 안 쓰더라도 그냥 같이 깔아두면 되고, 나머지 기능에는 영향이 없습니다.
    - `SPT_Runtime` 폴더 자체가 서버 루트인 구조(구버전 SPT)라면, 압축 안의 `SPT_Runtime\user\mods\sptQuestLive` 폴더만 서버 루트의 `user\mods\`에 복사해도 됩니다.
 3. 서버를 재시작합니다.
 
@@ -34,7 +35,7 @@ EFT는 퀘스트 구조나 연계, 상인 평판구조까지 대대적으로 바
 
 `db/TraderLevelConfig.json`의 `disableSalesVolumeRequirement` 값으로 켜고 끌 수 있는 실험적 베타 기능입니다.
 - `false` (기본값): 원본 그대로. 상인 로열티 레벨업에 레벨/평판/거래량 조건이 모두 그대로 적용되고, UI에도 거래량이 표시됩니다.
-- `true`: 모든 상인의 거래량 조건을 제거합니다. 레벨업에는 레벨·평판 조건만 남고, 거래 UI에서도 거래량 표시가 사라집니다. (클라이언트 쪽 UI 숨김까지 적용하려면 `SptQuestLive.Client` BepInEx 플러그인도 같이 설치되어 있어야 합니다.)
+- `true`: 모든 상인의 거래량 조건을 제거합니다. 레벨업에는 레벨·평판 조건만 남고, 거래 UI에서도 거래량 표시가 사라집니다.
 
 필요하면 직접 이 값을 `true`로 바꿔서 사용하시면 됩니다.
 
