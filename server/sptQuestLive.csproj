@@ -19,12 +19,5 @@
     <PackageReference Include="WTT-ServerCommonLib" Version="3.0.4" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Remove="client\**\*.cs" />
-    <Compile Remove="client\**" />
-    <None Remove="client\**" />
-    <Compile Remove="bin\**" />
-    <Compile Remove="obj\**" />
-  </ItemGroup>
 
 </Project>
