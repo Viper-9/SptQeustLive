@@ -4,6 +4,7 @@
 
 A quest override mod for [SPT (Single Player Tarkov)](https://sp-tarkov.com/) servers.
 It overwrites the original quest conditions/rewards and locale strings at server load time, using the data defined in `db/quests.json` and `db/locales/*.json`.
+Some quests also touch hideout production recipes (`db/hideout/production.json`) or trader assort/shop unlocks (`db/TraderAssortAdditions.json`, `db/QuestAssortUnlocks.json`).
 
 ## Purpose
 
@@ -44,63 +45,19 @@ Set this to `true` yourself if you want to use it.
 
 ## Included quest overrides
 
-Quests defined in `db/quests.json`:
+Quests defined in `db/quests.json`, split into per-trader documents:
 
-- Stirrup
-- Setup
-- The Tarkov Import (formerly Test Drive - Part 1)
-- Power of Persuasion (formerly Test Drive - Part 2)
-- Job for a Patriot (formerly Test Drive - Part 3)
-- Getting Some Air (formerly Test Drive - Part 4)
-- Easy-Breezy (formerly Test Drive - Part 5)
-- Unique Experience (formerly Test Drive - Part 6)
-- Forgotten Oaths
-- Forced Alliance
-- Last Spurt - Pioneer
-- Enough Drinks for That One
-- Friend from Norvinsk - Part 3
-- Kind of Sabotage
-- Fishing Gear
-- Search Mission
-- Debtor
-- House Arrest - Part 1
-- Worst Job in the World
-- Best Job in the World
-- Peacekeeping Mission
-- Trophies
-- Long Line
-- The Tarkov Shooter - Part 1~4, 6~8
-- Long Road
-- Grenadier
-- The Punisher - Part 1~3
-- Golden Swag
-- Pest Control
-- Rite of Passage
-- The Survivalist Path - Unprotected but Dangerous
-- The Survivalist Path - Thrifty
-- The Survivalist Path - Zhivchik
-- The Survivalist Path - Wounded Beast
-- The Survivalist Path - Tough Guy
-- The Survivalist Path - Cold Blooded
-- The Survivalist Path - Eagle-Owl
-- The Survivalist Path - Combat Medic
-- The Survivalist Path - Junkie
-- The Huntsman Path - Trophy
-- The Huntsman Path - Forest Cleaning
-- The Huntsman Path - Controller
-- The Huntsman Path - Justice
-- The Huntsman Path - Evil Watchman
-- The Huntsman Path - Eraser - Part 1
-- The Huntsman Path - Sadist
-- The Huntsman Path - Relentless
-- The Huntsman Path - Big Game
-- The Huntsman Path - Crooked Cop
-- The Cleaner
-- A Shooter Born in Heaven
-- Psycho Sniper
-- Gunsmith - Part 1~19, 22, 24
-- Gunsmith - Old Friend's Request
-- Health Care Privacy - Part 1~5
+- [Prapor](readme/quests/prapor.en.md)
+- [Therapist](readme/quests/therapist.en.md)
+- [Skier](readme/quests/skier.en.md)
+- [Peacekeeper](readme/quests/peacekeeper.en.md)
+- [Mechanic](readme/quests/mechanic.en.md)
+- [Ragman](readme/quests/ragman.en.md)
+- [Jaeger](readme/quests/jaeger.en.md)
+
+## Included shop/production overrides
+
+Entries that touch data outside the quests themselves. See [readme/shop-production.en.md](readme/shop-production.en.md) for the list.
 
 ## Locales
 
