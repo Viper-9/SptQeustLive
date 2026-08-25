@@ -1,6 +1,6 @@
 {
   "68ac20000000000000000001": {
-    "QuestName": "[DEV] Alternative PlaceBeacon",
+    "QuestName": "[TEST] Alternative PlaceBeacon",
     "_id": "68ac20000000000000000001",
     "acceptPlayerMessage": "68ac20000000000000000001 acceptPlayerMessage",
     "acceptanceAndFinishingSource": "eft",
@@ -123,7 +123,7 @@
     "type": "Discover"
   },
   "68ac20000000000000000002": {
-    "QuestName": "[DEV] Alternative LeaveItemAtLocation",
+    "QuestName": "[TEST] Alternative LeaveItemAtLocation",
     "_id": "68ac20000000000000000002",
     "acceptPlayerMessage": "68ac20000000000000000002 acceptPlayerMessage",
     "acceptanceAndFinishingSource": "eft",
@@ -261,7 +261,7 @@
     "type": "Discover"
   },
   "68ac20000000000000000003": {
-    "QuestName": "[DEV] Alternative VisitPlace",
+    "QuestName": "[TEST] The Extortionist alternative visits",
     "_id": "68ac20000000000000000003",
     "acceptPlayerMessage": "68ac20000000000000000003 acceptPlayerMessage",
     "acceptanceAndFinishingSource": "eft",
@@ -308,7 +308,7 @@
                 "conditionType": "VisitPlace",
                 "dynamicLocale": false,
                 "id": "68ac20000000000000000332",
-                "target": "bomj_place",
+                "target": "vremyan_case",
                 "value": 1
               }
             ],
@@ -319,34 +319,6 @@
           "globalQuestCounterId": "",
           "id": "68ac20000000000000000312",
           "index": 1,
-          "isNecessary": false,
-          "isResetOnConditionFailed": false,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Exploration",
-          "value": 1,
-          "visibilityConditions": []
-        },
-        {
-          "completeInSeconds": 0,
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "conditionType": "VisitPlace",
-                "dynamicLocale": false,
-                "id": "68ac20000000000000000333",
-                "target": "gazel",
-                "value": 1
-              }
-            ],
-            "id": "68ac20000000000000000323"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "68ac20000000000000000313",
-          "index": 2,
           "isNecessary": false,
           "isResetOnConditionFailed": false,
           "oneSessionOnly": false,
