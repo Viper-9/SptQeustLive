@@ -14,6 +14,19 @@ using IOPath = System.IO.Path;
 
 namespace SptQuestLive;
 
+/// <summary>
+/// Describes how the configured finish conditions are evaluated as one logical group.
+/// </summary>
+[JsonConverter(typeof(JsonStringEnumConverter))]
+public enum QuestAlternativeConditionOperator
+{
+    /// <summary>Completes the group when any one member condition is complete.</summary>
+    Any,
+}
+
+/// <summary>
+/// Sidecar configuration for quest semantics that cannot be represented by SPT's quest model.
+/// </summary>
 public sealed record QuestAlternativeConditionConfig
 {
     [JsonPropertyName("enableTestQuests")]
@@ -27,6 +40,9 @@ public sealed record QuestAlternativeConditionGroup
 {
     [JsonPropertyName("questId")]
     public required string QuestId { get; init; }
+
+    [JsonPropertyName("operator")]
+    public QuestAlternativeConditionOperator Operator { get; init; } = QuestAlternativeConditionOperator.Any;
 
     [JsonPropertyName("conditionIds")]
     public List<string> ConditionIds { get; init; } = [];
@@ -155,6 +171,12 @@ public sealed class QuestAlternativeConditionLoader(
                 throw new InvalidDataException($"{groupLabel} has an empty questId");
             }
 
+            if (group.Operator != QuestAlternativeConditionOperator.Any)
+            {
+                throw new InvalidDataException(
+                    $"{groupLabel} uses unsupported operator {group.Operator}");
+            }
+
             if (conditionIds.Count < 2)
             {
                 throw new InvalidDataException($"{groupLabel} must contain at least two unique conditionIds");
@@ -233,8 +255,9 @@ public static class QuestAlternativeConditionPostRaidPatch
                 continue;
             }
 
-            // SPT stores each zone as a separate condition. Expanding the satisfied group lets
-            // the existing quest-completion flow continue without changing the quest model.
+            // Live EFT can express this as one condition with multiple zoneIds. SPT instead
+            // stores one condition per zone, so expand the satisfied "any" group and let the
+            // existing quest-completion flow continue without changing SPT's quest model.
             completedAlternativeGroup = true;
             foreach (var conditionId in group.ConditionIds)
             {

@@ -7,10 +7,19 @@ using BepInEx;
 using EFT.Quests;
 using HarmonyLib;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 using SPT.Reflection.Patching;
 
 namespace SptQuestLive.Client;
 
+[JsonConverter(typeof(StringEnumConverter))]
+internal enum QuestAlternativeConditionOperator
+{
+    Any,
+}
+
+// SPT's split zone conditions no longer contain enough information to infer whether they came
+// from a live EFT zoneIds array. The shared sidecar config therefore declares those groups.
 internal sealed class QuestAlternativeConditionConfig
 {
     [JsonProperty("enableTestQuests")]
@@ -24,6 +33,9 @@ internal sealed class QuestAlternativeConditionGroup
 {
     [JsonProperty("questId")]
     public string QuestId { get; set; } = string.Empty;
+
+    [JsonProperty("operator")]
+    public QuestAlternativeConditionOperator Operator { get; set; } = QuestAlternativeConditionOperator.Any;
 
     [JsonProperty("conditionIds")]
     public List<string> ConditionIds { get; set; } = new();
@@ -57,6 +69,11 @@ internal static class QuestAlternativeConditions
             var groups = config.Groups
                 .Where(group => !group.TestOnly || config.EnableTestQuests)
                 .ToList();
+
+            if (groups.Any(group => group.Operator != QuestAlternativeConditionOperator.Any))
+            {
+                throw new InvalidDataException("Unsupported alternative quest condition operator");
+            }
 
             _groupsByQuest = groups
                 .GroupBy(group => group.QuestId, StringComparer.OrdinalIgnoreCase)
@@ -139,7 +156,9 @@ internal sealed class QuestAlternativeConditionTestAllPatch : ModulePatch
         }
 
         var groupedConditions = groups.SelectMany(group => group).ToHashSet();
-        // Preserve SPT's normal AND behavior outside configured groups and apply OR only inside each group.
+        // Preserve SPT's normal AND behavior outside configured groups and apply "any" only
+        // inside explicitly configured groups. Guessing from condition shape would break quests
+        // that intentionally require every similar-looking location.
         var standaloneConditionsSatisfied = __instance.EarlyFinisherConditions
             .Where(condition => !groupedConditions.Contains(condition))
             .All(condition => QuestAlternativeConditions.IsSatisfied(conditional, condition));
