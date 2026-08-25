@@ -1,8 +1,10 @@
 using System.Reflection;
+using System.Text.Json.Serialization;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers.Server;
 using SPTarkov.Server.Core.Models.Common;
+using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Spt.Tables;
 
 namespace SptQuestLive;
@@ -17,7 +19,7 @@ public class QuestAssortUnlockLoader(
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
         var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
-        var configFilePath = Path.Combine(modPath, ConfigFileRelativePath);
+        var configFilePath = System.IO.Path.Combine(modPath, ConfigFileRelativePath);
 
         if (!File.Exists(configFilePath))
         {
@@ -46,6 +48,66 @@ public class QuestAssortUnlockLoader(
                 {
                     stageMap[assortItemId] = questId;
                 }
+            }
+        }
+
+        return Task.CompletedTask;
+    }
+}
+
+public record TraderAssortAddition
+{
+    [JsonPropertyName("items")]
+    public List<Item> Items { get; init; } = new();
+
+    [JsonPropertyName("barterScheme")]
+    public Dictionary<MongoId, List<List<BarterScheme>>> BarterScheme { get; init; } = new();
+
+    [JsonPropertyName("loyalLevelItems")]
+    public Dictionary<MongoId, int> LoyalLevelItems { get; init; } = new();
+}
+
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
+public class TraderAssortAdditionLoader(
+    ModHelper modHelper,
+    TradersTable tradersTable) : IOnLoad
+{
+    private const string ConfigFileRelativePath = "db/TraderAssortAdditions.json";
+
+    public Task OnLoadAsync(CancellationToken cancellationToken)
+    {
+        var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
+        var configFilePath = System.IO.Path.Combine(modPath, ConfigFileRelativePath);
+
+        if (!File.Exists(configFilePath))
+        {
+            return Task.CompletedTask;
+        }
+
+        var additionsByTrader = modHelper.GetJsonDataFromFile<Dictionary<MongoId, TraderAssortAddition>>(
+            modPath, ConfigFileRelativePath);
+
+        foreach (var (traderId, addition) in additionsByTrader)
+        {
+            if (!tradersTable.TryGetValue(traderId, out var trader))
+            {
+                continue;
+            }
+
+            trader.Assort.Items ??= new List<Item>();
+            trader.Assort.BarterScheme ??= new Dictionary<MongoId, List<List<BarterScheme>>>();
+            trader.Assort.LoyalLevelItems ??= new Dictionary<MongoId, int>();
+
+            trader.Assort.Items.AddRange(addition.Items);
+
+            foreach (var (itemId, scheme) in addition.BarterScheme)
+            {
+                trader.Assort.BarterScheme[itemId] = scheme;
+            }
+
+            foreach (var (itemId, level) in addition.LoyalLevelItems)
+            {
+                trader.Assort.LoyalLevelItems[itemId] = level;
             }
         }
 
