@@ -10156,7 +10156,7 @@
     "type": "Elimination"
   },
   "59c512ad86f7741f0d09de9b": {
-    "QuestName": "The Punisher - Part 1",
+    "QuestName": "The Punisher - Part 3",
     "_id": "59c512ad86f7741f0d09de9b",
     "acceptPlayerMessage": "59c512ad86f7741f0d09de9b acceptPlayerMessage",
     "acceptanceAndFinishingSource": "eft",
@@ -10256,7 +10256,7 @@
           "status": [
             4
           ],
-          "target": "5967725e86f774601a446662",
+          "target": "59c50c8886f7745fed3193bf",
           "visibilityConditions": []
         }
       ],
@@ -10280,37 +10280,48 @@
       "Success": [
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "isHidden": false,
           "id": "60c8acd68dfbfc09882efd20",
-          "value": 10000,
+          "value": 11700,
           "type": "Experience"
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "isHidden": false,
-          "id": "6a7086df851a45a3cf696ecd",
-          "target": "35769ca1c6c3fb8a03d7fea7",
-          "value": 165000,
+          "id": "60dc2974ef7d58779755fb25",
+          "target": "54cb50c76803fa8b248b4571",
+          "value": 0.04,
+          "type": "TraderStanding"
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "isHidden": false,
+          "id": "59c5171a86f774443b4896f0",
+          "target": "68a9695194f6582e591403e4",
+          "value": 2500,
           "isEncoded": false,
           "findInRaid": false,
           "items": [
             {
-              "_id": "35769ca1c6c3fb8a03d7fea7",
-              "_tpl": "5449016a4bdc2d6f028b456f",
+              "_id": "68a9695194f6582e591403e4",
+              "_tpl": "5696686a4bdc2da3298b456a",
               "upd": {
-                "StackObjectsCount": 165000
+                "StackObjectsCount": 2500
               }
             }
           ],
@@ -10318,12 +10329,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "isHidden": false,
           "id": "59c62ae086f7745d8d52e20e",
           "target": "7ef5b04af93397bb90974f00",
@@ -10379,12 +10389,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "isHidden": false,
           "id": "655b71861fe356507267b2f7",
           "target": "5034a7501ccab068e83dbe01",
@@ -10407,6 +10416,19 @@
             }
           ],
           "type": "ProductionScheme"
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "isHidden": false,
+          "id": "60c8a0e01f21c1669a48c321",
+          "target": "58330581ace78e27b8b10cee",
+          "value": 0.02,
+          "type": "TraderStanding"
         }
       ],
       "Fail": []
@@ -10420,7 +10442,7 @@
     "type": "Elimination"
   },
   "59c50a9e86f7745fef66f4ff": {
-    "QuestName": "The Punisher - Part 2",
+    "QuestName": "The Punisher - Part 1",
     "_id": "59c50a9e86f7745fef66f4ff",
     "acceptPlayerMessage": "59c50a9e86f7745fef66f4ff acceptPlayerMessage",
     "acceptanceAndFinishingSource": "eft",
@@ -10523,7 +10545,7 @@
           "status": [
             4
           ],
-          "target": "59c512ad86f7741f0d09de9b",
+          "target": "5967725e86f774601a446662",
           "visibilityConditions": []
         }
       ],
@@ -10547,145 +10569,60 @@
       "Success": [
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "isHidden": false,
           "id": "60c8aca91f21c1669a48c325",
-          "value": 10000,
+          "value": 10200,
           "type": "Experience"
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "isHidden": false,
-          "id": "6a7088c8714275ea3170bfa7",
-          "target": "112f0f099346533a69a1fa87",
-          "loyaltyLevel": 2,
-          "traderId": "54cb50c76803fa8b248b4571",
+          "id": "60c8a019a0b5c924fc6e9d4e",
+          "target": "54cb50c76803fa8b248b4571",
+          "value": 0.02,
+          "type": "TraderStanding"
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "isHidden": false,
+          "id": "5a2fb0db86f7747694379ad2",
+          "target": "68a9695194f6582e591403f1",
+          "value": 40000,
+          "isEncoded": false,
+          "findInRaid": false,
           "items": [
             {
-              "_id": "112f0f099346533a69a1fa87",
-              "_tpl": "5beed0f50db834001c062b12",
+              "_id": "68a9695194f6582e591403f1",
+              "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "Repairable": {
-                  "Durability": 100,
-                  "MaxDurability": 100
-                }
+                "StackObjectsCount": 40000
               }
-            },
-            {
-              "_id": "854dc5655d4d9e3c1da99c9e",
-              "_tpl": "5beec8ea0db834001a6f9dbf",
-              "parentId": "112f0f099346533a69a1fa87",
-              "slotId": "mod_pistol_grip"
-            },
-            {
-              "_id": "d01b676fea552958277a41cb",
-              "_tpl": "5beec3e30db8340019619424",
-              "parentId": "112f0f099346533a69a1fa87",
-              "slotId": "mod_handguard"
-            },
-            {
-              "_id": "0d316ed4b33f34bddbd76017",
-              "_tpl": "5beecbb80db834001d2c465e",
-              "parentId": "d01b676fea552958277a41cb",
-              "slotId": "mod_mount_000"
-            },
-            {
-              "_id": "561eff61b10139d5b16d49f2",
-              "_tpl": "5beecbb80db834001d2c465e",
-              "parentId": "d01b676fea552958277a41cb",
-              "slotId": "mod_mount_001"
-            },
-            {
-              "_id": "f47960ed9a6599c1ff430178",
-              "_tpl": "5beec2820db834001b095426",
-              "parentId": "112f0f099346533a69a1fa87",
-              "slotId": "mod_barrel"
-            },
-            {
-              "_id": "2d5b293b47a6a70c7930de71",
-              "_tpl": "5beec3420db834001b095429",
-              "parentId": "f47960ed9a6599c1ff430178",
-              "slotId": "mod_muzzle"
-            },
-            {
-              "_id": "285048ade2a423646f1d5298",
-              "_tpl": "5beec91a0db834001961942d",
-              "parentId": "112f0f099346533a69a1fa87",
-              "slotId": "mod_reciever"
-            },
-            {
-              "_id": "72149c0624ac33134c883d05",
-              "_tpl": "5beec9450db83400970084fd",
-              "parentId": "285048ade2a423646f1d5298",
-              "slotId": "mod_sight_rear"
-            },
-            {
-              "_id": "af9b91d7527bda4bcacc46ae",
-              "_tpl": "5bf3f59f0db834001a6fa060",
-              "parentId": "72149c0624ac33134c883d05",
-              "slotId": "mod_sight_rear"
-            },
-            {
-              "_id": "fd4a9018a5e125f72580a8af",
-              "_tpl": "5beec8b20db834001961942a",
-              "parentId": "112f0f099346533a69a1fa87",
-              "slotId": "mod_stock_001"
-            },
-            {
-              "_id": "64de9991b41cc298b8315d42",
-              "_tpl": "5beec8c20db834001d2c465c",
-              "parentId": "fd4a9018a5e125f72580a8af",
-              "slotId": "mod_stock"
-            },
-            {
-              "_id": "aa160799385e3c25dbab6719",
-              "_tpl": "55d481904bdc2d8c2f8b456a",
-              "parentId": "112f0f099346533a69a1fa87",
-              "slotId": "mod_magazine"
             }
           ],
-          "type": "AssortmentUnlock"
+          "type": "Item"
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
-          "isHidden": false,
-          "id": "6a7088d1da595f3b29c335d1",
-          "target": "5a58498d097786b027a3a676",
-          "loyaltyLevel": 2,
-          "traderId": "54cb50c76803fa8b248b4571",
-          "items": [
-            {
-              "_id": "5a58498d097786b027a3a676",
-              "_tpl": "55d482194bdc2d1d4e8b456b"
-            }
-          ],
-          "type": "AssortmentUnlock"
-        },
-        {
-          "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
-            "regular",
-            "pve",
-            "pvp-season"
-          ],
+          "availableInGameEditions": [],
           "isHidden": false,
           "id": "6a7088e703427aa9ce29eeed",
           "target": "55eba235b98e64f319427bb2",
@@ -10781,12 +10718,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "isHidden": false,
           "id": "6a7088f52d8d317bb325b653",
           "target": "5cae5a897b548cd1a5e04121",
@@ -10804,6 +10740,124 @@
             }
           ],
           "type": "Item"
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "isHidden": false,
+          "id": "6a7088c8714275ea3170bfa7",
+          "target": "112f0f099346533a69a1fa87",
+          "loyaltyLevel": 2,
+          "traderId": "54cb50c76803fa8b248b4571",
+          "items": [
+            {
+              "_id": "112f0f099346533a69a1fa87",
+              "_tpl": "5beed0f50db834001c062b12",
+              "upd": {
+                "Repairable": {
+                  "Durability": 100,
+                  "MaxDurability": 100
+                }
+              }
+            },
+            {
+              "_id": "854dc5655d4d9e3c1da99c9e",
+              "_tpl": "5beec8ea0db834001a6f9dbf",
+              "parentId": "112f0f099346533a69a1fa87",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "d01b676fea552958277a41cb",
+              "_tpl": "5beec3e30db8340019619424",
+              "parentId": "112f0f099346533a69a1fa87",
+              "slotId": "mod_handguard"
+            },
+            {
+              "_id": "0d316ed4b33f34bddbd76017",
+              "_tpl": "5beecbb80db834001d2c465e",
+              "parentId": "d01b676fea552958277a41cb",
+              "slotId": "mod_mount_000"
+            },
+            {
+              "_id": "561eff61b10139d5b16d49f2",
+              "_tpl": "5beecbb80db834001d2c465e",
+              "parentId": "d01b676fea552958277a41cb",
+              "slotId": "mod_mount_001"
+            },
+            {
+              "_id": "f47960ed9a6599c1ff430178",
+              "_tpl": "5beec2820db834001b095426",
+              "parentId": "112f0f099346533a69a1fa87",
+              "slotId": "mod_barrel"
+            },
+            {
+              "_id": "2d5b293b47a6a70c7930de71",
+              "_tpl": "5beec3420db834001b095429",
+              "parentId": "f47960ed9a6599c1ff430178",
+              "slotId": "mod_muzzle"
+            },
+            {
+              "_id": "285048ade2a423646f1d5298",
+              "_tpl": "5beec91a0db834001961942d",
+              "parentId": "112f0f099346533a69a1fa87",
+              "slotId": "mod_reciever"
+            },
+            {
+              "_id": "72149c0624ac33134c883d05",
+              "_tpl": "5beec9450db83400970084fd",
+              "parentId": "285048ade2a423646f1d5298",
+              "slotId": "mod_sight_rear"
+            },
+            {
+              "_id": "af9b91d7527bda4bcacc46ae",
+              "_tpl": "5bf3f59f0db834001a6fa060",
+              "parentId": "72149c0624ac33134c883d05",
+              "slotId": "mod_sight_rear"
+            },
+            {
+              "_id": "fd4a9018a5e125f72580a8af",
+              "_tpl": "5beec8b20db834001961942a",
+              "parentId": "112f0f099346533a69a1fa87",
+              "slotId": "mod_stock_001"
+            },
+            {
+              "_id": "64de9991b41cc298b8315d42",
+              "_tpl": "5beec8c20db834001d2c465c",
+              "parentId": "fd4a9018a5e125f72580a8af",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "aa160799385e3c25dbab6719",
+              "_tpl": "55d481904bdc2d8c2f8b456a",
+              "parentId": "112f0f099346533a69a1fa87",
+              "slotId": "mod_magazine"
+            }
+          ],
+          "type": "AssortmentUnlock"
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "isHidden": false,
+          "id": "6a7088d1da595f3b29c335d1",
+          "target": "5a58498d097786b027a3a676",
+          "loyaltyLevel": 2,
+          "traderId": "54cb50c76803fa8b248b4571",
+          "items": [
+            {
+              "_id": "5a58498d097786b027a3a676",
+              "_tpl": "55d482194bdc2d1d4e8b456b"
+            }
+          ],
+          "type": "AssortmentUnlock"
         }
       ],
       "Fail": []
@@ -10817,7 +10871,7 @@
     "type": "Elimination"
   },
   "59c50c8886f7745fed3193bf": {
-    "QuestName": "The Punisher - Part 3",
+    "QuestName": "The Punisher - Part 2",
     "_id": "59c50c8886f7745fed3193bf",
     "acceptPlayerMessage": "59c50c8886f7745fed3193bf acceptPlayerMessage",
     "acceptanceAndFinishingSource": "eft",
@@ -10911,7 +10965,6 @@
           "onlyFoundInRaid": true,
           "isEncoded": false,
           "countInRaid": false,
-          "includeEquipment": true,
           "conditionType": "FindItem"
         },
         {
@@ -10930,7 +10983,6 @@
           "dogtagLevel": 0,
           "onlyFoundInRaid": true,
           "isEncoded": false,
-          "includeEquipment": true,
           "conditionType": "HandoverItem"
         }
       ],
@@ -10981,12 +11033,11 @@
       "Started": [
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "isHidden": false,
           "id": "6a6ca7dd1dbf1fdc5abbbfff",
           "target": "3492b7f29bd5bd8075d8023b",
@@ -11042,29 +11093,40 @@
       "Success": [
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "isHidden": false,
           "id": "60c8acb78dfbfc09882efd1f",
-          "value": 28000,
+          "value": 13100,
           "type": "Experience"
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
+          "isHidden": false,
+          "id": "60c8a02e9339363e8f0c6ace",
+          "target": "54cb50c76803fa8b248b4571",
+          "value": 0.03,
+          "type": "TraderStanding"
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
           "isHidden": false,
           "id": "60cb4f16179f8541b84691c2",
           "target": "3377cfc5564b3329e496ecb5",
-          "value": 275000,
+          "value": 50000,
           "isEncoded": false,
           "findInRaid": false,
           "items": [
@@ -11072,7 +11134,7 @@
               "_id": "3377cfc5564b3329e496ecb5",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 275000
+                "StackObjectsCount": 50000
               }
             }
           ],
@@ -11080,12 +11142,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "isHidden": false,
           "id": "6a7089f259aba04c01d22907",
           "target": "79938db4263c998034178a24",
@@ -11183,16 +11244,15 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "isHidden": false,
           "id": "6a7089f937e22ebf27a56c48",
           "target": "c9ea3272125cdfe7d8a86227",
-          "loyaltyLevel": 3,
+          "loyaltyLevel": 2,
           "traderId": "54cb50c76803fa8b248b4571",
           "items": [
             {
@@ -14624,12 +14684,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -14651,12 +14710,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -14846,12 +14904,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": null,
           "isHidden": false,
           "isImportant": false,
@@ -14922,12 +14979,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -15118,12 +15174,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -15167,12 +15222,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -15200,12 +15254,11 @@
         },
         {
           "unknown": true,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": null,
           "isHidden": false,
           "isImportant": false,
@@ -15409,12 +15462,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -15458,12 +15510,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -15491,12 +15542,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -15686,12 +15736,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": null,
           "isHidden": false,
           "isImportant": false,
@@ -15767,12 +15816,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": null,
           "isHidden": false,
           "isImportant": false,
@@ -15782,12 +15830,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -15870,12 +15917,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -16150,12 +16196,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -16199,12 +16244,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": null,
           "isHidden": false,
           "isImportant": false,
@@ -16244,12 +16288,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -16449,12 +16492,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -16508,12 +16550,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -16857,12 +16898,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": null,
           "isHidden": false,
           "isImportant": false,
@@ -16902,12 +16942,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -17004,12 +17043,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -17412,12 +17450,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -17439,12 +17476,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -17472,12 +17508,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": {
             "image": "",
             "bigImage": "",
@@ -17582,12 +17617,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": null,
           "isHidden": false,
           "isImportant": false,
@@ -17671,12 +17705,11 @@
         },
         {
           "unknown": false,
-          "gameMode": [],
-          "availableInGameEditions": [
+          "gameMode": [
             "regular",
-            "pve",
-            "pvp-season"
+            "pve"
           ],
+          "availableInGameEditions": [],
           "illustrationConfig": null,
           "isHidden": false,
           "isImportant": false,
@@ -31678,46 +31711,6 @@
         },
         {
           "availableInGameEditions": [],
-          "gameMode": [
-            "regular",
-            "pve"
-          ],
-          "id": "6a708ce42daa72803c6353df",
-          "isHidden": false,
-          "items": [
-            {
-              "_id": "06c6933a76bcfa635104cb00",
-              "_tpl": "59e77a2386f7742ee578960a"
-            }
-          ],
-          "loyaltyLevel": 4,
-          "target": "06c6933a76bcfa635104cb00",
-          "traderId": "54cb50c76803fa8b248b4571",
-          "type": "AssortmentUnlock",
-          "unknown": false
-        },
-        {
-          "availableInGameEditions": [],
-          "gameMode": [
-            "regular",
-            "pve"
-          ],
-          "id": "6a708ced3ef6f4d38fcd4da9",
-          "isHidden": false,
-          "items": [
-            {
-              "_id": "7fc4d13e5bc442abc56d4752",
-              "_tpl": "57a0e5022459774d1673f889"
-            }
-          ],
-          "loyaltyLevel": 4,
-          "target": "7fc4d13e5bc442abc56d4752",
-          "traderId": "54cb50c76803fa8b248b4571",
-          "type": "AssortmentUnlock",
-          "unknown": false
-        },
-        {
-          "availableInGameEditions": [],
           "findInRaid": true,
           "gameMode": [
             "regular",
@@ -31845,6 +31838,46 @@
           "type": "Item",
           "unknown": false,
           "value": 3
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a708ce42daa72803c6353df",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "06c6933a76bcfa635104cb00",
+              "_tpl": "59e77a2386f7742ee578960a"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "06c6933a76bcfa635104cb00",
+          "traderId": "54cb50c76803fa8b248b4571",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a708ced3ef6f4d38fcd4da9",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "7fc4d13e5bc442abc56d4752",
+              "_tpl": "57a0e5022459774d1673f889"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "7fc4d13e5bc442abc56d4752",
+          "traderId": "54cb50c76803fa8b248b4571",
+          "type": "AssortmentUnlock",
+          "unknown": false
         }
       ]
     },
@@ -33573,36 +33606,6 @@
           "traderId": "5935c25fb3acc3127c3d8cd9",
           "type": "AssortmentUnlock",
           "unknown": false
-        },
-        {
-          "availableInGameEditions": [],
-          "gameMode": [
-            "regular",
-            "pve"
-          ],
-          "id": "66abac6ac84cc7141324eedc",
-          "isHidden": false,
-          "items": [
-            {
-              "_id": "68a9695194f6582e59140428",
-              "_tpl": "5a6086ea4f39f99cd479502f",
-              "upd": {
-                "StackObjectsCount": 40
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59140429",
-              "_tpl": "5a6086ea4f39f99cd479502f",
-              "upd": {
-                "StackObjectsCount": 40
-              }
-            }
-          ],
-          "loyaltyLevel": 3,
-          "target": "68a9695194f6582e59140429",
-          "traderId": 10,
-          "type": "ProductionScheme",
-          "unknown": false
         }
       ]
     },
@@ -34111,6 +34114,129 @@
           "type": "Item",
           "unknown": true,
           "value": 1
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "isHidden": false,
+          "id": "d97bb73321f3568c32ecb5b4",
+          "target": "f0bfb867857cf19904e1e7ef",
+          "loyaltyLevel": 4,
+          "traderId": "54cb50c76803fa8b248b4571",
+          "items": [
+            {
+              "_id": "f0bfb867857cf19904e1e7ef",
+              "_tpl": "689166b6c2d6fa42e7044756",
+              "upd": {
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "Foldable": {
+                  "Folded": false
+                },
+                "Repairable": {
+                  "Durability": 100,
+                  "MaxDurability": 100
+                },
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "4b864d7da8451a7b0a9e3d2d",
+              "_tpl": "649ec107961514b22506b10c",
+              "parentId": "f0bfb867857cf19904e1e7ef",
+              "slotId": "mod_gas_block"
+            },
+            {
+              "_id": "53f3d61bd9967dd0958ecf06",
+              "_tpl": "689167d79f03ec70cb0ea066",
+              "parentId": "f0bfb867857cf19904e1e7ef",
+              "slotId": "mod_muzzle"
+            },
+            {
+              "_id": "894a545d999cab6459f493d8",
+              "_tpl": "5beec8ea0db834001a6f9dbf",
+              "parentId": "f0bfb867857cf19904e1e7ef",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "9df506a807b4d6d1cb6e2dec",
+              "_tpl": "689167248f19dbc8190728ed",
+              "parentId": "f0bfb867857cf19904e1e7ef",
+              "slotId": "mod_reciever"
+            },
+            {
+              "_id": "ee74a4a19e624526be7d90d7",
+              "_tpl": "68916765fa628c6b9f0ed6f6",
+              "parentId": "9df506a807b4d6d1cb6e2dec",
+              "slotId": "mod_sight_rear"
+            },
+            {
+              "_id": "9f94170b7d3c91fb15285a5a",
+              "_tpl": "649ec2cec93611967b03495e",
+              "parentId": "ee74a4a19e624526be7d90d7",
+              "slotId": "mod_sight_rear"
+            },
+            {
+              "_id": "37c8ae34a4a5741f1cf70df9",
+              "_tpl": "649ec87d8007560a9001ab36",
+              "parentId": "f0bfb867857cf19904e1e7ef",
+              "slotId": "mod_stock_001"
+            },
+            {
+              "_id": "6ec33ebd0832e919f6c85182",
+              "_tpl": "5beec8c20db834001d2c465c",
+              "parentId": "37c8ae34a4a5741f1cf70df9",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "380174c0086efb47b177043a",
+              "_tpl": "68916701bd91cc17c109c758",
+              "parentId": "f0bfb867857cf19904e1e7ef",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "dc240612aadb22a12283909d",
+              "_tpl": "689166debd91cc17c109c753",
+              "parentId": "f0bfb867857cf19904e1e7ef",
+              "slotId": "mod_handguard"
+            },
+            {
+              "_id": "b8f185aaafce627a58e31841",
+              "_tpl": "5beecbb80db834001d2c465e",
+              "parentId": "dc240612aadb22a12283909d",
+              "slotId": "mod_mount_001"
+            }
+          ],
+          "type": "AssortmentUnlock"
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "isHidden": false,
+          "id": "658da09496892fb71c174ab0",
+          "target": "e93cbadace4549d75f179c87",
+          "loyaltyLevel": 4,
+          "traderId": "54cb50c76803fa8b248b4571",
+          "items": [
+            {
+              "_id": "e93cbadace4549d75f179c87",
+              "_tpl": "68d56685f3d7cd248f0a06d9",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "type": "AssortmentUnlock"
         }
       ]
     },
@@ -34120,7 +34246,7 @@
     "status": 0,
     "successMessageText": "59ca29fb86f77445ab465c87 successMessageText",
     "traderId": "54cb50c76803fa8b248b4571",
-    "type": "PickUp"
+    "type": "Multi"
   },
   "59ca2eb686f77445a80ed049": {
     "QuestName": "The Punisher - Part 6",
@@ -34667,6 +34793,69 @@
           "type": "Item",
           "unknown": false,
           "value": 1
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "isHidden": false,
+          "id": "e837d84a65f9891f942c8ff3",
+          "target": "7c3342d9765ec1eb9cb9d826",
+          "loyaltyLevel": 4,
+          "traderId": "54cb50c76803fa8b248b4571",
+          "items": [
+            {
+              "_id": "7c3342d9765ec1eb9cb9d826",
+              "_tpl": "651450ce0e00edc794068371",
+              "upd": {
+                "Repairable": {
+                  "Durability": 100,
+                  "MaxDurability": 100
+                },
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "1bc4b08a3f9fe801a9117746",
+              "_tpl": "57c44f4f2459772d2c627113",
+              "parentId": "7c3342d9765ec1eb9cb9d826",
+              "slotId": "mod_reciever"
+            },
+            {
+              "_id": "5e2367e022e6804f10b22fff",
+              "_tpl": "5a9e81fba2750c00164f6b11",
+              "parentId": "7c3342d9765ec1eb9cb9d826",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "9afa5be72bc61867cb5bb9c3",
+              "_tpl": "57c44fa82459772d2d75e415",
+              "parentId": "7c3342d9765ec1eb9cb9d826",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "2cf25bd1cb4328a8d15939d2",
+              "_tpl": "57c450252459772d28133253",
+              "parentId": "7c3342d9765ec1eb9cb9d826",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "8fccc094239ddfcc3c9c6360",
+              "_tpl": "6565c3ab977bcc2dbb01c2e7",
+              "parentId": "7c3342d9765ec1eb9cb9d826",
+              "slotId": "mod_handguard"
+            },
+            {
+              "_id": "1a08197b62c2a90b2d78bc12",
+              "_tpl": "6565c0c2ff7eb7070409084c",
+              "parentId": "7c3342d9765ec1eb9cb9d826",
+              "slotId": "mod_foregrip"
+            }
+          ],
+          "type": "AssortmentUnlock"
         }
       ]
     },
