@@ -16,7 +16,6 @@ obj/
 # Packaging output (built with package.ps1, uploaded to GitHub Releases instead)
 dist/
 *.zip
-package.ps1
 
 # OS junk
 Thumbs.db
@@ -28,9 +27,9 @@ Thumbs.db
 
 # Local scratch/reference files
 wiki_reference/
-extract_quests.js
 spt_quests_by_trader.json
 .claude/
 listServerQuestdump/
 dump_reference/
 docs/
+tools/
