@@ -26,9 +26,6 @@ Thumbs.db
 *.nupkg
 **/packages/*
 
-# Internal working notes (not for distribution)
-QUEST_CHANGES.md
-
 # Local scratch/reference files
 wiki_reference/
 extract_quests.js
