@@ -21,6 +21,13 @@ public class ClientPlugin : BaseUnityPlugin
         LoadServerConfig();
         new TraderTooltipPatch().Enable();
         new TradingPlayerPanelPatch().Enable();
+
+        QuestAlternativeConditions.Load();
+        if (QuestAlternativeConditions.Enabled)
+        {
+            new QuestAlternativeConditionTestAllPatch().Enable();
+            new QuestAlternativeConditionCompletionPatch().Enable();
+        }
     }
 
     private void LoadServerConfig()
