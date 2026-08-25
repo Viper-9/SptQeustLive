@@ -280,7 +280,7 @@
                 "conditionType": "VisitPlace",
                 "dynamicLocale": false,
                 "id": "68ac20000000000000000331",
-                "target": "place_peacemaker_002_N1",
+                "target": "dead_posylni",
                 "value": 1
               }
             ],
@@ -308,7 +308,7 @@
                 "conditionType": "VisitPlace",
                 "dynamicLocale": false,
                 "id": "68ac20000000000000000332",
-                "target": "place_peacemaker_002_N2",
+                "target": "bomj_place",
                 "value": 1
               }
             ],
@@ -336,7 +336,7 @@
                 "conditionType": "VisitPlace",
                 "dynamicLocale": false,
                 "id": "68ac20000000000000000333",
-                "target": "place_peacemaker_002_N3",
+                "target": "gazel",
                 "value": 1
               }
             ],
