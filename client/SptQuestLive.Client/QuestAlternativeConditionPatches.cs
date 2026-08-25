@@ -11,6 +11,15 @@ using SPT.Reflection.Patching;
 
 namespace SptQuestLive.Client;
 
+internal sealed class QuestAlternativeConditionConfig
+{
+    [JsonProperty("enableTestQuests")]
+    public bool EnableTestQuests { get; set; }
+
+    [JsonProperty("groups")]
+    public List<QuestAlternativeConditionGroup> Groups { get; set; } = new();
+}
+
 internal sealed class QuestAlternativeConditionGroup
 {
     [JsonProperty("questId")]
@@ -18,6 +27,9 @@ internal sealed class QuestAlternativeConditionGroup
 
     [JsonProperty("conditionIds")]
     public List<string> ConditionIds { get; set; } = new();
+
+    [JsonProperty("testOnly")]
+    public bool TestOnly { get; set; }
 }
 
 internal static class QuestAlternativeConditions
@@ -40,8 +52,11 @@ internal static class QuestAlternativeConditions
 
         try
         {
-            var groups = JsonConvert.DeserializeObject<List<QuestAlternativeConditionGroup>>(
-                File.ReadAllText(configPath)) ?? new List<QuestAlternativeConditionGroup>();
+            var config = JsonConvert.DeserializeObject<QuestAlternativeConditionConfig>(
+                File.ReadAllText(configPath)) ?? new QuestAlternativeConditionConfig();
+            var groups = config.Groups
+                .Where(group => !group.TestOnly || config.EnableTestQuests)
+                .ToList();
 
             _groupsByQuest = groups
                 .GroupBy(group => group.QuestId, StringComparer.OrdinalIgnoreCase)
