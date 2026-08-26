@@ -14,29 +14,19 @@ using IOPath = System.IO.Path;
 
 namespace SptQuestLive;
 
-/// <summary>
-/// Describes how the configured finish conditions are evaluated as one logical group.
-/// </summary>
 [JsonConverter(typeof(JsonStringEnumConverter))]
 public enum QuestAlternativeConditionOperator
 {
-    /// <summary>Completes the group when any one member condition is complete.</summary>
     Any,
 }
 
-/// <summary>
-/// Sidecar configuration for quest semantics that cannot be represented by SPT's quest model.
-/// </summary>
-public sealed record QuestAlternativeConditionConfig
+public record QuestAlternativeConditionConfig
 {
-    [JsonPropertyName("enableTestQuests")]
-    public bool EnableTestQuests { get; init; }
-
     [JsonPropertyName("groups")]
     public List<QuestAlternativeConditionGroup> Groups { get; init; } = [];
 }
 
-public sealed record QuestAlternativeConditionGroup
+public record QuestAlternativeConditionGroup
 {
     [JsonPropertyName("questId")]
     public required string QuestId { get; init; }
@@ -46,19 +36,15 @@ public sealed record QuestAlternativeConditionGroup
 
     [JsonPropertyName("conditionIds")]
     public List<string> ConditionIds { get; init; } = [];
-
-    [JsonPropertyName("testOnly")]
-    public bool TestOnly { get; init; }
 }
 
 [Injectable(TypePriority = OnLoadOrder.PostLoad + 2)]
-public sealed class QuestAlternativeConditionLoader(
+public class QuestAlternativeConditionLoader(
     ModHelper modHelper,
     TemplateTable templateTable,
     ISptLogger<QuestAlternativeConditionLoader> logger) : IOnLoad
 {
     private const string ConfigFileRelativePath = "db/QuestAlternativeConditionGroups.json";
-    private const string TestQuestsFileRelativePath = "db/QuestAlternativeConditionTestQuests.json";
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
@@ -73,33 +59,8 @@ public sealed class QuestAlternativeConditionLoader(
         var config = modHelper.GetJsonDataFromFile<QuestAlternativeConditionConfig>(
             modPath,
             ConfigFileRelativePath);
-        var loadedTestQuestCount = 0;
 
-        if (config.EnableTestQuests)
-        {
-            var testQuestsFilePath = IOPath.Combine(modPath, TestQuestsFileRelativePath);
-            if (!File.Exists(testQuestsFilePath))
-            {
-                throw new FileNotFoundException(
-                    "Alternative-condition test quests are enabled but their data file is missing",
-                    testQuestsFilePath);
-            }
-
-            var testQuests = modHelper.GetJsonDataFromFile<Dictionary<MongoId, Quest>>(
-                modPath,
-                TestQuestsFileRelativePath);
-            foreach (var (questId, quest) in testQuests)
-            {
-                templateTable.Quests[questId] = quest;
-            }
-
-            loadedTestQuestCount = testQuests.Count;
-            logger.Info($"Loaded {loadedTestQuestCount} alternative-condition test quest(s)");
-        }
-
-        var groups = config.Groups
-            .Where(group => !group.TestOnly || config.EnableTestQuests)
-            .ToList();
+        var groups = config.Groups;
         if (groups.Count == 0)
         {
             return Task.CompletedTask;
@@ -108,50 +69,18 @@ public sealed class QuestAlternativeConditionLoader(
         ValidateGroups(groups, templateTable);
         QuestAlternativeConditionPostRaidPatch.Configure(groups, templateTable);
 
-        if (config.EnableTestQuests)
-        {
-            RunTestQuestSelfChecks(groups.Where(group => group.TestOnly));
-            logger.Info("Alternative-condition test quest self-checks passed");
-        }
-
         var targetMethod = AccessTools.Method(typeof(LocationLifecycleService), "ProcessPostRaidQuests")
             ?? throw new MissingMethodException(nameof(LocationLifecycleService), "ProcessPostRaidQuests");
 
-        var harmony = new Harmony("com.viper.sptquestlive.questalternativeconditions");
+        var harmony = new Harmony("com.viper.sptquestlive");
         harmony.Patch(
             targetMethod,
             postfix: new HarmonyMethod(
                 typeof(QuestAlternativeConditionPostRaidPatch),
                 nameof(QuestAlternativeConditionPostRaidPatch.Postfix)));
 
-        logger.Info(
-            $"Loaded {groups.Count} alternative quest condition group(s)"
-            + (loadedTestQuestCount > 0 ? $" with {loadedTestQuestCount} test quest(s)" : string.Empty));
+        logger.Info($"Loaded {groups.Count} alternative quest condition group(s)");
         return Task.CompletedTask;
-    }
-
-    private static void RunTestQuestSelfChecks(IEnumerable<QuestAlternativeConditionGroup> testGroups)
-    {
-        foreach (var group in testGroups)
-        {
-            var questStatus = new QuestStatus
-            {
-                QId = new MongoId(group.QuestId),
-                StartTime = 0,
-                Status = QuestStatusEnum.Started,
-                StatusTimers = [],
-                CompletedConditions = [group.ConditionIds[0]],
-            };
-
-            QuestAlternativeConditionPostRaidPatch.NormalizeQuestStatus(questStatus);
-            var allGroupConditionsCompleted = group.ConditionIds.All(conditionId =>
-                questStatus.CompletedConditions.Contains(conditionId, StringComparer.OrdinalIgnoreCase));
-            if (!allGroupConditionsCompleted || questStatus.Status != QuestStatusEnum.AvailableForFinish)
-            {
-                throw new InvalidOperationException(
-                    $"Alternative-condition self-check failed for test quest {group.QuestId}");
-            }
-        }
     }
 
     private static void ValidateGroups(
@@ -236,7 +165,7 @@ public static class QuestAlternativeConditionPostRaidPatch
         }
     }
 
-    internal static void NormalizeQuestStatus(QuestStatus questStatus)
+    public static void NormalizeQuestStatus(QuestStatus questStatus)
     {
         if (_templateTable is null
             || !_groupsByQuest.TryGetValue(questStatus.QId.ToString(), out var groups))
@@ -255,9 +184,6 @@ public static class QuestAlternativeConditionPostRaidPatch
                 continue;
             }
 
-            // Live EFT can express this as one condition with multiple zoneIds. SPT instead
-            // stores one condition per zone, so expand the satisfied "any" group and let the
-            // existing quest-completion flow continue without changing SPT's quest model.
             completedAlternativeGroup = true;
             foreach (var conditionId in group.ConditionIds)
             {

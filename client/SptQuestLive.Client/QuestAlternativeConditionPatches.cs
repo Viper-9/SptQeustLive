@@ -13,23 +13,18 @@ using SPT.Reflection.Patching;
 namespace SptQuestLive.Client;
 
 [JsonConverter(typeof(StringEnumConverter))]
-internal enum QuestAlternativeConditionOperator
+public enum QuestAlternativeConditionOperator
 {
     Any,
 }
 
-// SPT's split zone conditions no longer contain enough information to infer whether they came
-// from a live EFT zoneIds array. The shared sidecar config therefore declares those groups.
-internal sealed class QuestAlternativeConditionConfig
+public class QuestAlternativeConditionConfig
 {
-    [JsonProperty("enableTestQuests")]
-    public bool EnableTestQuests { get; set; }
-
     [JsonProperty("groups")]
     public List<QuestAlternativeConditionGroup> Groups { get; set; } = new();
 }
 
-internal sealed class QuestAlternativeConditionGroup
+public class QuestAlternativeConditionGroup
 {
     [JsonProperty("questId")]
     public string QuestId { get; set; } = string.Empty;
@@ -39,12 +34,9 @@ internal sealed class QuestAlternativeConditionGroup
 
     [JsonProperty("conditionIds")]
     public List<string> ConditionIds { get; set; } = new();
-
-    [JsonProperty("testOnly")]
-    public bool TestOnly { get; set; }
 }
 
-internal static class QuestAlternativeConditions
+public static class QuestAlternativeConditions
 {
     private const string ConfigRelativePath =
         "SPT_Runtime/user/mods/sptQuestLive/db/QuestAlternativeConditionGroups.json";
@@ -52,9 +44,9 @@ internal static class QuestAlternativeConditions
     private static IReadOnlyDictionary<string, List<QuestAlternativeConditionGroup>> _groupsByQuest =
         new Dictionary<string, List<QuestAlternativeConditionGroup>>(StringComparer.OrdinalIgnoreCase);
 
-    internal static bool Enabled { get; private set; }
+    public static bool Enabled { get; private set; }
 
-    internal static void Load()
+    public static void Load()
     {
         var configPath = Path.Combine(BepInEx.Paths.GameRootPath, ConfigRelativePath);
         if (!File.Exists(configPath))
@@ -66,9 +58,7 @@ internal static class QuestAlternativeConditions
         {
             var config = JsonConvert.DeserializeObject<QuestAlternativeConditionConfig>(
                 File.ReadAllText(configPath)) ?? new QuestAlternativeConditionConfig();
-            var groups = config.Groups
-                .Where(group => !group.TestOnly || config.EnableTestQuests)
-                .ToList();
+            var groups = config.Groups;
 
             if (groups.Any(group => group.Operator != QuestAlternativeConditionOperator.Any))
             {
@@ -93,7 +83,7 @@ internal static class QuestAlternativeConditions
         }
     }
 
-    internal static bool TryResolveGroups(
+    public static bool TryResolveGroups(
         IConditional conditional,
         ConditionCollection conditions,
         out List<List<Condition>> resolvedGroups)
@@ -127,14 +117,14 @@ internal static class QuestAlternativeConditions
         return resolvedGroups.Count > 0;
     }
 
-    internal static bool IsSatisfied(IConditional conditional, Condition condition)
+    public static bool IsSatisfied(IConditional conditional, Condition condition)
     {
         return conditional.CompletedConditions.Contains(condition.id)
             || conditional.ProgressCheckers[condition].Test();
     }
 }
 
-internal sealed class QuestAlternativeConditionTestAllPatch : ModulePatch
+public class QuestAlternativeConditionTestAllPatch : ModulePatch
 {
     protected override MethodBase GetTargetMethod()
     {
@@ -156,9 +146,6 @@ internal sealed class QuestAlternativeConditionTestAllPatch : ModulePatch
         }
 
         var groupedConditions = groups.SelectMany(group => group).ToHashSet();
-        // Preserve SPT's normal AND behavior outside configured groups and apply "any" only
-        // inside explicitly configured groups. Guessing from condition shape would break quests
-        // that intentionally require every similar-looking location.
         var standaloneConditionsSatisfied = __instance.EarlyFinisherConditions
             .Where(condition => !groupedConditions.Contains(condition))
             .All(condition => QuestAlternativeConditions.IsSatisfied(conditional, condition));
@@ -169,7 +156,7 @@ internal sealed class QuestAlternativeConditionTestAllPatch : ModulePatch
     }
 }
 
-internal sealed class QuestAlternativeConditionCompletionPatch : ModulePatch
+public class QuestAlternativeConditionCompletionPatch : ModulePatch
 {
     protected override MethodBase GetTargetMethod()
     {
