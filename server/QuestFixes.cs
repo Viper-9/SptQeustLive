@@ -13,11 +13,15 @@ namespace SptQuestLive;
 
 public record ModMetadata : IModMetadata
 {
+    private static readonly string AssemblyVersion =
+        Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyInformationalVersionAttribute>()?.InformationalVersion
+        ?? "0.0.0";
+
     public string ModGuid { get; init; } = "com.viper.sptquestlive";
     public string Name { get; init; } = "SptQuestLive";
     public string Author { get; init; } = "Viper-9";
     public List<string>? Contributors { get; init; }
-    public SemanticVersioning.Version Version { get; init; } = new("0.0.6");
+    public SemanticVersioning.Version Version { get; init; } = new(AssemblyVersion);
     public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.2");
     public bool HasPrepatcher { get; init; } = false;
     public List<string>? Incompatibilities { get; init; }
