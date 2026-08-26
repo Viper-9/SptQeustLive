@@ -1,0 +1,43 @@
+{
+  "enableTestQuests": false,
+  "groups": [
+    {
+      "questId": "5a27b7a786f774579c3eb376",
+      "operator": "any",
+      "conditionIds": [
+        "66698a9eddc21e9441645819",
+        "5a27e75886f7740aef4a9157",
+        "5a29653986f77406a3435b26"
+      ]
+    },
+    {
+      "questId": "68ac20000000000000000001",
+      "operator": "any",
+      "conditionIds": [
+        "68ac20000000000000000111",
+        "68ac20000000000000000112",
+        "68ac20000000000000000113"
+      ],
+      "testOnly": true
+    },
+    {
+      "questId": "68ac20000000000000000002",
+      "operator": "any",
+      "conditionIds": [
+        "68ac20000000000000000211",
+        "68ac20000000000000000212",
+        "68ac20000000000000000213"
+      ],
+      "testOnly": true
+    },
+    {
+      "questId": "68ac20000000000000000003",
+      "operator": "any",
+      "conditionIds": [
+        "68ac20000000000000000311",
+        "68ac20000000000000000312"
+      ],
+      "testOnly": true
+    }
+  ]
+}
