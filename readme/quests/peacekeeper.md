@@ -10,6 +10,6 @@
 - Trophies (전리품)
 - The Cleaner (청소부)
 - Wet Job - Part 1–4, 6 (청부살인 - 파트 1–4, 6)
-- Spa Tour - Part 1, 3–5 (스파 관광 - 파트 1, 3–5)
+- Spa Tour - Part 1, 3–5, 7 (스파 관광 - 파트 1, 3–5, 7)
 - Humanitarian Supplies (인도주의적 보급품)
 - Cargo X - Part 3–4 (카고 X - 파트 3–4)
