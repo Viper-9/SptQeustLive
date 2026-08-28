@@ -17,3 +17,4 @@
 - 퍼니셔 - 파트 4: 7.62x54mm R PS 탄약 + 9x39mm SP-6 탄약 — Prapor LL4
 - 퍼니셔 - 파트 5: AK-12/AK-308 하이브리드 완제품·소음기
 - 퍼니셔 - 파트 6: SR-3M 완제품 (Perfect Mediator 해금 이관 → 퍼니셔 파트 6)
+- 카고 X - 파트 4 완료: M203 40mm 유탄발사기 + M386(HE) 유탄 — Mechanic LL2 (Failed Setup 언락보상에서 이관, 수락 시 런처×1·유탄×15 실물 지급)

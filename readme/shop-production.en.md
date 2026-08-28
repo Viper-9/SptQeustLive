@@ -17,3 +17,4 @@
 - The Punisher - Part 4: 7.62x54mm R PS ammo + 9x39mm SP-6 ammo — Prapor LL4
 - The Punisher - Part 5: AK-12/AK-308 hybrid build + suppressor
 - The Punisher - Part 6: SR-3M build (unlock moved here from Perfect Mediator)
+- Cargo X - Part 4 completed: M203 40mm grenade launcher + M386 (HE) grenade — Mechanic LL2 (moved here from Failed Setup's unlock reward; also grants a physical launcher×1 + 15 grenades on quest accept)

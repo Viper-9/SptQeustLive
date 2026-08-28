@@ -11,3 +11,4 @@
 - Psycho Sniper (사이코 저격수)
 - Gunsmith - Part 1–19, 22, 24 (건스미스 - 파트 1–19, 22, 24)
 - Gunsmith - Old Friend's Request (건스미스 - 옛 친구의 부탁)
+- Failed Setup (실패한 작전)

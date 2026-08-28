@@ -11,3 +11,4 @@
 - Psycho Sniper
 - Gunsmith - Part 1–19, 22, 24
 - Gunsmith - Old Friend's Request
+- Failed Setup
