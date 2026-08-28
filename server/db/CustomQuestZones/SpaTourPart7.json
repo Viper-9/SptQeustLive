@@ -1,0 +1,83 @@
+[
+  {
+    "ZoneId": "customs_medblock_leave_item_N1",
+    "ZoneName": "customs_medblock_leave_item_N1",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "Quest",
+    "Position": {
+      "X": "91.49284",
+      "Y": "5.241287",
+      "Z": "-159.1685",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.1066979",
+      "Z": "0",
+      "W": "0.9942915"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "1",
+      "Z": "2.5",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  },
+  {
+    "ZoneId": "customs_medblock_leave_item_N2",
+    "ZoneName": "customs_medblock_leave_item_N2",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "Quest",
+    "Position": {
+      "X": "90.62149",
+      "Y": "5.192106",
+      "Z": "-154.6704",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.09584575",
+      "Z": "0",
+      "W": "0.9953962"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "1",
+      "Z": "4",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  },
+  {
+    "ZoneId": "customs_medblock_leave_item_N3",
+    "ZoneName": "customs_medblock_leave_item_N3",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "Quest",
+    "Position": {
+      "X": "88.94895",
+      "Y": "5.192106",
+      "Z": "-145.0898",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.07410849",
+      "Z": "0",
+      "W": "0.9972502"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "1",
+      "Z": "4.25",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  }
+]
