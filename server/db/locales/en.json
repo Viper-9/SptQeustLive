@@ -179,5 +179,10 @@
   "6a5cd11e5cf929b0f5d76816": "Hand over the found in raid item: Metal fuel tank or Expeditionary fuel tank",
   "5a03296886f774569778596a description": "What can you even expect when things have gotten this bad, kurwa! Our local generators have failed. My men are experiencing interruptions with electricity, and that is not acceptable. After all, time is money.\n\nBut I am already working on it. Many people were conducting their operations in the Resort before us. Search for functional generators. Most likely, they are inside locked rooms on the second floor of both wings. Once you find them, simply report the room numbers to me. We also need fuel cans so the generators can keep running. That should be much easier.",
   "5a03296886f774569778596a successMessageText": "Good work, my friend. I will pass this information on to my men. Now, if only we could move those generators to our base without drawing attention...",
+  "5a27bafb86f7741c73584017 description": "Hello again, friend. There are many people in Tarkov who are in need of my assistance. For example, a local chemist recently asked me to provide him with a hose for his equipment. This is too easy of a task for my men, and they simply do not have the time. Could you help this local from customs?",
+  "5a27bafb86f7741c73584017 successMessageText": "Excellent. The local has sent his gratitude.",
+  "6a5c10e883a51e292d11b976": "Stash a Corrugated hose in one of the three spots in the med lab on Customs",
+  "6a5c10e883a51e292d11b977": "Stash a Corrugated hose in one of the three spots in the med lab on Customs",
+  "6a5c10e883a51e292d11b978": "Stash a Corrugated hose in one of the three spots in the med lab on Customs",
   "6a5cd57d36c4fb654692787c": "Eliminate 10 targets using an M203 grenade launcher on Lighthouse or Reserve"
 }
