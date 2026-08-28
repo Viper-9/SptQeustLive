@@ -119,8 +119,9 @@ public static class QuestAlternativeConditions
 
     public static bool IsSatisfied(IConditional conditional, Condition condition)
     {
+        var checker = conditional.ProgressCheckers[condition];
         return conditional.CompletedConditions.Contains(condition.id)
-            || conditional.ProgressCheckers[condition].Test();
+            || (checker.HasGetter() && checker.Test());
     }
 }
 

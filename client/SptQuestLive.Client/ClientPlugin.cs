@@ -27,6 +27,7 @@ public class ClientPlugin : BaseUnityPlugin
         {
             new QuestAlternativeConditionTestAllPatch().Enable();
             new QuestAlternativeConditionCompletionPatch().Enable();
+            new QuestObjectivesViewFilterPatch().Enable();
         }
     }
 
