@@ -15,11 +15,8 @@ Since EFT has drastically changed quest structure, quest chains, and the trader 
 
 - SPT server `~4.1.2`
 - .NET 10 SDK (only if building from source)
-- **(Required)** [WTT-CommonLib] `>=3.0.4` (both WTT-ServerCommonLib and WTT-ClientCommonLib) —
-  Pest Control and other quests rely on this mod's custom trigger zone feature (`db/CustomQuestZones/`).
-- (Recommended) [WTT-ContentBackport] `2.0.0` — the mod works fine without it, but some
-  quests' issued gear/attachments reference items added by ContentBackport, and those specific items may be skipped
-  when it's not installed.
+- [WTT-CommonLib] `>=3.0.4` — **(Required)**
+- [WTT-ContentBackport] `2.0.0` — **(Required)**
 
 ## Installation
 
@@ -54,6 +51,7 @@ Quests defined in `db/quests.json`, split into per-trader documents:
 - [Mechanic](readme/quests/mechanic.en.md)
 - [Ragman](readme/quests/ragman.en.md)
 - [Jaeger](readme/quests/jaeger.en.md)
+- [Fence](readme/quests/fence.en.md)
 
 ## Included shop/production overrides
 

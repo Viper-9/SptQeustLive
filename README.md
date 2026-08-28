@@ -15,10 +15,8 @@ EFT는 퀘스트 구조나 연계, 상인 평판구조까지 대대적으로 바
 
 - SPT 서버 `~4.1.2`
 - .NET 10 SDK (직접 빌드할 경우)
-- **(필수)** [WTT-CommonLib] `>=3.0.4` (서버용 WTT-ServerCommonLib + 클라이언트용 WTT-ClientCommonLib 둘 다) —
-  Pest Control 등 일부 퀘스트가 이 모드의 커스텀 트리거 존 기능(`db/CustomQuestZones/`)을 사용합니다.
-- (권장) [WTT-ContentBackport] `2.0.0` — 없어도 정상 작동하지만, 일부 퀘스트의
-  지급장비·부착물이 이 모드가 추가하는 아이템을 사용하는 경우 해당 아이템만 빠지고 지급될 수 있습니다.
+- [WTT-CommonLib] `>=3.0.4` — **(필수)**
+- [WTT-ContentBackport] `2.0.0` — **(필수)**
 
 ## 설치
 
@@ -52,6 +50,7 @@ EFT는 퀘스트 구조나 연계, 상인 평판구조까지 대대적으로 바
 - [Mechanic](readme/quests/mechanic.md)
 - [Ragman](readme/quests/ragman.md)
 - [Jaeger](readme/quests/jaeger.md)
+- [Fence](readme/quests/fence.md)
 
 ## 포함된 상점/제작법 오버라이드
 
