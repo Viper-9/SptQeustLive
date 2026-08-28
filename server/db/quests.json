@@ -38876,6 +38876,218 @@
     "traderId": "5935c25fb3acc3127c3d8cd9",
     "type": "PickUp"
   },
+  "5a27bafb86f7741c73584017": {
+    "QuestName": "Spa Tour - Part 7",
+    "_id": "5a27bafb86f7741c73584017",
+    "acceptPlayerMessage": "5a27bafb86f7741c73584017 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5a27bafb86f7741c73584017 changeQuestMessageText",
+    "completePlayerMessage": "5a27bafb86f7741c73584017 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a5c10e883a51e292d11b976",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 10,
+          "target": [
+            "59e35cbb86f7741778269d83"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "customs_medblock_leave_item_N1"
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a5c10e883a51e292d11b977",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 10,
+          "target": [
+            "59e35cbb86f7741778269d83"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "customs_medblock_leave_item_N2"
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a5c10e883a51e292d11b978",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 10,
+          "target": [
+            "59e35cbb86f7741778269d83"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "customs_medblock_leave_item_N3"
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a3a727b86f7745b18478f13",
+          "index": 0,
+          "parentId": "",
+          "value": 12,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a2813e286f774549545d383",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5a27ba9586f7741b543d8e85",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5a27bafb86f7741c73584017 declinePlayerMessage",
+    "description": "5a27bafb86f7741c73584017 description",
+    "failMessageText": "5a27bafb86f7741c73584017 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5a27c50f86f7740b3d65e16a.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "56f40101d2720b2a4d8b45d6",
+    "name": "5a27bafb86f7741c73584017 name",
+    "note": "5a27bafb86f7741c73584017 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc6dae179f8541b8469256",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 9700
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc6db177dc197c774254b0",
+          "isHidden": false,
+          "target": "5935c25fb3acc3127c3d8cd9",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.04
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "5a2813cb86f774567931372b",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e591402d1",
+              "_tpl": "5d9f1fa686f774726974a992",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e591402d1",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "655b919d975a7f3c734661b0",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e591402d2",
+              "_tpl": "5c17a7ed2e2216152142459c"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "68a9695194f6582e591402d2",
+          "traderId": "5935c25fb3acc3127c3d8cd9",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "5d6e738186f77410d46d1e44",
+          "isHidden": false,
+          "target": "5c0647fdd443bc2504c2d371",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": -0.01
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5a27bafb86f7741c73584017 startedMessageText",
+    "status": 0,
+    "successMessageText": "5a27bafb86f7741c73584017 successMessageText",
+    "traderId": "5935c25fb3acc3127c3d8cd9",
+    "type": "PickUp"
+  },
   "5c51aac186f77432ea65c552": {
     "QuestName": "Collector",
     "_id": "5c51aac186f77432ea65c552",
