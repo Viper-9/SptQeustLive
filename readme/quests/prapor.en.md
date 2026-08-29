@@ -15,3 +15,7 @@
 - Grenadier
 - The Punisher - Part 1–6
 - Perfect Mediator
+- Anesthesia
+- Big Customer
+- Capturing Outposts
+- Debut

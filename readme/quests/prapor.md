@@ -15,3 +15,7 @@
 - Grenadier (척탄병)
 - The Punisher - Part 1–6 (퍼니셔 - 파트 1–6)
 - Perfect Mediator (완벽한 중재자)
+- Anesthesia (마취)
+- Big Customer (큰손 거래처)
+- Capturing Outposts (요충지 탈환)
+- Debut (데뷔)
