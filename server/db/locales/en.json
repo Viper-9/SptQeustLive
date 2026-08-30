@@ -192,5 +192,14 @@
   "6a5cd57d36c4fb654692787c": "Eliminate 10 targets using an M203 grenade launcher on Lighthouse or Reserve",
   "60ec18b73b5f7d790a7ad034": "Eliminate PMC operatives at the specified Scav bases on Customs, Shoreline, or Woods",
   "5936d90786f7742b1420ba5b description": "Hello there, soldier. I got a job that's a little too easy for my guys. But you'll do fine. Hey, don't get pissy, I don't know you that well yet to give you a normal job!\n\nThere's a lot of bandit scum roaming the streets. They don't bother me much, but they're still a nuisance. Calm down, say, five of them. I think that'll be enough for you. Dismissed, soldier!",
-  "5967379186f77463860dadd6": "Eliminate Scavs on Woods, Ground Zero, Interchange, or Customs"
+  "5967379186f77463860dadd6": "Eliminate Scavs on Woods, Ground Zero, Interchange, or Customs",
+  "64e7b9bffd30422ed03dad38 name": "Gendarmerie - District Patrol",
+  "64e7b9bffd30422ed03dad38 description": "One last mission for our gendarmerie division, at least for now. My men have to get into the district, but the looters won't be very pleased. So you go there first and do some tidy-up, understand? Move then!",
+  "64e7b9bffd30422ed03dad38 failMessageText": "",
+  "64e7b9bffd30422ed03dad38 successMessageText": "My respects to you, soldier.",
+  "64e7b9bffd30422ed03dad38 acceptPlayerMessage": "",
+  "64e7b9bffd30422ed03dad38 declinePlayerMessage": "",
+  "64e7b9bffd30422ed03dad38 completePlayerMessage": "",
+  "64e7bdd52d369a1c0172722f": "Eliminate any target while using Assault rifles or Assault carbines on Streets of Tarkov",
+  "6a5f44d815430d6a5b5161b1": "Eliminate 10 targets while using a GP-25 Kostyor underbarrel grenade launcher"
 }

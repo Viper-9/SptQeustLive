@@ -192,5 +192,14 @@
   "6a5cd57d36c4fb654692787c": "라이트하우스(Lighthouse) 또는 리저브(Reserve)에서 M203 유탄발사기로 목표 10명 사살",
   "60ec18b73b5f7d790a7ad034": "세관(Customs), 해안선(Shoreline), 삼림(Woods)의 지정된 스캐브 기지에서 PMC 사살하기",
   "5936d90786f7742b1420ba5b description": "[데뷔(Debut)]\n잘 왔나, 제군. 내 부하들한텐 너무 쉬운 일거리가 하나 있는데 자네라면 딱이겠어. 이봐, 삐지지 말게나. 아직 자네를 잘 모르니 제대로 된 임무를 맡길 순 없지 않나!\n\n거리엔 쓰레기 같은 도적떼들이 나돌아다니고 있다네. 나한텐 큰 문제가 되진 않지만, 여전히 성가시긴 하군. 그 중에 다섯 놈 정도만 조용히 처리하게. 자네한텐 충분한 임무일 걸세. 해산하도록!",
-  "5967379186f77463860dadd6": "삼림(Woods), 그라운드 제로(Ground Zero), 나들목(Interchange), 세관(Customs)에서 스캐브 사살하기"
+  "5967379186f77463860dadd6": "삼림(Woods), 그라운드 제로(Ground Zero), 나들목(Interchange), 세관(Customs)에서 스캐브 사살하기",
+  "64e7b9bffd30422ed03dad38 name": "헌병대 - 지역 순찰",
+  "64e7b9bffd30422ed03dad38 description": "[헌병대 - 지역 순찰(Gendarmerie - District Patrol)]\n헌병대를 위한 마지막 임무일세, 적어도 당분간은. 내 부하들이 그 구역에 들어가야 하는데, 약탈자들이 반길 것 같진 않군. 그러니 자네가 먼저 가서 정리 좀 해주게, 알겠나? 지금 즉시 이동하도록!",
+  "64e7b9bffd30422ed03dad38 failMessageText": "",
+  "64e7b9bffd30422ed03dad38 successMessageText": "[헌병대 - 지역 순찰(Gendarmerie - District Patrol), 성공]\n자네에게 경의를 표하네, 제군.",
+  "64e7b9bffd30422ed03dad38 acceptPlayerMessage": "",
+  "64e7b9bffd30422ed03dad38 declinePlayerMessage": "",
+  "64e7b9bffd30422ed03dad38 completePlayerMessage": "",
+  "64e7bdd52d369a1c0172722f": "타르코프 시내(Streets of Tarkov)에서 돌격소총 또는 돌격카빈을 사용하여 아무 적이나 사살하기",
+  "6a5f44d815430d6a5b5161b1": "GP-25 Kostyor 언더배럴 유탄발사기를 사용하여 10명 사살하기"
 }
