@@ -19,3 +19,11 @@
 - Big Customer
 - Capturing Outposts
 - Debut
+- Delivery From the Past
+- Escort
+- Gendarmerie - District Patrol
+- Ice Cream Cones
+- Intimidator
+- Kings of the Rooftops
+- No Offence
+- Reconnaissance
