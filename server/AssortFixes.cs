@@ -9,7 +9,7 @@ using SPTarkov.Server.Core.Models.Spt.Tables;
 
 namespace SptQuestLive;
 
-[Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 2)]
 public class QuestAssortUnlockLoader(
     ModHelper modHelper,
     TradersTable tradersTable) : IOnLoad
@@ -47,6 +47,51 @@ public class QuestAssortUnlockLoader(
                 foreach (var (assortItemId, questId) in assortToQuest)
                 {
                     stageMap[assortItemId] = questId;
+                }
+            }
+        }
+
+        return Task.CompletedTask;
+    }
+}
+
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
+public class QuestAssortRemovalLoader(
+    ModHelper modHelper,
+    TradersTable tradersTable) : IOnLoad
+{
+    private const string ConfigFileRelativePath = "db/QuestAssortRemovals.json";
+
+    public Task OnLoadAsync(CancellationToken cancellationToken)
+    {
+        var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
+        var configFilePath = System.IO.Path.Combine(modPath, ConfigFileRelativePath);
+
+        if (!File.Exists(configFilePath))
+        {
+            return Task.CompletedTask;
+        }
+
+        var removalsByTrader = modHelper.GetJsonDataFromFile<Dictionary<MongoId, Dictionary<string, List<MongoId>>>>(
+            modPath, ConfigFileRelativePath);
+
+        foreach (var (traderId, stages) in removalsByTrader)
+        {
+            if (!tradersTable.TryGetValue(traderId, out var trader))
+            {
+                continue;
+            }
+
+            foreach (var (stage, assortItemIds) in stages)
+            {
+                if (!trader.QuestAssort.TryGetValue(stage, out var stageMap))
+                {
+                    continue;
+                }
+
+                foreach (var assortItemId in assortItemIds)
+                {
+                    stageMap.Remove(assortItemId);
                 }
             }
         }
