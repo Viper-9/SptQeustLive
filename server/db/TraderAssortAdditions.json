@@ -106,6 +106,57 @@
           "BuyRestrictionMax": 300,
           "BuyRestrictionCurrent": 0
         }
+      },
+      {
+        "_id": "04fd1050abaee6cc35f64769",
+        "_tpl": "55801eed4bdc2d89578b4588",
+        "parentId": "hideout",
+        "slotId": "hideout",
+        "upd": {
+          "FireMode": {
+            "FireMode": "single"
+          },
+          "UnlimitedCount": true,
+          "StackObjectsCount": 9999999,
+          "BuyRestrictionMax": 1,
+          "BuyRestrictionCurrent": 0
+        }
+      },
+      {
+        "_id": "fa6dffbb2bc4cbb121a76d2f",
+        "_tpl": "559ba5b34bdc2d1f1a8b4582",
+        "parentId": "04fd1050abaee6cc35f64769",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "249ff8d96a6e6a4c4c8f0f3d",
+        "_tpl": "56083e1b4bdc2dc8488b4572",
+        "parentId": "04fd1050abaee6cc35f64769",
+        "slotId": "mod_sight_rear"
+      },
+      {
+        "_id": "3cc965396febd69b49e87e13",
+        "_tpl": "56083eab4bdc2d26448b456a",
+        "parentId": "04fd1050abaee6cc35f64769",
+        "slotId": "mod_tactical"
+      },
+      {
+        "_id": "ea67d56448f0db6a3bfc65fe",
+        "_tpl": "560e620e4bdc2d724b8b456b",
+        "parentId": "04fd1050abaee6cc35f64769",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "fb712e84108f03b50f15a04e",
+        "_tpl": "61faa91878830f069b6b7967",
+        "parentId": "04fd1050abaee6cc35f64769",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "3c3620bdf112b150777dc4bc",
+        "_tpl": "56ea8222d2720b69698b4567",
+        "parentId": "fb712e84108f03b50f15a04e",
+        "slotId": "mod_bipod"
       }
     ],
     "barterScheme": {
@@ -132,12 +183,21 @@
             "_tpl": "5449016a4bdc2d6f028b456f"
           }
         ]
+      ],
+      "04fd1050abaee6cc35f64769": [
+        [
+          {
+            "count": 41776,
+            "_tpl": "5449016a4bdc2d6f028b456f"
+          }
+        ]
       ]
     },
     "loyalLevelItems": {
       "a5d37f341c1b04824b327257": 4,
       "ef5a8edf8b8a70cf684346a2": 4,
-      "24f178e174ddd18885866272": 2
+      "24f178e174ddd18885866272": 2,
+      "04fd1050abaee6cc35f64769": 2
     }
   },
   "5935c25fb3acc3127c3d8cd9": {
