@@ -22,8 +22,10 @@
 - Delivery From the Past
 - Escort
 - Gendarmerie - District Patrol
+- Glory to CPSU - Part 2
 - Ice Cream Cones
 - Intimidator
 - Kings of the Rooftops
 - No Offence
+- Our Own Land
 - Reconnaissance
