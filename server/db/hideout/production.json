@@ -1,4 +1,56 @@
 {
+  "34c503e52e282f32075d7421": {
+    "_id": "34c503e52e282f32075d7421",
+    "areaType": 10,
+    "requirements": [
+      {
+        "areaType": 10,
+        "requiredLevel": 1,
+        "type": "Area"
+      },
+      {
+        "templateId": "5733279d245977289b77ec24",
+        "count": 2,
+        "isEncoded": false,
+        "isFunctional": false,
+        "isSpawnedInSession": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "5d1b33a686f7742523398398",
+        "count": 1,
+        "isEncoded": false,
+        "isFunctional": false,
+        "isSpawnedInSession": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "59e358a886f7741776641ac3",
+        "count": 2,
+        "isEncoded": false,
+        "isFunctional": false,
+        "isSpawnedInSession": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "590c2e1186f77425357b6124",
+        "type": "Tool"
+      },
+      {
+        "questId": "5d4bec3486f7743cac246665",
+        "type": "QuestComplete"
+      }
+    ],
+    "productionTime": 79200,
+    "endProduct": "5d03794386f77420415576f5",
+    "isEncoded": false,
+    "locked": true,
+    "needFuelForAllProductionTime": false,
+    "continuous": false,
+    "count": 1,
+    "productionLimitCount": 0,
+    "isCodeProduction": false
+  },
   "655b457c9db22d43ab42b706": {
     "_id": "655b457c9db22d43ab42b706",
     "areaType": 10,
