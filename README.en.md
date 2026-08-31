@@ -53,10 +53,6 @@ Quests defined in `db/quests.json`, split into per-trader documents:
 - [Jaeger](readme/quests/jaeger.en.md)
 - [Fence](readme/quests/fence.en.md)
 
-## Included shop/production overrides
-
-Entries that touch data outside the quests themselves. See [readme/shop-production.en.md](readme/shop-production.en.md) for the list.
-
 ## Locales
 
 - Korean (`db/locales/kr.json`)

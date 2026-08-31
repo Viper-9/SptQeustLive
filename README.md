@@ -52,10 +52,6 @@ EFT는 퀘스트 구조나 연계, 상인 평판구조까지 대대적으로 바
 - [Jaeger](readme/quests/jaeger.md)
 - [Fence](readme/quests/fence.md)
 
-## 포함된 상점/제작법 오버라이드
-
-퀘스트 자체가 아닌 다른 데이터를 건드리는 항목입니다. 목록은 [readme/shop-production.md](readme/shop-production.md)를 참고하세요.
-
 ## 로케일
 
 - 한국어 (`db/locales/kr.json`)
