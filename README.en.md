@@ -13,16 +13,16 @@ Since EFT has drastically changed quest structure, quest chains, and the trader 
 
 ## Requirements
 
-- SPT server `~4.1.2`
+- SPT server `~4.1.3`
 - .NET 10 SDK (only if building from source)
-- [WTT-CommonLib] `>=3.0.4` — **(Required)**
-- [WTT-ContentBackport] `2.0.0` — **(Required)**
+- [WTT-CommonLib] `>=3.0.6` — **(Required)**
+- [WTT-ContentBackport] `2.0.1` — **(Required)**
 
 ## Installation
 
 1. Download `sptQuestLive.zip` for the version you want from [Releases](../../releases).
 2. Extract it and overwrite the resulting `SPT_Runtime` and `BepInEx` folders into your SPT install root (e.g. `C:\SPT`, the parent folder of the `SPT_Runtime` folder containing `SPT.Server.exe`). (`SPT_Runtime/user/mods/sptQuestLive/...` and `BepInEx/plugins/SptQuestLive.Client/...` structure)
-   - The `BepInEx` folder is the client plugin for the [experimental feature](#experimental-feature-removing-the-trader-sales-volume-requirement)'s UI-hiding part. It's harmless to install even if you don't use that feature.
+   - The `BepInEx` folder is the client plugin that handles the UI side of the [config flags](#config-flags-dbconfigjson) below. Just install it alongside the rest — it doesn't affect anything else.
    - If your server root *is* the `SPT_Runtime` folder itself (older SPT layout), you can instead copy just the `SPT_Runtime\user\mods\sptQuestLive` folder from the zip into your server root's `user\mods\`.
 3. Restart the server.
 
@@ -30,14 +30,12 @@ Since EFT has drastically changed quest structure, quest chains, and the trader 
 
 Lightkeeper and Ref trader quests are excluded from changes. Ref's quests are mostly tied to Arena and don't need touching, and Lightkeeper's quests are end-game content that will be reviewed separately later.
 
-## Experimental feature: removing the trader sales-volume requirement
+## Config flags (db/Config.json)
 
-An experimental beta feature toggled via `disableSalesVolumeRequirement` in `db/TraderLevelConfig.json`.
+Mod behavior can be adjusted through the `db/Config.json` file.
 
-- `false` (default): unchanged behavior. Trader loyalty level-ups still require level, reputation, and sales volume, and the sales volume is still shown in the UI.
-- `true`: removes the sales-volume (`minSalesSum`) requirement from every trader's loyalty levels. Level-ups then depend only on level and reputation, and the sales-volume display is also hidden in the trade UI. (Hiding it in the UI requires `BepInEx/plugins/SptQuestLive.Client` to be installed — already included if you followed [Installation](#installation) above.)
-
-Set this to `true` yourself if you want to use it.
+- `questContentEnabled` (default `true`): toggles all of this mod's quest/reward content (quest overrides, quest removals, alternative conditions, trader assort unlocks/removals, bot/static loot additions, hideout fixes, locale changes, etc.) as a whole. Set to `false` to disable all of it and fall back to vanilla SPT behavior.
+- `disableSalesVolumeRequirement` (default `true`, experimental): removes the sales-volume requirement from trader loyalty level-ups. Set to `true` and level-ups depend only on level and reputation, with the sales-volume display also hidden in the trade UI. This always works independently of `questContentEnabled`.
 
 
 ## Included quest overrides

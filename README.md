@@ -13,16 +13,16 @@ EFT는 퀘스트 구조나 연계, 상인 평판구조까지 대대적으로 바
 
 ## 요구사항
 
-- SPT 서버 `~4.1.2`
+- SPT 서버 `~4.1.3`
 - .NET 10 SDK (직접 빌드할 경우)
-- [WTT-CommonLib] `>=3.0.4` — **(필수)**
-- [WTT-ContentBackport] `2.0.0` — **(필수)**
+- [WTT-CommonLib] `>=3.0.6` — **(필수)**
+- [WTT-ContentBackport] `2.0.1` — **(필수)**
 
 ## 설치
 
 1. [Releases](../../releases)에서 원하는 버전의 `sptQuestLive.zip`을 다운로드합니다.
 2. 압축을 풀어 나오는 `SPT_Runtime`, `BepInEx` 폴더를 SPT 설치 루트(예: `C:\SPT`, `SPT.Server.exe`가 든 `SPT_Runtime` 폴더의 상위 폴더)에 그대로 덮어씁니다. (`SPT_Runtime/user/mods/sptQuestLive/...`, `BepInEx/plugins/SptQuestLive.Client/...` 구조)
-   - `BepInEx` 폴더에 들어있는 건 [실험적 기능](#실험적-기능-상인-거래량-조건-제거)의 UI 숨김 기능을 위한 클라이언트 플러그인입니다. 실험적 기능을 안 쓰더라도 그냥 같이 깔아두면 되고, 나머지 기능에는 영향이 없습니다.
+   - `BepInEx` 폴더에 들어있는 건 [설정 플래그](#설정-플래그-dbconfigjson)와 연동되는 UI 처리를 위한 클라이언트 플러그인입니다. 그냥 같이 깔아두면 되고, 나머지 기능에는 영향이 없습니다.
    - `SPT_Runtime` 폴더 자체가 서버 루트인 구조(구버전 SPT)라면, 압축 안의 `SPT_Runtime\user\mods\sptQuestLive` 폴더만 서버 루트의 `user\mods\`에 복사해도 됩니다.
 3. 서버를 재시작합니다.
 
@@ -30,13 +30,12 @@ EFT는 퀘스트 구조나 연계, 상인 평판구조까지 대대적으로 바
 
 라이트키퍼(Lightkeeper), 레프(Ref) 트레이더 퀘스트는 수정 대상에서 제외합니다. 레프 퀘스트는 대부분 아레나(Arena) 연동 퀘스트라 손댈 필요가 없고, 라이트키퍼는 엔드컨텐츠 이후 퀘스트라 추후 별도로 검토할 예정입니다.
 
-## 실험적 기능: 상인 거래량 조건 제거
+## 설정 플래그 (db/Config.json)
 
-`db/TraderLevelConfig.json`의 `disableSalesVolumeRequirement` 값으로 켜고 끌 수 있는 실험적 베타 기능입니다.
-- `false` (기본값): 원본 그대로. 상인 로열티 레벨업에 레벨/평판/거래량 조건이 모두 그대로 적용되고, UI에도 거래량이 표시됩니다.
-- `true`: 모든 상인의 거래량 조건을 제거합니다. 레벨업에는 레벨·평판 조건만 남고, 거래 UI에서도 거래량 표시가 사라집니다.
+`db/Config.json` 파일로 모드 동작을 조정할 수 있습니다.
 
-필요하면 직접 이 값을 `true`로 바꿔서 사용하시면 됩니다.
+- `questContentEnabled` (기본값 `true`): 이 모드의 퀘스트/보상 관련 기능(퀘스트 오버라이드, 퀘스트 삭제, 대체조건, 상인 어사트 언락/제거, 봇·스태틱 루팅 추가, 하이드아웃 픽스, 로케일 수정 등) 전체를 켜고 끕니다. `false`로 두면 이 기능들이 전부 꺼지고 원본 SPT 상태로 동작합니다.
+- `disableSalesVolumeRequirement` (기본값 `true`, 실험적 기능): 상인 로열티 레벨업의 거래량 조건을 제거합니다. `true`로 두면 레벨업에 레벨·평판 조건만 남고, 거래 UI에서도 거래량 표시가 사라집니다. `questContentEnabled` 값과 무관하게 항상 독립적으로 작동합니다.
 
 
 ## 포함된 퀘스트 오버라이드
