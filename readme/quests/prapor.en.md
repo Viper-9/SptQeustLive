@@ -16,7 +16,9 @@
 - The Punisher - Part 1–6
 - Perfect Mediator
 - Anesthesia
+- The Art of Explosion
 - Big Customer
+- The Bunker - Part 1
 - Capturing Outposts
 - Debut
 - Delivery From the Past
@@ -27,5 +29,9 @@
 - Intimidator
 - Kings of the Rooftops
 - No Offence
+- No Place for Renegades
 - Our Own Land
 - Reconnaissance
+- Shaking Up the Teller
+- Shootout Picnic
+- Special Comms
