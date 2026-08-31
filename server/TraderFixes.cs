@@ -1,5 +1,4 @@
 using System.Reflection;
-using System.Text.Json.Serialization;
 using HarmonyLib;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
@@ -8,12 +7,6 @@ using SPTarkov.Server.Core.Helpers.Traders;
 using SPTarkov.Server.Core.Models.Spt.Tables;
 
 namespace SptQuestLive;
-
-public record TraderLevelConfig
-{
-    [JsonPropertyName("disableSalesVolumeRequirement")]
-    public bool DisableSalesVolumeRequirement { get; init; } = false;
-}
 
 [Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
 public class TraderLevelUpPatchLoader(ModHelper modHelper) : IOnLoad
@@ -40,11 +33,8 @@ public static class TraderLevelUpPatch
 
     public static void Configure(ModHelper modHelper)
     {
-        var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
-        var configFilePath = Path.Combine(modPath, "db/TraderLevelConfig.json");
-
-        _enabled = File.Exists(configFilePath)
-            && modHelper.GetJsonDataFromFile<TraderLevelConfig>(modPath, "db/TraderLevelConfig.json").DisableSalesVolumeRequirement;
+        ModConfig.EnsureLoaded(modHelper);
+        _enabled = ModConfig.DisableSalesVolumeRequirement;
     }
 
     public static void Prefix(TraderHelper __instance)

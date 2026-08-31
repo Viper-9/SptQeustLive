@@ -42,6 +42,12 @@ public class QuestFixesLoader(
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
+        ModConfig.EnsureLoaded(modHelper);
+        if (!ModConfig.QuestContentEnabled)
+        {
+            return Task.CompletedTask;
+        }
+
         var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
         var overrideFilePath = System.IO.Path.Combine(modPath, OverrideFileRelativePath);
 
@@ -117,6 +123,12 @@ public class QuestRemovalLoader(
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
+        ModConfig.EnsureLoaded(modHelper);
+        if (!ModConfig.QuestContentEnabled)
+        {
+            return Task.CompletedTask;
+        }
+
         var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
         var configFilePath = System.IO.Path.Combine(modPath, ConfigFileRelativePath);
 
@@ -138,10 +150,17 @@ public class QuestRemovalLoader(
 
 [Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
 public class QuestZoneLoader(
-    WTTCustomQuestZoneService zoneService) : IOnLoad
+    WTTCustomQuestZoneService zoneService,
+    ModHelper modHelper) : IOnLoad
 {
     public async Task OnLoadAsync(CancellationToken cancellationToken)
     {
+        ModConfig.EnsureLoaded(modHelper);
+        if (!ModConfig.QuestContentEnabled)
+        {
+            return;
+        }
+
         await zoneService.CreateCustomQuestZones(Assembly.GetExecutingAssembly());
     }
 }

@@ -30,6 +30,12 @@ public class BotLootAdditionLoader(
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
+        ModConfig.EnsureLoaded(modHelper);
+        if (!ModConfig.QuestContentEnabled)
+        {
+            return Task.CompletedTask;
+        }
+
         var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
         var configFilePath = System.IO.Path.Combine(modPath, ConfigFileRelativePath);
 

@@ -48,6 +48,12 @@ public class QuestAlternativeConditionLoader(
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
+        ModConfig.EnsureLoaded(modHelper);
+        if (!ModConfig.QuestContentEnabled)
+        {
+            return Task.CompletedTask;
+        }
+
         var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
         var configFilePath = IOPath.Combine(modPath, ConfigFileRelativePath);
 

@@ -15,6 +15,12 @@ public class LocaleFixesLoader(
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
+        ModConfig.EnsureLoaded(modHelper);
+        if (!ModConfig.QuestContentEnabled)
+        {
+            return Task.CompletedTask;
+        }
+
         var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
         var localesDir = Path.Combine(modPath, LocalesFolderRelativePath);
 

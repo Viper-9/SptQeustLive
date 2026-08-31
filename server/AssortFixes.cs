@@ -18,6 +18,12 @@ public class QuestAssortUnlockLoader(
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
+        ModConfig.EnsureLoaded(modHelper);
+        if (!ModConfig.QuestContentEnabled)
+        {
+            return Task.CompletedTask;
+        }
+
         var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
         var configFilePath = System.IO.Path.Combine(modPath, ConfigFileRelativePath);
 
@@ -64,6 +70,12 @@ public class QuestAssortRemovalLoader(
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
+        ModConfig.EnsureLoaded(modHelper);
+        if (!ModConfig.QuestContentEnabled)
+        {
+            return Task.CompletedTask;
+        }
+
         var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
         var configFilePath = System.IO.Path.Combine(modPath, ConfigFileRelativePath);
 
@@ -121,6 +133,12 @@ public class TraderAssortAdditionLoader(
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
+        ModConfig.EnsureLoaded(modHelper);
+        if (!ModConfig.QuestContentEnabled)
+        {
+            return Task.CompletedTask;
+        }
+
         var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
         var configFilePath = System.IO.Path.Combine(modPath, ConfigFileRelativePath);
 
