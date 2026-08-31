@@ -109,6 +109,34 @@ public class QuestFixesLoader(
 }
 
 [Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
+public class QuestRemovalLoader(
+    ModHelper modHelper,
+    TemplateTable templateTable) : IOnLoad
+{
+    private const string ConfigFileRelativePath = "db/QuestRemovals.json";
+
+    public Task OnLoadAsync(CancellationToken cancellationToken)
+    {
+        var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
+        var configFilePath = System.IO.Path.Combine(modPath, ConfigFileRelativePath);
+
+        if (!File.Exists(configFilePath))
+        {
+            return Task.CompletedTask;
+        }
+
+        var idsToRemove = modHelper.GetJsonDataFromFile<List<MongoId>>(modPath, ConfigFileRelativePath);
+
+        foreach (var questId in idsToRemove)
+        {
+            templateTable.Quests.Remove(questId);
+        }
+
+        return Task.CompletedTask;
+    }
+}
+
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
 public class QuestZoneLoader(
     WTTCustomQuestZoneService zoneService) : IOnLoad
 {
