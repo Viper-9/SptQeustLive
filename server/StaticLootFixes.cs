@@ -15,7 +15,10 @@ public record StaticLootAddition
     public MongoId Container { get; init; }
 
     [JsonPropertyName("weight")]
-    public float Weight { get; init; }
+    public float? Weight { get; init; }
+
+    [JsonPropertyName("weightsByMap")]
+    public Dictionary<string, float>? WeightsByMap { get; init; }
 }
 
 [Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
@@ -44,7 +47,7 @@ public class StaticLootAdditionLoader(
         var additionsByItem = modHelper.GetJsonDataFromFile<Dictionary<MongoId, List<StaticLootAddition>>>(
             modPath, ConfigFileRelativePath);
 
-        foreach (var location in GetRaidLocations(locationTable))
+        foreach (var (mapKey, location) in GetRaidLocations(locationTable))
         {
             var staticLoot = location.StaticLoot.Value;
 
@@ -57,11 +60,20 @@ public class StaticLootAdditionLoader(
                         continue;
                     }
 
+                    var weight = addition.WeightsByMap != null && addition.WeightsByMap.TryGetValue(mapKey, out var mapWeight)
+                        ? mapWeight
+                        : addition.Weight;
+
+                    if (weight is null)
+                    {
+                        continue;
+                    }
+
                     var distribution = details.ItemDistribution?.ToList() ?? new List<ItemDistribution>();
                     distribution.Add(new ItemDistribution
                     {
                         Tpl = itemTpl,
-                        RelativeProbability = addition.Weight
+                        RelativeProbability = weight.Value
                     });
                     details.ItemDistribution = distribution;
                 }
@@ -71,20 +83,20 @@ public class StaticLootAdditionLoader(
         return Task.CompletedTask;
     }
 
-    private static IEnumerable<Location> GetRaidLocations(LocationTable table) =>
+    private static IEnumerable<(string MapKey, Location Location)> GetRaidLocations(LocationTable table) =>
     [
-        table.Bigmap,
-        table.Interchange,
-        table.Shoreline,
-        table.Woods,
-        table.TarkovStreets,
-        table.Lighthouse,
-        table.RezervBase,
-        table.Laboratory,
-        table.Factory4Day,
-        table.Factory4Night,
-        table.Labyrinth,
-        table.Sandbox,
-        table.SandboxHigh
+        ("bigmap", table.Bigmap),
+        ("interchange", table.Interchange),
+        ("shoreline", table.Shoreline),
+        ("woods", table.Woods),
+        ("tarkovstreets", table.TarkovStreets),
+        ("lighthouse", table.Lighthouse),
+        ("rezervbase", table.RezervBase),
+        ("laboratory", table.Laboratory),
+        ("factory4_day", table.Factory4Day),
+        ("factory4_night", table.Factory4Night),
+        ("labyrinth", table.Labyrinth),
+        ("sandbox", table.Sandbox),
+        ("sandbox_high", table.SandboxHigh)
     ];
 }

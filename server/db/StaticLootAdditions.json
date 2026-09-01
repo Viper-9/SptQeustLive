@@ -1,33 +1,444 @@
 {
   "6a3532423ec9d7082a05d430": [
-    { "container": "5909e4b686f7747f5b744fa4", "weight": 939 },
-    { "container": "5d6fd13186f77424ad2a8c69", "weight": 3495 },
-    { "container": "578f87a3245977356274f2cb", "weight": 2741 },
-    { "container": "5d6d2b5486f774785c2ba8ea", "weight": 753 }
+    {
+      "container": "5909e4b686f7747f5b744fa4",
+      "weightsByMap": {
+        "bigmap": 409,
+        "interchange": 99,
+        "shoreline": 616,
+        "woods": 417,
+        "tarkovstreets": 3457,
+        "lighthouse": 671,
+        "rezervbase": 483,
+        "factory4_day": 257,
+        "factory4_night": 237,
+        "sandbox": 1855,
+        "sandbox_high": 1828
+      }
+    },
+    {
+      "container": "6582e6d7b14c3f72eb071420",
+      "weightsByMap": {
+        "bigmap": 428,
+        "woods": 487,
+        "laboratory": 26,
+        "factory4_day": 98,
+        "factory4_night": 88,
+        "sandbox": 1031,
+        "sandbox_high": 985
+      }
+    },
+    {
+      "container": "578f87a3245977356274f2cb",
+      "weightsByMap": {
+        "bigmap": 2527,
+        "interchange": 4388,
+        "shoreline": 3127,
+        "woods": 1999,
+        "tarkovstreets": 10108,
+        "lighthouse": 2862,
+        "rezervbase": 3002,
+        "laboratory": 1354,
+        "factory4_day": 524,
+        "factory4_night": 557,
+        "sandbox": 1188,
+        "sandbox_high": 1257
+      }
+    },
+    {
+      "container": "5d6d2bb386f774785b07a77a",
+      "weightsByMap": {
+        "bigmap": 574,
+        "interchange": 380,
+        "shoreline": 747,
+        "woods": 1612,
+        "tarkovstreets": 1146,
+        "lighthouse": 820
+      }
+    },
+    {
+      "container": "5d6d2b5486f774785c2ba8ea",
+      "weightsByMap": {
+        "bigmap": 404,
+        "interchange": 273,
+        "shoreline": 880,
+        "woods": 1354,
+        "lighthouse": 852
+      }
+    },
+    {
+      "container": "5d6fd13186f77424ad2a8c69",
+      "weightsByMap": {
+        "bigmap": 802,
+        "shoreline": 2278,
+        "woods": 4313,
+        "tarkovstreets": 2834,
+        "lighthouse": 1384,
+        "rezervbase": 15776,
+        "sandbox": 270,
+        "sandbox_high": 299
+      }
+    },
+    {
+      "container": "5c052cea86f7746b2101e8d8",
+      "weightsByMap": {
+        "interchange": 856,
+        "shoreline": 1047,
+        "tarkovstreets": 3038,
+        "lighthouse": 292,
+        "laboratory": 294,
+        "sandbox": 765,
+        "sandbox_high": 777
+      }
+    },
+    {
+      "container": "61aa1e9a32a4743c3453d2cf",
+      "weightsByMap": {
+        "lighthouse": 54
+      }
+    },
+    {
+      "container": "67adf5752fc5ee84020a9940",
+      "weightsByMap": {
+        "labyrinth": 251
+      }
+    }
   ],
   "6a35322b81d315afe1018ef3": [
-    { "container": "5909e4b686f7747f5b744fa4", "weight": 939 },
-    { "container": "5d6fd13186f77424ad2a8c69", "weight": 3495 },
-    { "container": "578f87a3245977356274f2cb", "weight": 2741 },
-    { "container": "5d6d2b5486f774785c2ba8ea", "weight": 753 }
+    {
+      "container": "5909e4b686f7747f5b744fa4",
+      "weightsByMap": {
+        "bigmap": 409,
+        "interchange": 99,
+        "shoreline": 616,
+        "woods": 417,
+        "tarkovstreets": 3457,
+        "lighthouse": 671,
+        "rezervbase": 483,
+        "factory4_day": 257,
+        "factory4_night": 237,
+        "sandbox": 1855,
+        "sandbox_high": 1828
+      }
+    },
+    {
+      "container": "6582e6d7b14c3f72eb071420",
+      "weightsByMap": {
+        "bigmap": 428,
+        "woods": 487,
+        "laboratory": 26,
+        "factory4_day": 98,
+        "factory4_night": 88,
+        "sandbox": 1031,
+        "sandbox_high": 985
+      }
+    },
+    {
+      "container": "578f87a3245977356274f2cb",
+      "weightsByMap": {
+        "bigmap": 2527,
+        "interchange": 4388,
+        "shoreline": 3127,
+        "woods": 1999,
+        "tarkovstreets": 10108,
+        "lighthouse": 2862,
+        "rezervbase": 3002,
+        "laboratory": 1354,
+        "factory4_day": 524,
+        "factory4_night": 557,
+        "sandbox": 1188,
+        "sandbox_high": 1257
+      }
+    },
+    {
+      "container": "5d6d2bb386f774785b07a77a",
+      "weightsByMap": {
+        "bigmap": 574,
+        "interchange": 380,
+        "shoreline": 747,
+        "woods": 1612,
+        "tarkovstreets": 1146,
+        "lighthouse": 820
+      }
+    },
+    {
+      "container": "5d6d2b5486f774785c2ba8ea",
+      "weightsByMap": {
+        "bigmap": 404,
+        "interchange": 273,
+        "shoreline": 880,
+        "woods": 1354,
+        "lighthouse": 852
+      }
+    },
+    {
+      "container": "5d6fd13186f77424ad2a8c69",
+      "weightsByMap": {
+        "bigmap": 802,
+        "shoreline": 2278,
+        "woods": 4313,
+        "tarkovstreets": 2834,
+        "lighthouse": 1384,
+        "rezervbase": 15776,
+        "sandbox": 270,
+        "sandbox_high": 299
+      }
+    },
+    {
+      "container": "5c052cea86f7746b2101e8d8",
+      "weightsByMap": {
+        "interchange": 856,
+        "shoreline": 1047,
+        "tarkovstreets": 3038,
+        "lighthouse": 292,
+        "laboratory": 294,
+        "sandbox": 765,
+        "sandbox_high": 777
+      }
+    },
+    {
+      "container": "61aa1e9a32a4743c3453d2cf",
+      "weightsByMap": {
+        "lighthouse": 54
+      }
+    },
+    {
+      "container": "67adf5752fc5ee84020a9940",
+      "weightsByMap": {
+        "labyrinth": 251
+      }
+    }
   ],
   "6a3557f841667bc4bb00fea4": [
-    { "container": "578f87a3245977356274f2cb", "weight": 2741 },
-    { "container": "5909e4b686f7747f5b744fa4", "weight": 939 },
-    { "container": "5c052cea86f7746b2101e8d8", "weight": 1010 },
-    { "container": "5d6d2b5486f774785c2ba8ea", "weight": 753 },
-    { "container": "5d6fd13186f77424ad2a8c69", "weight": 3495 }
+    {
+      "container": "5909e4b686f7747f5b744fa4",
+      "weightsByMap": {
+        "bigmap": 409,
+        "interchange": 99,
+        "shoreline": 616,
+        "woods": 417,
+        "tarkovstreets": 3457,
+        "lighthouse": 671,
+        "rezervbase": 483,
+        "factory4_day": 257,
+        "factory4_night": 237,
+        "sandbox": 1855,
+        "sandbox_high": 1828
+      }
+    },
+    {
+      "container": "6582e6d7b14c3f72eb071420",
+      "weightsByMap": {
+        "bigmap": 428,
+        "woods": 487,
+        "laboratory": 26,
+        "factory4_day": 98,
+        "factory4_night": 88,
+        "sandbox": 1031,
+        "sandbox_high": 985
+      }
+    },
+    {
+      "container": "578f87a3245977356274f2cb",
+      "weightsByMap": {
+        "bigmap": 2527,
+        "interchange": 4388,
+        "shoreline": 3127,
+        "woods": 1999,
+        "tarkovstreets": 10108,
+        "lighthouse": 2862,
+        "rezervbase": 3002,
+        "laboratory": 1354,
+        "factory4_day": 524,
+        "factory4_night": 557,
+        "sandbox": 1188,
+        "sandbox_high": 1257
+      }
+    },
+    {
+      "container": "5d6d2bb386f774785b07a77a",
+      "weightsByMap": {
+        "bigmap": 574,
+        "interchange": 380,
+        "shoreline": 747,
+        "woods": 1612,
+        "tarkovstreets": 1146,
+        "lighthouse": 820
+      }
+    },
+    {
+      "container": "5d6d2b5486f774785c2ba8ea",
+      "weightsByMap": {
+        "bigmap": 404,
+        "interchange": 273,
+        "shoreline": 880,
+        "woods": 1354,
+        "lighthouse": 852
+      }
+    },
+    {
+      "container": "5d6fd13186f77424ad2a8c69",
+      "weightsByMap": {
+        "bigmap": 802,
+        "shoreline": 2278,
+        "woods": 4313,
+        "tarkovstreets": 2834,
+        "lighthouse": 1384,
+        "rezervbase": 15776,
+        "sandbox": 270,
+        "sandbox_high": 299
+      }
+    },
+    {
+      "container": "5c052cea86f7746b2101e8d8",
+      "weightsByMap": {
+        "interchange": 856,
+        "shoreline": 1047,
+        "tarkovstreets": 3038,
+        "lighthouse": 292,
+        "laboratory": 294,
+        "sandbox": 765,
+        "sandbox_high": 777
+      }
+    },
+    {
+      "container": "61aa1e9a32a4743c3453d2cf",
+      "weightsByMap": {
+        "lighthouse": 54
+      }
+    },
+    {
+      "container": "67adf5752fc5ee84020a9940",
+      "weightsByMap": {
+        "labyrinth": 251
+      }
+    }
   ],
   "6a4ce086b5644e9f0a08d08a": [
-    { "container": "578f87a3245977356274f2cb", "weight": 150 },
-    { "container": "5909e4b686f7747f5b744fa4", "weight": 150 },
-    { "container": "5c052cea86f7746b2101e8d8", "weight": 150 },
-    { "container": "578f8782245977354405a1e3", "weight": 150 },
-    { "container": "5d6d2b5486f774785c2ba8ea", "weight": 150 }
+    {
+      "container": "578f87a3245977356274f2cb",
+      "weight": 150
+    },
+    {
+      "container": "5909e4b686f7747f5b744fa4",
+      "weight": 150
+    },
+    {
+      "container": "5c052cea86f7746b2101e8d8",
+      "weight": 150
+    },
+    {
+      "container": "578f8782245977354405a1e3",
+      "weight": 150
+    },
+    {
+      "container": "5d6d2b5486f774785c2ba8ea",
+      "weight": 150
+    }
   ],
   "69774bb0a247161ff1068335": [
-    { "container": "5909e4b686f7747f5b744fa4", "weight": 939 },
-    { "container": "5d6fd13186f77424ad2a8c69", "weight": 3495 },
-    { "container": "578f87a3245977356274f2cb", "weight": 2741 }
+    {
+      "container": "5909e4b686f7747f5b744fa4",
+      "weightsByMap": {
+        "bigmap": 409,
+        "interchange": 99,
+        "shoreline": 616,
+        "woods": 417,
+        "tarkovstreets": 3457,
+        "lighthouse": 671,
+        "rezervbase": 483,
+        "factory4_day": 257,
+        "factory4_night": 237,
+        "sandbox": 1855,
+        "sandbox_high": 1828
+      }
+    },
+    {
+      "container": "6582e6d7b14c3f72eb071420",
+      "weightsByMap": {
+        "bigmap": 428,
+        "woods": 487,
+        "laboratory": 26,
+        "factory4_day": 98,
+        "factory4_night": 88,
+        "sandbox": 1031,
+        "sandbox_high": 985
+      }
+    },
+    {
+      "container": "578f87a3245977356274f2cb",
+      "weightsByMap": {
+        "bigmap": 2527,
+        "interchange": 4388,
+        "shoreline": 3127,
+        "woods": 1999,
+        "tarkovstreets": 10108,
+        "lighthouse": 2862,
+        "rezervbase": 3002,
+        "laboratory": 1354,
+        "factory4_day": 524,
+        "factory4_night": 557,
+        "sandbox": 1188,
+        "sandbox_high": 1257
+      }
+    },
+    {
+      "container": "5d6d2bb386f774785b07a77a",
+      "weightsByMap": {
+        "bigmap": 574,
+        "interchange": 380,
+        "shoreline": 747,
+        "woods": 1612,
+        "tarkovstreets": 1146,
+        "lighthouse": 820
+      }
+    },
+    {
+      "container": "5d6d2b5486f774785c2ba8ea",
+      "weightsByMap": {
+        "bigmap": 404,
+        "interchange": 273,
+        "shoreline": 880,
+        "woods": 1354,
+        "lighthouse": 852
+      }
+    },
+    {
+      "container": "5d6fd13186f77424ad2a8c69",
+      "weightsByMap": {
+        "bigmap": 802,
+        "shoreline": 2278,
+        "woods": 4313,
+        "tarkovstreets": 2834,
+        "lighthouse": 1384,
+        "rezervbase": 15776,
+        "sandbox": 270,
+        "sandbox_high": 299
+      }
+    },
+    {
+      "container": "5c052cea86f7746b2101e8d8",
+      "weightsByMap": {
+        "interchange": 856,
+        "shoreline": 1047,
+        "tarkovstreets": 3038,
+        "lighthouse": 292,
+        "laboratory": 294,
+        "sandbox": 765,
+        "sandbox_high": 777
+      }
+    },
+    {
+      "container": "61aa1e9a32a4743c3453d2cf",
+      "weightsByMap": {
+        "lighthouse": 54
+      }
+    },
+    {
+      "container": "67adf5752fc5ee84020a9940",
+      "weightsByMap": {
+        "labyrinth": 251
+      }
+    }
   ]
 }
