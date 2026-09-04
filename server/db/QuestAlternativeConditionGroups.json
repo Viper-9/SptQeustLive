@@ -36,6 +36,19 @@
         "63ac1bd387413d64ae0ac22b",
         "63ac1c56972364554162a25e"
       ]
+    },
+    {
+      "questId": "675c03d1f7da9792a405549a",
+      "operator": "any",
+      "conditionIds": [
+        "675c0444db2b69f48942f37c",
+        "675c04497439eaed82b6dfeb",
+        "675c044cc482cb252c5a92d4",
+        "675c044e3691199fe911a641",
+        "675c3fbeb402d4fa5589516f",
+        "675c3fd3a2c0bad5f70af01c",
+        "675c3fdd5af984e99db7b4e1"
+      ]
     }
   ]
 }
