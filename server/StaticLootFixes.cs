@@ -49,38 +49,59 @@ public class StaticLootAdditionLoader(
 
         foreach (var (mapKey, location) in GetRaidLocations(locationTable))
         {
-            var staticLoot = location.StaticLoot.Value;
-
-            foreach (var (itemTpl, additions) in additionsByItem)
+            if (location?.StaticLoot is null)
             {
-                foreach (var addition in additions)
-                {
-                    if (!staticLoot.TryGetValue(addition.Container, out var details))
-                    {
-                        continue;
-                    }
-
-                    var weight = addition.WeightsByMap != null && addition.WeightsByMap.TryGetValue(mapKey, out var mapWeight)
-                        ? mapWeight
-                        : addition.Weight;
-
-                    if (weight is null)
-                    {
-                        continue;
-                    }
-
-                    var distribution = details.ItemDistribution?.ToList() ?? new List<ItemDistribution>();
-                    distribution.Add(new ItemDistribution
-                    {
-                        Tpl = itemTpl,
-                        RelativeProbability = weight.Value
-                    });
-                    details.ItemDistribution = distribution;
-                }
+                continue;
             }
+
+            var currentMapKey = mapKey;
+            location.StaticLoot.AddTransformer(staticLoot =>
+            {
+                ApplyAdditions(currentMapKey, staticLoot, additionsByItem);
+                return staticLoot;
+            });
         }
 
         return Task.CompletedTask;
+    }
+
+    private static void ApplyAdditions(
+        string mapKey,
+        Dictionary<MongoId, StaticLootDetails>? staticLoot,
+        Dictionary<MongoId, List<StaticLootAddition>> additionsByItem)
+    {
+        if (staticLoot is null)
+        {
+            return;
+        }
+
+        foreach (var (itemTpl, additions) in additionsByItem)
+        {
+            foreach (var addition in additions)
+            {
+                if (!staticLoot.TryGetValue(addition.Container, out var details) || details is null)
+                {
+                    continue;
+                }
+
+                var weight = addition.WeightsByMap != null && addition.WeightsByMap.TryGetValue(mapKey, out var mapWeight)
+                    ? mapWeight
+                    : addition.Weight;
+
+                if (weight is null)
+                {
+                    continue;
+                }
+
+                var distribution = details.ItemDistribution?.ToList() ?? new List<ItemDistribution>();
+                distribution.Add(new ItemDistribution
+                {
+                    Tpl = itemTpl,
+                    RelativeProbability = weight.Value
+                });
+                details.ItemDistribution = distribution;
+            }
+        }
     }
 
     private static IEnumerable<(string MapKey, Location Location)> GetRaidLocations(LocationTable table) =>
