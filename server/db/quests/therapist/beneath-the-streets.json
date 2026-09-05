@@ -1,0 +1,387 @@
+{
+  "66aba85403e0ee3101042877": {
+    "QuestName": "Beneath The Streets",
+    "_id": "66aba85403e0ee3101042877",
+    "acceptPlayerMessage": "66aba85403e0ee3101042877 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "66aba85403e0ee3101042877 changeQuestMessageText",
+    "completePlayerMessage": "66aba85403e0ee3101042877 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "66aba8e1c1287cfa3c95c4f3",
+                "target": "Labs_transits",
+                "value": 1
+              }
+            ],
+            "id": "66aba85403e0ee3101042879"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "66aba85403e0ee3101042878",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "66aba85403e0ee310104287a",
+          "type": "Discover",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "66aa5c2c2ba4b7b5dedbb17d",
+                "status": [
+                  "Transit"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "66aba5605dd2fd130ae8dc10",
+                "target": [
+                  "TarkovStreets"
+                ]
+              }
+            ],
+            "id": "66aba85403e0ee310104287b"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "66aba85403e0ee310104287a",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "66b090fe3b87dd519f09f832",
+                "target": "Server_room",
+                "value": 1
+              }
+            ],
+            "id": "66b090f527b0de0570ba7fba"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "66b090f5723e7bbe8b518ca8",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Discover",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "66b091115f28064a23ee7a9d",
+                "target": "Dome",
+                "value": 1
+              }
+            ],
+            "id": "66b09109e589c2514aa7ada8"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "66b0910951c5294b9d213918",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Discover",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "66b10f04f206c499dd376492",
+                "target": "Control_room",
+                "value": 1
+              }
+            ],
+            "id": "66b10eef7e63bf562b8ffb94"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "66b10eef0951e90ec383850b",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Discover",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "66aba990872910d6a30eba79",
+                "target": "Transits_streets",
+                "value": 1
+              }
+            ],
+            "id": "66aba97b8a91e8b6833f866c"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "66aba97b1000025218c82ea8",
+          "index": 5,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Discover",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "66b3558628888f10fae0b403",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "64f731ab83cfca080a361e42",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "66aba85403e0ee3101042877 declinePlayerMessage",
+    "description": "66aba85403e0ee3101042877 description",
+    "failMessageText": "66aba85403e0ee3101042877 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5d694c9086f77468c86a6ada.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "marathon",
+    "name": "66aba85403e0ee3101042877 name",
+    "note": "66aba85403e0ee3101042877 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "66b4e6bc03449f31fe0b8161",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e5913fe54",
+              "_tpl": "5c94bbff86f7747ee735c08f",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e5913fe54",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "66b4e2ab56c691c729067926",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 46700
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "66b4e31719dda2f1f30fec63",
+          "isHidden": false,
+          "target": "54cb57776803fa99248b456e",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "66b4e3246613a81cfa00af4f",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e5913fe56",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 165000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e5913fe56",
+          "type": "Item",
+          "unknown": false,
+          "value": 165000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "66b4e33df6f89f9abe074921",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e5913fe58",
+              "_tpl": "5aafbcd986f7745e590fff23",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e5913fe58",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "30ccc8afc77b3ccd6472a61e",
+          "isHidden": false,
+          "target": "Health",
+          "type": "Skill",
+          "unknown": false,
+          "value": 200
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "d97f86682508aca3d97fd4ef",
+          "isHidden": false,
+          "target": "Surgery",
+          "type": "Skill",
+          "unknown": false,
+          "value": 400
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "e2c587052b124ef8e05d3b0a",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "e98d3f690ffaad884f942211",
+              "_tpl": "5c0e534186f7747fa1419867",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "e98d3f690ffaad884f942211",
+          "traderId": 7,
+          "type": "ProductionScheme",
+          "unknown": false
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "66aba85403e0ee3101042877 startedMessageText",
+    "status": 0,
+    "successMessageText": "66aba85403e0ee3101042877 successMessageText",
+    "traderId": "54cb57776803fa99248b456e",
+    "type": "Discover"
+  }
+}

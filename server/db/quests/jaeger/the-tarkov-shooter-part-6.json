@@ -1,0 +1,223 @@
+{
+  "5bc4836986f7740c0152911c": {
+    "QuestName": "The Tarkov Shooter - Part 6",
+    "_id": "5bc4836986f7740c0152911c",
+    "acceptPlayerMessage": "5bc4836986f7740c0152911c acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5bc4836986f7740c0152911c changeQuestMessageText",
+    "completePlayerMessage": "5bc4836986f7740c0152911c completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "5bc489ec86f7746b7978fe69",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "marksman"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [
+                  "5bfd297f0db834001a669119",
+                  "5ae08f0a5acfc408fb1398a1",
+                  "55801eed4bdc2d89578b4588",
+                  "588892092459774ac91d4b11",
+                  "5bfea6e90db834001b7347f3",
+                  "5de652c31b7e3716273428be",
+                  "5df24cf80dee1b22f862e9bc",
+                  "61f7c9e189e6fb1a5e3ea78d",
+                  "627e14b21713922ded6f2c15",
+                  "67c6de3ce39861860909e8e5",
+                  "673cab3e03c6a20581028bc1"
+                ],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "5bc483ba86f77415034ba8cf"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5bc483ba86f77415034ba8d0",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 5,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5bdabf5386f7743e152e867c",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5bc4826c86f774106d22d88b",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5bc4836986f7740c0152911c declinePlayerMessage",
+    "description": "5bc4836986f7740c0152911c description",
+    "failMessageText": "5bc4836986f7740c0152911c failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5bc481ec86f7740c8649a4f1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "5bc4836986f7740c0152911c name",
+    "note": "5bc4836986f7740c0152911c note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5bc4836986f7740c0152911c startedMessageText",
+    "status": 0,
+    "successMessageText": "5bc4836986f7740c0152911c successMessageText",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "type": "Elimination",
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc9cdc65e4664318606b65",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 13100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc9cdfa7d63f18200a2518",
+          "isHidden": false,
+          "target": "5c0647fdd443bc2504c2d371",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "aff6e446e338accc724ae84b",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "717d612de9d12431a4f00dc1",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 275000
+              }
+            }
+          ],
+          "target": "717d612de9d12431a4f00dc1",
+          "type": "Item",
+          "unknown": false,
+          "value": 275000
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "64e7b488b57ec17342fe85c2",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "313ee8c20cf7401c033399a2",
+              "_tpl": "5bae13bad4351e00320204af"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "313ee8c20cf7401c033399a2",
+          "traderId": "5c0647fdd443bc2504c2d371",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "1b3476948bfaa1f162a6125e",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "a0ed648eafa64ecacebdbcab",
+              "_tpl": "5bae13bad4351e00320204af",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "ed30654552401c5942fa5e67",
+              "_tpl": "5bae13bad4351e00320204af",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "ed30654552401c5942fa5e67",
+          "type": "Item",
+          "unknown": false,
+          "value": 2
+        }
+      ]
+    }
+  }
+}

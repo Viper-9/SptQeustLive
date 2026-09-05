@@ -1,0 +1,223 @@
+{
+  "5a68667486f7742607157d28": {
+    "QuestName": "Health Care Privacy - Part 4",
+    "_id": "5a68667486f7742607157d28",
+    "acceptPlayerMessage": "5a68667486f7742607157d28 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5a68667486f7742607157d28 changeQuestMessageText",
+    "completePlayerMessage": "5a68667486f7742607157d28 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPartsWithEffects": [
+                  {
+                    "bodyParts": [
+                      "Chest"
+                    ],
+                    "effects": [
+                      "ChronicStaminaFatigue"
+                    ]
+                  }
+                ],
+                "conditionType": "HealthEffect",
+                "dynamicLocale": false,
+                "energy": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "hydration": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "id": "6a606ed135787a39490583d3",
+                "time": {
+                  "compareMethod": ">=",
+                  "value": 480
+                }
+              }
+            ],
+            "id": "6a606eb4db29e0264e119b6e"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a606eb43eb95a13ff6aa1f3",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Skill",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a68780786f7741f977638c2",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5a68665c86f774255929b4c7",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5a68667486f7742607157d28 declinePlayerMessage",
+    "description": "5a68667486f7742607157d28 description",
+    "failMessageText": "5a68667486f7742607157d28 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "5a68667486f7742607157d28 name",
+    "note": "5a68667486f7742607157d28 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60c8c4cba0b5c924fc6e9d57",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 6000
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60c8c4cf1f21c1669a48c335",
+          "isHidden": false,
+          "target": "54cb57776803fa99248b456e",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.04
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "5a68872c86f77472c17ca5cf",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140716",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 29000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140716",
+          "type": "Item",
+          "unknown": false,
+          "value": 29000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "5a68871286f77430c15bc4c9",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140718",
+              "_tpl": "590c657e86f77412b013051d",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140719",
+              "_tpl": "590c657e86f77412b013051d",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140719",
+          "type": "Item",
+          "unknown": false,
+          "value": 2
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cb71186a2a1958fc522d0c",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e5914071b",
+              "_tpl": "59e3606886f77417674759a5",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914071c",
+              "_tpl": "59e3606886f77417674759a5",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e5914071c",
+          "type": "Item",
+          "unknown": false,
+          "value": 2
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5a68667486f7742607157d28 startedMessageText",
+    "status": 0,
+    "successMessageText": "5a68667486f7742607157d28 successMessageText",
+    "traderId": "54cb57776803fa99248b456e",
+    "type": "Skill"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "64916da7ad4e722c106f2345": {
+    "QuestName": "Failed Setup",
+    "_id": "64916da7ad4e722c106f2345",
+    "acceptPlayerMessage": "64916da7ad4e722c106f2345 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "64916da7ad4e722c106f2345 changeQuestMessageText",
+    "completePlayerMessage": "64916da7ad4e722c106f2345 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "Kills",
+                "dynamicLocale": false,
+                "id": "64916ebf0509dd09725d7065",
+                "savageRole": [
+                  "sectantPriest",
+                  "sectantWarrior"
+                ],
+                "target": "Savage"
+              }
+            ],
+            "id": "64916dc0ad4e722c106f2346"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "64916dc0ad4e722c106f2345",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 30,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [],
+      "Fail": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "Kills",
+                "id": "6492c2b3fbe99864862dc1f5",
+                "savageRole": [
+                  "assault",
+                  "cursedAssault",
+                  "marksman",
+                  "savage"
+                ],
+                "target": "Savage"
+              }
+            ],
+            "id": "6492c20965ee910b9d7fbce7"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "id": "6492c20965ee910b9d7fbce6",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "64916da7ad4e722c106f2345 declinePlayerMessage",
+    "description": "64916da7ad4e722c106f2345 description",
+    "failMessageText": "64916da7ad4e722c106f2345 failMessageText",
+    "image": "/files/quest/icon/6499ae386e932425bb03fb2f.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "64916da7ad4e722c106f2345 name",
+    "note": "64916da7ad4e722c106f2345 note",
+    "restartable": true,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "6491e72ff8040d427a3a5c26",
+          "index": 0,
+          "items": [
+            {
+              "_id": "64a2e6f09b9ad2b93b0cab9c",
+              "_tpl": "62e7e7bbe6da9612f743f1e0"
+            }
+          ],
+          "loyaltyLevel": 1,
+          "target": "64a2e6f09b9ad2b93b0cab9c",
+          "traderId": "5a7c2eca46aef81a7ca2145d",
+          "type": "AssortmentUnlock"
+        },
+        {
+          "id": "6491e749ad4e722c106f2348",
+          "index": 1,
+          "items": [
+            {
+              "_id": "64a2e6f09b9ad2b93b0cab9d",
+              "_tpl": "5656eb674bdc2d35148b457c"
+            }
+          ],
+          "loyaltyLevel": 1,
+          "target": "64a2e6f09b9ad2b93b0cab9d",
+          "traderId": "5a7c2eca46aef81a7ca2145d",
+          "type": "AssortmentUnlock"
+        },
+        {
+          "id": "6491e71c3feb0c6db85581c6",
+          "index": 4,
+          "target": "5a7c2eca46aef81a7ca2145d",
+          "type": "TraderStanding",
+          "value": 0.15
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "64916da7ad4e722c106f2345 startedMessageText",
+    "successMessageText": "64916da7ad4e722c106f2345 successMessageText",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "type": "Elimination"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "5d25e2cc86f77443e47ae019": {
+    "QuestName": "The Huntsman Path - Forest Cleaning",
+    "_id": "5d25e2cc86f77443e47ae019",
+    "acceptPlayerMessage": "5d25e2cc86f77443e47ae019 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5d25e2cc86f77443e47ae019 changeQuestMessageText",
+    "completePlayerMessage": "5d25e2cc86f77443e47ae019 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "5d2701c086f7746a695c9b62",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "assault",
+                  "assaultGroup",
+                  "savage",
+                  "marksman"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "e90fc5b542177671203fc70e",
+                "target": [
+                  "RezervBase",
+                  "TarkovStreets",
+                  "Shoreline",
+                  "Lighthouse"
+                ]
+              }
+            ],
+            "id": "5d2701b586f77469f1599fe1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5d2701b586f77469f1599fe2",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 50,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5d7768bf86f774319c488824",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5d25e2b486f77409de05bba0",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5d25e2cc86f77443e47ae019 declinePlayerMessage",
+    "description": "5d25e2cc86f77443e47ae019 description",
+    "failMessageText": "5d25e2cc86f77443e47ae019 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5979f91c86f77402996bf9c2.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "5d25e2cc86f77443e47ae019 name",
+    "note": "5d25e2cc86f77443e47ae019 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cca37c646f74055e27653a",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 5900
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cca3a31bdece56c249cbe7",
+          "isHidden": false,
+          "target": "5c0647fdd443bc2504c2d371",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "5d6678cf86f774266f07fca3",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e591406ae",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 55000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e591406ae",
+          "type": "Item",
+          "unknown": false,
+          "value": 55000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "20021ace7e45f10ae5654dff",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "9ae528d3ce8936400f30ed40",
+              "_tpl": "590c35a486f774273531c822",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "40f7c817bff487a76a8e61a2",
+              "_tpl": "590c35a486f774273531c822",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "40f7c817bff487a76a8e61a2",
+          "type": "Item",
+          "unknown": false,
+          "value": 2
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5d25e2cc86f77443e47ae019 startedMessageText",
+    "status": 0,
+    "successMessageText": "5d25e2cc86f77443e47ae019 successMessageText",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "type": "Completion"
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "60e71c9ad54b755a3b53eb66": {
+    "QuestName": "The Cleaner",
+    "_id": "60e71c9ad54b755a3b53eb66",
+    "acceptPlayerMessage": "60e71c9ad54b755a3b53eb66 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "60e71c9ad54b755a3b53eb66 changeQuestMessageText",
+    "completePlayerMessage": "60e71c9ad54b755a3b53eb66 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "60e745f3d1a062318d3d2264",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "pmcBot",
+                  "pmcBotBlackDiv",
+                  "followerBullyBlackDiv",
+                  "bossBullyBlackDiv",
+                  "blackDivision"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "60e745fa5698ee7b05057459",
+                "target": [
+                  "RezervBase",
+                  "laboratory",
+                  "laboratory_dark"
+                ]
+              }
+            ],
+            "id": "60e745d6479eef59b01b0bdb"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60e745d6479eef59b01b0bdc",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "610147ac43d55d251d68e4fb",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5c0d4e61d09282029f53920e",
+          "visibilityConditions": []
+        },
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "610147b0683d6b506f258f96",
+          "index": 0,
+          "parentId": "",
+          "value": 45,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "60e71c9ad54b755a3b53eb66 declinePlayerMessage",
+    "description": "60e71c9ad54b755a3b53eb66 description",
+    "failMessageText": "60e71c9ad54b755a3b53eb66 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5d69483686f77414077d1cca.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e5fad2720bc05b8b4567",
+    "name": "60e71c9ad54b755a3b53eb66 name",
+    "note": "60e71c9ad54b755a3b53eb66 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6102782550bb44526c34c81e",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 84000
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "655b76689db22d43ab42b70b",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e591400fa",
+              "_tpl": "5fd20ff893a8961fc660a954",
+              "upd": {
+                "StackObjectsCount": 60
+              }
+            },
+            {
+              "_id": "68a9695194f6582e591400fb",
+              "_tpl": "5fd20ff893a8961fc660a954",
+              "upd": {
+                "StackObjectsCount": 30
+              }
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "68a9695194f6582e591400fb",
+          "traderId": 10,
+          "type": "ProductionScheme",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6102969b9386cf6f25373c49",
+          "isHidden": false,
+          "target": "Assault",
+          "type": "Skill",
+          "unknown": false,
+          "value": 200
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "610296a7e0211147291533d9",
+          "isHidden": false,
+          "target": "SMG",
+          "type": "Skill",
+          "unknown": false,
+          "value": 200
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "64145a1ee2a21acb9008dd90",
+          "isHidden": false,
+          "target": "DMR",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "610296bde10c48364e47a920",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e591400fd",
+              "_tpl": "569668774bdc2da2298b4568",
+              "upd": {
+                "StackObjectsCount": 3000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e591400fd",
+          "type": "Item",
+          "unknown": true,
+          "value": 3000
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a706ae00e4396b0d817b333",
+          "isHidden": false,
+          "target": "ec5a41b3648f2094a93ed33b",
+          "loyaltyLevel": 4,
+          "traderId": "5935c25fb3acc3127c3d8cd9",
+          "items": [
+            {
+              "_id": "ec5a41b3648f2094a93ed33b",
+              "_tpl": "58dd3ad986f77403051cba8f"
+            }
+          ],
+          "type": "AssortmentUnlock",
+          "unknown": false
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "60e71c9ad54b755a3b53eb66 startedMessageText",
+    "status": 0,
+    "successMessageText": "60e71c9ad54b755a3b53eb66 successMessageText",
+    "traderId": "5935c25fb3acc3127c3d8cd9",
+    "type": "Elimination"
+  }
+}

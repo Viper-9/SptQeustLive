@@ -1,0 +1,202 @@
+{
+  "5a27bb5986f7741dfb660900": {
+    "QuestName": "Cargo X - Part 3",
+    "_id": "5a27bb5986f7741dfb660900",
+    "acceptPlayerMessage": "5a27bb5986f7741dfb660900 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5a27bb5986f7741dfb660900 changeQuestMessageText",
+    "completePlayerMessage": "5a27bb5986f7741dfb660900 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "5a3ba7e386f7744df8669f41",
+                "target": "place_peacemaker_009_3_N1",
+                "value": 1
+              }
+            ],
+            "id": "5a3ba7db86f7744f0e568c9b"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a3ba7db86f7744f0e568c9c",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a3a72ba86f7745a9d6892fd",
+          "index": 0,
+          "parentId": "",
+          "value": 12,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a281a8386f77462f9653a8e",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5a27bb3d86f77411ea361a21",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5a27bb5986f7741dfb660900 declinePlayerMessage",
+    "description": "5a27bb5986f7741dfb660900 description",
+    "failMessageText": "5a27bb5986f7741dfb660900 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/597a172486f774799e5cd153.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e554d2720bac5b8b456e",
+    "name": "5a27bb5986f7741dfb660900 name",
+    "note": "5a27bb5986f7741dfb660900 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc6ee7af2e5506c37822a6",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 8400
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc6ee965e4664318606add",
+          "isHidden": false,
+          "target": "5935c25fb3acc3127c3d8cd9",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "5a281ab686f77460d76ef746",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e591403dc",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 900
+              }
+            }
+          ],
+          "target": "68a9695194f6582e591403dc",
+          "type": "Item",
+          "unknown": false,
+          "value": 900
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc6f1877dc197c774254b4",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e591403dd",
+              "_tpl": "5ba26383d4351e00334c93d9",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e591403de",
+              "_tpl": "5ba264f6d4351e0034777d52",
+              "parentId": "68a9695194f6582e591403dd",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "68a9695194f6582e591403df",
+              "_tpl": "5ba26acdd4351e003562908e",
+              "parentId": "68a9695194f6582e591403dd",
+              "slotId": "mod_muzzle"
+            },
+            {
+              "_id": "68a9695194f6582e591403e0",
+              "_tpl": "5ba26b01d4351e0085325a51",
+              "parentId": "68a9695194f6582e591403dd",
+              "slotId": "mod_sight_front"
+            },
+            {
+              "_id": "68a9695194f6582e591403e1",
+              "_tpl": "5ba26b17d4351e00367f9bdd",
+              "parentId": "68a9695194f6582e591403dd",
+              "slotId": "mod_sight_rear"
+            },
+            {
+              "_id": "68a9695194f6582e591403e2",
+              "_tpl": "5bcf0213d4351e0085327c17",
+              "parentId": "68a9695194f6582e591403dd",
+              "slotId": "mod_stock"
+            }
+          ],
+          "target": "68a9695194f6582e591403dd",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5a27bb5986f7741dfb660900 startedMessageText",
+    "status": 0,
+    "successMessageText": "5a27bb5986f7741dfb660900 successMessageText",
+    "traderId": "5935c25fb3acc3127c3d8cd9",
+    "type": "Multi"
+  }
+}

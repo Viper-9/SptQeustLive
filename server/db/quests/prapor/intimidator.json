@@ -1,0 +1,288 @@
+{
+  "60e71bb4e456d449cd47ca75": {
+    "QuestName": "Intimidator",
+    "_id": "60e71bb4e456d449cd47ca75",
+    "acceptPlayerMessage": "60e71bb4e456d449cd47ca75 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "60e71bb4e456d449cd47ca75 changeQuestMessageText",
+    "completePlayerMessage": "60e71bb4e456d449cd47ca75 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [
+                  "Head"
+                ],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "60ec2a1896463e7027769381",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "assault",
+                  "assaultGroup",
+                  "savage",
+                  "marksman"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "60e8650e5d67b234af3d3925"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60e8650e5d67b234af3d3926",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 40,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "610145de61801e6c2626a1b3",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "59ca2eb686f77445a80ed049",
+          "visibilityConditions": []
+        },
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "610145e14a065318776a1e75",
+          "index": 0,
+          "parentId": "",
+          "value": 45,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "60e71bb4e456d449cd47ca75 declinePlayerMessage",
+    "description": "60e71bb4e456d449cd47ca75 description",
+    "failMessageText": "60e71bb4e456d449cd47ca75 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5a27cafa86f77424e20615d6.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "60e71bb4e456d449cd47ca75 name",
+    "note": "60e71bb4e456d449cd47ca75 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60f0379012fec2032136703f",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 84000
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a660a5935ba22b993ec5f87",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "4668c1e79c3a13d1222ddb83",
+              "_tpl": "59e0d99486f7744a32234762",
+              "upd": {
+                "StackObjectsCount": 60
+              }
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "4668c1e79c3a13d1222ddb83",
+          "traderId": 10,
+          "type": "ProductionScheme",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a660a6ffd9315543a83f1d2",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "086297f4e11a12ebd996d718",
+              "_tpl": "64acea16c4eda9354b0226b0",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "2e202c88778c6a8d949addb8",
+              "_tpl": "59e0d99486f7744a32234762",
+              "parentId": "086297f4e11a12ebd996d718",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "6d1def152f2516f8cce765d9",
+              "_tpl": "64acea16c4eda9354b0226b0",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "54eb9b0261194413416b8d7c",
+              "_tpl": "59e0d99486f7744a32234762",
+              "parentId": "6d1def152f2516f8cce765d9",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "364b7bbde56d969ef5cfa929",
+              "_tpl": "64acea16c4eda9354b0226b0",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "060c0735d1d7a3e60c147cf4",
+              "_tpl": "59e0d99486f7744a32234762",
+              "parentId": "364b7bbde56d969ef5cfa929",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "d74be6fca5876ced6728127d",
+              "_tpl": "64acea16c4eda9354b0226b0",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "77fde5576b781699a2a68ae4",
+              "_tpl": "59e0d99486f7744a32234762",
+              "parentId": "d74be6fca5876ced6728127d",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "ef313b7a0752187b1883b0a7",
+              "_tpl": "64acea16c4eda9354b0226b0",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "f867b44af6a81ce89febdfe2",
+              "_tpl": "59e0d99486f7744a32234762",
+              "parentId": "ef313b7a0752187b1883b0a7",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            }
+          ],
+          "target": "ef313b7a0752187b1883b0a7",
+          "type": "Item",
+          "unknown": false,
+          "value": 5
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a66733fbdafcce818f85b05",
+          "isHidden": false,
+          "target": "MagDrills",
+          "type": "Skill",
+          "unknown": false,
+          "value": 200
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a66730b91aecda92fc93c97",
+          "isHidden": false,
+          "target": "SMG",
+          "type": "Skill",
+          "unknown": false,
+          "value": 400
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "60e71bb4e456d449cd47ca75 startedMessageText",
+    "status": 0,
+    "successMessageText": "60e71bb4e456d449cd47ca75 successMessageText",
+    "traderId": "54cb50c76803fa8b248b4571",
+    "type": "Elimination"
+  }
+}

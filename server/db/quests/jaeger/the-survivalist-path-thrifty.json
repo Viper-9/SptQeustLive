@@ -1,0 +1,267 @@
+{
+  "5d25b6be86f77444001e1b89": {
+    "QuestName": "The Survivalist Path - Thrifty",
+    "_id": "5d25b6be86f77444001e1b89",
+    "acceptPlayerMessage": "5d25b6be86f77444001e1b89 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5d25b6be86f77444001e1b89 changeQuestMessageText",
+    "completePlayerMessage": "5d25b6be86f77444001e1b89 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5d25beca86f77409dd5cdbb3",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 0,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "590c5d4b86f774784e1b9c45"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "huntsman_005_1"
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5d25beeb86f77443fe45765f",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 0,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "5448fee04bdc2dbc018b4567"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "huntsman_005_1"
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5d2deedc86f77459121c3118",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 0,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "590c5d4b86f774784e1b9c45"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "huntsman_005_2"
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5d2defc586f774591510e6b9",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 0,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "5448fee04bdc2dbc018b4567"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "huntsman_005_2"
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5d76307886f774454c5360c1",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5d25aed386f77442734d25d2",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5d25b6be86f77444001e1b89 declinePlayerMessage",
+    "description": "5d25b6be86f77444001e1b89 description",
+    "failMessageText": "5d25b6be86f77444001e1b89 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/59675e7b86f77414b25fb049.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e3c2d2720bac5b8b4567",
+    "name": "5d25b6be86f77444001e1b89 name",
+    "note": "5d25b6be86f77444001e1b89 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc9f88826ca0323464bd14",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 4700
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc9f9f98b492706036460a",
+          "isHidden": false,
+          "target": "5c0647fdd443bc2504c2d371",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "isImportant": false,
+          "id": "5d656ddc86f77476d6220ed8",
+          "target": "a3b9555cb5751e57266f7ec0",
+          "value": 3,
+          "isEncoded": false,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "1fe424e1ce23043a8000d306",
+              "_tpl": "590c5d4b86f774784e1b9c45",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "2f24c038e81e732f15aec43a",
+              "_tpl": "590c5d4b86f774784e1b9c45",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "a3b9555cb5751e57266f7ec0",
+              "_tpl": "590c5d4b86f774784e1b9c45",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "isDeliverByMail": true,
+          "type": "Item"
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "isImportant": false,
+          "id": "5ec1a3db13e6fb78d4420dbe",
+          "target": "d27eabf4acdc749b37d697f0",
+          "value": 1,
+          "isEncoded": false,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "d27eabf4acdc749b37d697f0",
+              "_tpl": "5d1b36a186f7742523398433",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "isDeliverByMail": true,
+          "type": "Item"
+        },
+        {
+          "unknown": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": null,
+          "isHidden": false,
+          "isImportant": false,
+          "id": "62a6502a8ec41a51b34758de",
+          "target": "1261d712b9fdf27d6e1fd1bd",
+          "loyaltyLevel": 2,
+          "traderId": "5c0647fdd443bc2504c2d371",
+          "items": [
+            {
+              "_id": "1261d712b9fdf27d6e1fd1bd",
+              "_tpl": "590c5d4b86f774784e1b9c45"
+            }
+          ],
+          "type": "AssortmentUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5d25b6be86f77444001e1b89 startedMessageText",
+    "status": 0,
+    "successMessageText": "5d25b6be86f77444001e1b89 successMessageText",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "type": "Completion"
+  }
+}

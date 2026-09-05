@@ -1,0 +1,221 @@
+{
+  "60e71dc0a94be721b065bbfc": {
+    "QuestName": "Long Line",
+    "_id": "60e71dc0a94be721b065bbfc",
+    "acceptPlayerMessage": "60e71dc0a94be721b065bbfc acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "60e71dc0a94be721b065bbfc changeQuestMessageText",
+    "completePlayerMessage": "60e71dc0a94be721b065bbfc completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "60e73f4cd1a062318d3d225e",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "InZone",
+                "dynamicLocale": false,
+                "id": "60e73f9ca6e322250215f07f",
+                "zoneIds": [
+                  "place_merch_022_1",
+                  "place_merch_022_2",
+                  "place_merch_022_3",
+                  "place_merch_022_4",
+                  "place_merch_022_5",
+                  "place_merch_022_6",
+                  "place_merch_022_7"
+                ]
+              }
+            ],
+            "id": "60e73ee8b567ff641b12956f"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60e73ee8b567ff641b129570",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 4,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6101498dccda1c5f7b1dd091",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5ae449d986f774453a54a7e1",
+          "visibilityConditions": []
+        },
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "61014992e5b13723fc7609b1",
+          "index": 0,
+          "parentId": "",
+          "value": 45,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "60e71dc0a94be721b065bbfc declinePlayerMessage",
+    "description": "60e71dc0a94be721b065bbfc description",
+    "failMessageText": "60e71dc0a94be721b065bbfc failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5ae4a76086f774455f7d62d2.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5714dbc024597771384a510d",
+    "name": "60e71dc0a94be721b065bbfc name",
+    "note": "60e71dc0a94be721b065bbfc note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60f037405349d209ec627216",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 84000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "610291c0289a8754756b3a93",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140e2a",
+              "_tpl": "5df8a4d786f77412672a1e3b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140e2a",
+          "type": "Item",
+          "unknown": true,
+          "value": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "610291c3e10c48364e47a919",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140e2f",
+              "_tpl": "5f60c74e3b85f6263c145586",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140e30",
+              "_tpl": "657bc285aab96fccee08bea3",
+              "parentId": "68a9695194f6582e59140e2f",
+              "slotId": "Helmet_top",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140e31",
+              "_tpl": "657bc2c5a1c61ee0c3036333",
+              "parentId": "68a9695194f6582e59140e2f",
+              "slotId": "Helmet_back",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140e32",
+              "_tpl": "657bc2e7b30eca976305118d",
+              "parentId": "68a9695194f6582e59140e2f",
+              "slotId": "Helmet_ears",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140e2f",
+          "type": "Item",
+          "unknown": true,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "60e71dc0a94be721b065bbfc startedMessageText",
+    "status": 0,
+    "successMessageText": "60e71dc0a94be721b065bbfc successMessageText",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "type": "Elimination"
+  }
+}

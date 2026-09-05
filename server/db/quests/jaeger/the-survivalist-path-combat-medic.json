@@ -1,0 +1,134 @@
+{
+  "5d25e2a986f77409dd5cdf2a": {
+    "QuestName": "The Survivalist Path - Combat Medic",
+    "_id": "5d25e2a986f77409dd5cdf2a",
+    "acceptPlayerMessage": "5d25e2a986f77409dd5cdf2a acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5d25e2a986f77409dd5cdf2a changeQuestMessageText",
+    "completePlayerMessage": "5d25e2a986f77409dd5cdf2a completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Skill",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5d2605ef86f77469ef0f7622",
+          "index": 0,
+          "parentId": "",
+          "target": "Vitality",
+          "value": 5,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5d76336486f7744527181847",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5d25e29d86f7740a22516326",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5d25e2a986f77409dd5cdf2a declinePlayerMessage",
+    "description": "5d25e2a986f77409dd5cdf2a description",
+    "failMessageText": "5d25e2a986f77409dd5cdf2a failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5d67b7ba86f774131e206c0c.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "5d25e2a986f77409dd5cdf2a name",
+    "note": "5d25e2a986f77409dd5cdf2a note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cca281b2736c24b2118ba2",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 5900
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cca2849f89812e5b6aa884",
+          "isHidden": false,
+          "target": "5c0647fdd443bc2504c2d371",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cca27b646f74055e276539",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e5914071e",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 50000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e5914071e",
+          "type": "Item",
+          "unknown": false,
+          "value": 50000
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cca272826ca0323464bd17",
+          "isHidden": false,
+          "target": "Surgery",
+          "type": "Skill",
+          "unknown": false,
+          "value": 200
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5d25e2a986f77409dd5cdf2a startedMessageText",
+    "status": 0,
+    "successMessageText": "5d25e2a986f77409dd5cdf2a successMessageText",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "type": "Completion"
+  }
+}

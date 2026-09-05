@@ -1,0 +1,267 @@
+{
+  "5ae327c886f7745c7b3f2f3f": {
+    "QuestName": "Gunsmith - Part 10",
+    "_id": "5ae327c886f7745c7b3f2f3f",
+    "acceptPlayerMessage": "5ae327c886f7745c7b3f2f3f acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5ae327c886f7745c7b3f2f3f changeQuestMessageText",
+    "completePlayerMessage": "5ae327c886f7745c7b3f2f3f completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "baseAccuracy": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "conditionType": "WeaponAssembly",
+          "containsItems": [],
+          "durability": {
+            "compareMethod": ">=",
+            "value": 60
+          },
+          "dynamicLocale": false,
+          "effectiveDistance": {
+            "compareMethod": ">=",
+            "value": 800
+          },
+          "emptyTacticalSlot": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "ergonomics": {
+            "compareMethod": ">=",
+            "value": 21
+          },
+          "globalQuestCounterId": "",
+          "hasItemFromCategory": [
+            "550aa4cd4bdc2dd8348b456c"
+          ],
+          "height": {
+            "compareMethod": ">=",
+            "value": 2
+          },
+          "id": "5ae445f386f7744e87761331",
+          "index": 0,
+          "magazineCapacity": {
+            "compareMethod": ">=",
+            "value": 60
+          },
+          "muzzleVelocity": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "parentId": "",
+          "recoil": {
+            "compareMethod": "<=",
+            "value": 500
+          },
+          "target": [
+            "5ac66d9b5acfc4001633997a"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "weight": {
+            "compareMethod": "<=",
+            "value": 4.8
+          },
+          "width": {
+            "compareMethod": ">=",
+            "value": 4
+          }
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5af413e486f774522e3438df",
+          "index": 0,
+          "parentId": "",
+          "value": 20,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5af413ce86f774522e3438ae",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "639872fa9b4fb827b200d8e5",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5ae327c886f7745c7b3f2f3f declinePlayerMessage",
+    "description": "5ae327c886f7745c7b3f2f3f description",
+    "failMessageText": "5ae327c886f7745c7b3f2f3f failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5ae327e086f7742a4135935e.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "5ae327c886f7745c7b3f2f3f name",
+    "note": "5ae327c886f7745c7b3f2f3f note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc7828f09d61072d6d00bf",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 10400
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc782a7c496e588343a6db",
+          "isHidden": false,
+          "target": "5a7c2eca46aef81a7ca2145d",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6398afbac8f8cc12a47b02a9",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140fb9",
+              "_tpl": "5c06779c86f77426e00dd782",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140fba",
+              "_tpl": "5c06779c86f77426e00dd782",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140fbb",
+              "_tpl": "5c06779c86f77426e00dd782",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140fbc",
+              "_tpl": "5c06779c86f77426e00dd782",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140fbd",
+              "_tpl": "5c06779c86f77426e00dd782",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140fbd",
+          "type": "Item",
+          "unknown": false,
+          "value": 5
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6398afc5e11ec11ff550403b",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140fbf",
+              "_tpl": "61bf7b6302b3924be92fa8c3",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140fc0",
+              "_tpl": "61bf7b6302b3924be92fa8c3",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140fc0",
+          "type": "Item",
+          "unknown": false,
+          "value": 2
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "63a19c1ed6d4651e53602aeb",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140fc1",
+              "_tpl": "5aafbde786f774389d0cbc0f"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "68a9695194f6582e59140fc1",
+          "traderId": "5a7c2eca46aef81a7ca2145d",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5ae327c886f7745c7b3f2f3f startedMessageText",
+    "status": 0,
+    "successMessageText": "5ae327c886f7745c7b3f2f3f successMessageText",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "type": "WeaponAssembly"
+  }
+}

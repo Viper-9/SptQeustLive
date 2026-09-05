@@ -1,0 +1,357 @@
+{
+  "676529af9c90953d090882e7": {
+    "QuestName": "Gunsmith - Old Friends Request",
+    "_id": "676529af9c90953d090882e7",
+    "acceptPlayerMessage": "676529af9c90953d090882e7 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "676529af9c90953d090882e7 changeQuestMessageText",
+    "completePlayerMessage": "676529af9c90953d090882e7 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "baseAccuracy": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "conditionType": "WeaponAssembly",
+          "containsItems": [
+            "5aa66be6e5b5b0214e506e97",
+            "5888961624597754281f93f3"
+          ],
+          "durability": {
+            "compareMethod": ">=",
+            "value": 60
+          },
+          "dynamicLocale": false,
+          "effectiveDistance": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "emptyTacticalSlot": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "ergonomics": {
+            "compareMethod": ">=",
+            "value": 18
+          },
+          "globalQuestCounterId": "",
+          "hasItemFromCategory": [
+            "550aa4cd4bdc2dd8348b456c"
+          ],
+          "height": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "id": "676529e759261ce07bc47b62",
+          "index": 0,
+          "magazineCapacity": {
+            "compareMethod": ">=",
+            "value": 5
+          },
+          "muzzleVelocity": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "parentId": "",
+          "recoil": {
+            "compareMethod": "<=",
+            "value": 500
+          },
+          "target": [
+            "5df24cf80dee1b22f862e9bc"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "weight": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "width": {
+            "compareMethod": ">=",
+            "value": 0
+          }
+        },
+        {
+          "baseAccuracy": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "conditionType": "WeaponAssembly",
+          "containsItems": [
+            "58d399e486f77442e0016fe7",
+            "58d39b0386f77443380bf13c",
+            "5c1bc7752e221602b1779b34",
+            "5649ae4a4bdc2d1b2b8b4588",
+            "544909bb4bdc2d6f028b4577",
+            "59bfc5c886f7743bf6794e62",
+            "59ecc3dd86f7746dc827481c",
+            "560d657b4bdc2da74d8b4572"
+          ],
+          "durability": {
+            "compareMethod": ">=",
+            "value": 60
+          },
+          "dynamicLocale": false,
+          "effectiveDistance": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "emptyTacticalSlot": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "ergonomics": {
+            "compareMethod": ">=",
+            "value": 57
+          },
+          "globalQuestCounterId": "",
+          "hasItemFromCategory": [],
+          "height": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "id": "676529af9c90953d090882ea",
+          "index": 1,
+          "magazineCapacity": {
+            "compareMethod": ">=",
+            "value": 30
+          },
+          "muzzleVelocity": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "parentId": "",
+          "recoil": {
+            "compareMethod": "<=",
+            "value": 400
+          },
+          "target": [
+            "59984ab886f7743e98271174"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "weight": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "width": {
+            "compareMethod": ">=",
+            "value": 0
+          }
+        },
+        {
+          "baseAccuracy": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "conditionType": "WeaponAssembly",
+          "containsItems": [
+            "560d657b4bdc2da74d8b4572",
+            "5a7b4960e899ef197b331a2d",
+            "5a6b5e468dc32e001207faf5",
+            "5a6b592c8dc32e00094b97bf",
+            "5a718da68dc32e000d46d264"
+          ],
+          "durability": {
+            "compareMethod": ">=",
+            "value": 60
+          },
+          "dynamicLocale": false,
+          "effectiveDistance": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "emptyTacticalSlot": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "ergonomics": {
+            "compareMethod": ">=",
+            "value": 90
+          },
+          "globalQuestCounterId": "",
+          "hasItemFromCategory": [],
+          "height": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "id": "67652a2f4f75e1a9543289ed",
+          "index": 2,
+          "magazineCapacity": {
+            "compareMethod": ">=",
+            "value": 21
+          },
+          "muzzleVelocity": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "parentId": "",
+          "recoil": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "target": [
+            "5a7ae0c351dfba0017554310"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "weight": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "width": {
+            "compareMethod": ">=",
+            "value": 0
+          }
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "676529af9c90953d090882e9",
+          "index": 0,
+          "parentId": "",
+          "value": 17,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5af413ae86f774522e3438a5",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5ac244eb86f7741356335af1",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "676529af9c90953d090882e7 declinePlayerMessage",
+    "description": "676529af9c90953d090882e7 description",
+    "failMessageText": "676529af9c90953d090882e7 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5ac4dbb086f7743e7c61ca09.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "676529af9c90953d090882e7 name",
+    "note": "676529af9c90953d090882e7 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "676529af9c90953d090882eb",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 21930
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "676529af9c90953d090882ec",
+          "isHidden": false,
+          "target": "5a7c2eca46aef81a7ca2145d",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.04
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "676529af9c90953d090882ed",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e5913feae",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 155000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e5913feae",
+          "type": "Item",
+          "unknown": false,
+          "value": 155000
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "676d5b242401767e2bd05b3d",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e5913feaf",
+              "_tpl": "67600929bd0a0549d70993f6"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "68a9695194f6582e5913feaf",
+          "traderId": "5a7c2eca46aef81a7ca2145d",
+          "type": "AssortmentUnlock",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a708442b015af648116fef3",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "39d2d8078cb477ce84524abc",
+              "_tpl": "5c1d0f4986f7744bb01837fa"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "39d2d8078cb477ce84524abc",
+          "traderId": "5a7c2eca46aef81a7ca2145d",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "676529af9c90953d090882e7 startedMessageText",
+    "status": 0,
+    "successMessageText": "676529af9c90953d090882e7 successMessageText",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "type": "WeaponAssembly"
+  }
+}

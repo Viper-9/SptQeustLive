@@ -1,0 +1,248 @@
+{
+  "5a03296886f774569778596a": {
+    "QuestName": "Spa Tour - Part 4",
+    "_id": "5a03296886f774569778596a",
+    "acceptPlayerMessage": "5a03296886f774569778596a acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5a03296886f774569778596a changeQuestMessageText",
+    "completePlayerMessage": "5a03296886f774569778596a completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "5a3ba63c86f7744d39436d81",
+                "target": "place_peacemaker_008_4_N1",
+                "value": 1
+              }
+            ],
+            "id": "5a3ba62786f7742c9d4f5ee8"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a3ba62786f7742c9d4f5ee9",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a5cd11e5cf929b0f5d76816",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5d1b36a186f7742523398433",
+            "5d1b371186f774253763a656"
+          ],
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "5a3ba66786f7742c9d4f5ef1",
+                "target": "place_peacemaker_008_4_N2",
+                "value": 1
+              }
+            ],
+            "id": "5a3ba65f86f7743af1475f10"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a3ba65f86f7743af1475f11",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a3a724986f7745a9e0647df",
+          "index": 0,
+          "parentId": "",
+          "value": 12,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a03299c86f77457a7099f1b",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5a0327ba86f77456b9154236",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5a03296886f774569778596a declinePlayerMessage",
+    "description": "5a03296886f774569778596a description",
+    "failMessageText": "5a03296886f774569778596a failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5a27c50f86f7740b3d65e16a.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e554d2720bac5b8b456e",
+    "name": "5a03296886f774569778596a name",
+    "note": "5a03296886f774569778596a note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc6cf36a2a1958fc5231e9",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 7700
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc6cf7a7d63f18200a24c8",
+          "isHidden": false,
+          "target": "5935c25fb3acc3127c3d8cd9",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "5a280d8386f77456a46b8b5f",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e591402d4",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 1100
+              }
+            }
+          ],
+          "target": "68a9695194f6582e591402d4",
+          "type": "Item",
+          "unknown": false,
+          "value": 1100
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc6d088f570e28f1481146",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "b721401b598a13aa99dacc22",
+              "_tpl": "62a0a16d0b9d3c46de5b6e97",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "9286b31353e78db6c6a64e20",
+              "_tpl": "62a0a16d0b9d3c46de5b6e97",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "9286b31353e78db6c6a64e20",
+          "type": "Item",
+          "unknown": false,
+          "value": 2
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "d93bcbd20acc33939bb097b7",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "0422d84911160588db28c6a3",
+              "_tpl": "5d44069ca4b9361ebd26fc37"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "0422d84911160588db28c6a3",
+          "traderId": "5935c25fb3acc3127c3d8cd9",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5a03296886f774569778596a startedMessageText",
+    "status": 0,
+    "successMessageText": "5a03296886f774569778596a successMessageText",
+    "traderId": "5935c25fb3acc3127c3d8cd9",
+    "type": "Discover"
+  }
+}

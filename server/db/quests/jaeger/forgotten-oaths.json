@@ -1,0 +1,220 @@
+{
+  "67040ccdcc1f3752720376ef": {
+    "QuestName": "Forgotten Oaths",
+    "_id": "67040ccdcc1f3752720376ef",
+    "acceptPlayerMessage": "67040ccdcc1f3752720376ef acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "67040ccdcc1f3752720376ef changeQuestMessageText",
+    "completePlayerMessage": "67040ccdcc1f3752720376ef completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6706af6cf1cdc7ba44665711",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "6707d1f9571b50abc703b651"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6719135cfab45272c32a8c01",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "6707d1f9571b50abc703b651"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6707e7744eb12e7773251f1f",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "bossSanitar"
+                ],
+                "target": "Savage",
+                "value": 0,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6707e75828f94321227f3ba9"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6707e758f847ab10fd857441",
+          "index": 2,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6706af4634a71aa5c0639be1",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "67040cae4ac6d9c18c0ade2c",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6709244d3a07cc48f2908a1c",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67040cae4ac6d9c18c0ade2c",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "67040ccdcc1f3752720376ef declinePlayerMessage",
+    "description": "67040ccdcc1f3752720376ef description",
+    "failMessageText": "67040ccdcc1f3752720376ef failMessageText",
+    "image": "/files/quest/icon/671f89bfab3a1278b204cc33.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e554d2720bac5b8b456e",
+    "name": "67040ccdcc1f3752720376ef name",
+    "note": "67040ccdcc1f3752720376ef note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [
+        {
+          "availableInGameEditions": [],
+          "id": "671640e8871a5f0963d0360c",
+          "index": 0,
+          "target": "54cb57776803fa99248b456e",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": -0.15
+        }
+      ],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "6716409d64cc69fc82b41f0a",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 45000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "671640aca6c83a8f0d85b091",
+          "index": 1,
+          "target": "5c0647fdd443bc2504c2d371",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.1
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "671640bd6217dd19faabc7a3",
+          "index": 2,
+          "items": [
+            {
+              "_id": "6728df85772964fbed0bc36f",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 150000
+              }
+            }
+          ],
+          "target": "6728df85772964fbed0bc36f",
+          "type": "Item",
+          "unknown": false,
+          "value": 150000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "671640dbe9a123a38fceec65",
+          "index": 3,
+          "items": [
+            {
+              "_id": "6728df85772964fbed0bc371",
+              "_tpl": "5d235bb686f77443f4331278",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6728df85772964fbed0bc371",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67040ccdcc1f3752720376ef startedMessageText",
+    "successMessageText": "67040ccdcc1f3752720376ef successMessageText",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "type": "Discover"
+  }
+}

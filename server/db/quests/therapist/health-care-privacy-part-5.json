@@ -1,0 +1,192 @@
+{
+  "5a68669a86f774255929b4d4": {
+    "QuestName": "Health Care Privacy - Part 5",
+    "_id": "5a68669a86f774255929b4d4",
+    "acceptPlayerMessage": "5a68669a86f774255929b4d4 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5a68669a86f774255929b4d4 changeQuestMessageText",
+    "completePlayerMessage": "5a68669a86f774255929b4d4 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "5a6879cf86f7745f5c382c3e",
+                "target": "ter_017_area_1",
+                "value": 1
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "5dbabe4f5c1333728b71deb4",
+                "target": [
+                  "factory4_night"
+                ]
+              }
+            ],
+            "id": "5a6879be86f774284429b1ba"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a6879be86f774284429b1bb",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a687a1c86f7745f2152168c",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 15,
+          "target": [
+            "590c5a7286f7747884343aea",
+            "5d6fc87386f77449db3db94e",
+            "5d6fc78386f77449d825f9dc"
+          ],
+          "value": 3,
+          "visibilityConditions": [],
+          "zoneId": "ter_017_area_1"
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5a68793b86f77423391f3926",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5a68667486f7742607157d28",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5a68669a86f774255929b4d4 declinePlayerMessage",
+    "description": "5a68669a86f774255929b4d4 description",
+    "failMessageText": "5a68669a86f774255929b4d4 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "59fc81d786f774390775787e",
+    "name": "5a68669a86f774255929b4d4 name",
+    "note": "5a68669a86f774255929b4d4 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60c8c4f080b2027f403dd9a1",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 7300
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60c8c4fea0b5c924fc6e9d58",
+          "isHidden": false,
+          "target": "54cb57776803fa99248b456e",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.04
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "5a6887c686f77472c17ca5ed",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e591406e6",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 35000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e591406e6",
+          "type": "Item",
+          "unknown": false,
+          "value": 35000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "5ac665d286f77405d472939f",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e591406e8",
+              "_tpl": "5aafbcd986f7745e590fff23",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e591406e8",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5a68669a86f774255929b4d4 startedMessageText",
+    "status": 0,
+    "successMessageText": "5a68669a86f774255929b4d4 successMessageText",
+    "traderId": "54cb57776803fa99248b456e",
+    "type": "Multi"
+  }
+}

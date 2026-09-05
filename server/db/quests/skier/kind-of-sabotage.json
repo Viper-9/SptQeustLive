@@ -1,0 +1,143 @@
+{
+  "596a101f86f7741ddb481582": {
+    "QuestName": "Kind of Sabotage",
+    "_id": "596a101f86f7741ddb481582",
+    "acceptPlayerMessage": "596a101f86f7741ddb481582 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "596a101f86f7741ddb481582 changeQuestMessageText",
+    "completePlayerMessage": "596a101f86f7741ddb481582 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "596a10d886f7741ddf17dbf0",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5938878586f7741b797c562f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "596a10af33f77420d232804c",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "596a0e1686f7741ddf17dbee",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "596a117386f7741ddf17dbf1",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "596a0e1686f7741ddf17dbee",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "596a101f86f7741ddb481582 declinePlayerMessage",
+    "description": "596a101f86f7741ddb481582 description",
+    "failMessageText": "596a101f86f7741ddb481582 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/59c274ae86f77475060a9341.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e3c2d2720bac5b8b4567",
+    "name": "596a101f86f7741ddb481582 name",
+    "note": "596a101f86f7741ddb481582 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60c8b0ee83161b326c47110f",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 4500
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60d0993b7e143314367f8268",
+          "isHidden": false,
+          "target": "58330581ace78e27b8b10cee",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.04
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "5a2e7c6a86f7741a943575b4",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e5913fe8a",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 180000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e5913fe8a",
+          "type": "Item",
+          "unknown": false,
+          "value": 180000
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "596a101f86f7741ddb481582 startedMessageText",
+    "status": 0,
+    "successMessageText": "596a101f86f7741ddb481582 successMessageText",
+    "traderId": "58330581ace78e27b8b10cee",
+    "type": "PickUp"
+  }
+}

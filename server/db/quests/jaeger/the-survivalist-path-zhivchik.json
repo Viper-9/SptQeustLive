@@ -1,0 +1,294 @@
+{
+  "5d25bfd086f77442734d3007": {
+    "QuestName": "The Survivalist Path - Zhivchik",
+    "_id": "5d25bfd086f77442734d3007",
+    "acceptPlayerMessage": "5d25bfd086f77442734d3007 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5d25bfd086f77442734d3007 changeQuestMessageText",
+    "completePlayerMessage": "5d25bfd086f77442734d3007 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPartsWithEffects": [
+                  {
+                    "bodyParts": [
+                      "Stomach"
+                    ],
+                    "effects": [
+                      "Dehydration"
+                    ]
+                  }
+                ],
+                "conditionType": "HealthEffect",
+                "dynamicLocale": false,
+                "energy": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "hydration": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "id": "5d25c5d086f77408251c4224",
+                "time": {
+                  "compareMethod": ">=",
+                  "value": 300
+                }
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "629f119690948017ee17c2e2",
+                "target": [
+                  "Shoreline",
+                  "Woods",
+                  "Sandbox_start",
+                  "Sandbox",
+                  "bigmap",
+                  "Interchange",
+                  "Labyrinth",
+                  "RezervBase",
+                  "TarkovStreets",
+                  "laboratory",
+                  "Lighthouse",
+                  "Sandbox_high",
+                  "laboratory_dark"
+                ]
+              }
+            ],
+            "id": "5d25c5a186f77443fe457660"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5d25c5a186f77443fe457661",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Experience",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "5d9f035a86f7741cab6b0182",
+                "status": [
+                  "Survived"
+                ]
+              }
+            ],
+            "id": "5d9f035086f7741cac4a9712"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5d9f035086f7741cac4a9713",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "5d9f036886f7741cac4a9714",
+              "target": "5d25c5a186f77443fe457661"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5dadc99686f7744b0f1b1d2a",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5d25b6be86f77444001e1b89",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5d25bfd086f77442734d3007 declinePlayerMessage",
+    "description": "5d25bfd086f77442734d3007 description",
+    "failMessageText": "5d25bfd086f77442734d3007 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5d67b3ed86f7744a2e70f15c.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "5d25bfd086f77442734d3007 name",
+    "note": "5d25bfd086f77442734d3007 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc9fda98b492706036460b",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 5700
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc9fdf646f74055e276536",
+          "isHidden": false,
+          "target": "5c0647fdd443bc2504c2d371",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "isImportant": false,
+          "id": "5d6654db86f77472690db3c3",
+          "target": "849387a50babadfd124cc7b7",
+          "value": 3,
+          "isEncoded": false,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "dec5ef8d6688f6dec4294ebd",
+              "_tpl": "5c0fa877d174af02a012e1cf",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "c764964f47d0c716aa70a40a",
+              "_tpl": "5c0fa877d174af02a012e1cf",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "849387a50babadfd124cc7b7",
+              "_tpl": "5c0fa877d174af02a012e1cf",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "isDeliverByMail": true,
+          "type": "Item"
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "isImportant": false,
+          "id": "5ebfc121a1032866196c9386",
+          "target": "c7f8e8918e9ed1f8f07c86a9",
+          "value": 1,
+          "isEncoded": false,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "c7f8e8918e9ed1f8f07c86a9",
+              "_tpl": "5d1b385e86f774252167b98a",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "isDeliverByMail": true,
+          "type": "Item"
+        },
+        {
+          "unknown": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "availableInGameEditions": [],
+          "illustrationConfig": {
+            "image": "",
+            "bigImage": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "isImportant": false,
+          "id": "6a6fa80d0202956711c39a0b",
+          "target": "27bfd7101f01b15e5b39ffcc",
+          "loyaltyLevel": 2,
+          "traderId": "5c0647fdd443bc2504c2d371",
+          "items": [
+            {
+              "_id": "27bfd7101f01b15e5b39ffcc",
+              "_tpl": "63920105a83e15700a00f168"
+            }
+          ],
+          "type": "AssortmentUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5d25bfd086f77442734d3007 startedMessageText",
+    "status": 0,
+    "successMessageText": "5d25bfd086f77442734d3007 successMessageText",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "type": "Experience"
+  }
+}
