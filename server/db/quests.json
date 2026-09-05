@@ -50154,6 +50154,30 @@
         },
         {
           "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6671de23baf4e04a020c7322",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59141074",
+              "_tpl": "66507eabf5ddb0818b085b68",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "68a9695194f6582e59141074",
+          "traderId": 7,
+          "type": "ProductionScheme",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
           "findInRaid": true,
           "gameMode": [
             "regular",
