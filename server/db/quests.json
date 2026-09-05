@@ -191,31 +191,6 @@
             "regular",
             "pve"
           ],
-          "id": "5ebfbfc0b5549c7b5203b580",
-          "isEncoded": false,
-          "isHidden": false,
-          "items": [
-            {
-              "_id": "68a9695194f6582e591405e5",
-              "_tpl": "619cbf7d23893217ec30b689",
-              "upd": {
-                "SpawnedInSession": true,
-                "StackObjectsCount": 1
-              }
-            }
-          ],
-          "target": "68a9695194f6582e591405e5",
-          "type": "Item",
-          "unknown": true,
-          "value": 1
-        },
-        {
-          "availableInGameEditions": [],
-          "findInRaid": true,
-          "gameMode": [
-            "regular",
-            "pve"
-          ],
           "id": "b396fe87602b968ccc5064e0",
           "isEncoded": false,
           "isHidden": false,
