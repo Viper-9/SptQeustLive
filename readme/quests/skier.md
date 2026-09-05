@@ -17,3 +17,7 @@
 - Chemical - Part 4 (화학 - 파트 4)
 - Supplier (공급자)
 - Night Sweep (야간 작전)
+- Indisputable Authority (반박할 수 없는 권위)
+- Irresistible (거부할 수 없는 제안)
+- Beyond the Red Meat - Part 1 (붉은 고기 너머 - 파트 1)
+- Beyond the Red Meat - Part 2 (붉은 고기 너머 - 파트 2)

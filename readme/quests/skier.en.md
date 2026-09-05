@@ -17,3 +17,7 @@
 - Chemical - Part 4
 - Supplier
 - Night Sweep
+- Indisputable Authority
+- Irresistible
+- Beyond the Red Meat - Part 1
+- Beyond the Red Meat - Part 2
