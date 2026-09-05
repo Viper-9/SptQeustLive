@@ -1,0 +1,231 @@
+{
+  "67af4c169d95ad16e004fd86": {
+    "QuestName": "Safety Guarantee",
+    "_id": "67af4c169d95ad16e004fd86",
+    "acceptPlayerMessage": "67af4c169d95ad16e004fd86 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67af4c169d95ad16e004fd86 changeQuestMessageText",
+    "completePlayerMessage": "67af4c169d95ad16e004fd86 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67af6e1ee67a772b14e08061",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5c0e625a86f7742d77340f62"
+          ],
+          "value": 15,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67af6f1d268fd33c21524a02",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5ca20ee186f774799474abc2"
+          ],
+          "value": 12,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67af6f7961ee5d07d0c210c9",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5c0e842486f77443a74d2976"
+          ],
+          "value": 3,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67dabe1a982ea2855d1be0a5",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67af4c1405c58dc6f7056667",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "67af4c169d95ad16e004fd86 declinePlayerMessage",
+    "description": "67af4c169d95ad16e004fd86 description",
+    "failMessageText": "67af4c169d95ad16e004fd86 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/67dabe96ce062f412503a354.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "67af4c169d95ad16e004fd86 name",
+    "note": "67af4c169d95ad16e004fd86 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67dac03a693cd27719e0e5a0",
+          "isHidden": false,
+          "target": "LightVests",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67dac04a36d4adea15860f44",
+          "isHidden": false,
+          "target": "HeavyVests",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67dac06ae5cfd401d7a433cc",
+          "isHidden": false,
+          "target": "WeaponTreatment",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67dac07cf132c8e6082afcea",
+          "isHidden": false,
+          "target": "TroubleShooting",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a704240107d69792db497c3",
+          "isHidden": false,
+          "target": "CovertMovement",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a70425d56e5f840da085c8b",
+          "isHidden": false,
+          "target": "AimDrills",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a70426ab07ff2a1d50d609d",
+          "isHidden": false,
+          "target": "Attention",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a70427e61530aa94e739357",
+          "isHidden": false,
+          "target": "Perception",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a70428e5cf4e752e0fd1a03",
+          "isHidden": false,
+          "target": "StressResistance",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67af4c169d95ad16e004fd86 startedMessageText",
+    "status": 0,
+    "successMessageText": "67af4c169d95ad16e004fd86 successMessageText",
+    "traderId": "58330581ace78e27b8b10cee",
+    "type": "PickUp"
+  }
+}
