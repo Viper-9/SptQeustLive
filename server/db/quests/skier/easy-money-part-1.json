@@ -1,0 +1,200 @@
+{
+  "6834145ebc1f443d7603c8a7": {
+    "QuestName": "Easy Money - Part 1 PVE ZONE",
+    "_id": "6834145ebc1f443d7603c8a7",
+    "acceptPlayerMessage": "6834145ebc1f443d7603c8a7 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6834145ebc1f443d7603c8a7 changeQuestMessageText",
+    "completePlayerMessage": "6834145ebc1f443d7603c8a7 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6834145ebc1f443d7603c8ab",
+          "index": 4,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "675a0288c3102563bd01c9c3"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "place_flyers1"
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6834145ebc1f443d7603c8a9",
+          "index": 0,
+          "parentId": "",
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6834145ebc1f443d7603c8aa",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4,
+            5,
+            2
+          ],
+          "target": "657315e270bb0b8dba00cc48",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "6834145ebc1f443d7603c8a7 declinePlayerMessage",
+    "description": "6834145ebc1f443d7603c8a7 description",
+    "failMessageText": "6834145ebc1f443d7603c8a7 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/66562a95dadbac1a541f638f.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "56f40101d2720b2a4d8b45d6",
+    "name": "6834145ebc1f443d7603c8a7 name",
+    "note": "6834145ebc1f443d7603c8a7 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6834145ebc1f443d7603c8ac",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e591414e8",
+              "_tpl": "675a0288c3102563bd01c9c3",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e591414e9",
+              "_tpl": "675a0288c3102563bd01c9c3",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e591414ea",
+              "_tpl": "675a0288c3102563bd01c9c3",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e591414ea",
+          "type": "Item",
+          "unknown": false,
+          "value": 3
+        }
+      ],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6834145ebc1f443d7603c8ad",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 4500
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6834145ebc1f443d7603c8ae",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e591414ec",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 35000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e591414ec",
+          "type": "Item",
+          "unknown": false,
+          "value": 35000
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6834145ebc1f443d7603c8af",
+          "isHidden": false,
+          "target": "6617beeaa9cfa777ca915b7c",
+          "type": "TraderUnlock",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6834145ebc1f443d7603c8b0",
+          "illustrationConfig": {
+            "bigImage": "/files/rewards/info_popup/67f1b1303cb39d43b90b43ef.png",
+            "image": "",
+            "isBigImage": false
+          },
+          "isHidden": false,
+          "message": "67f1acb2798033628e4c618c",
+          "type": "NotificationPopup",
+          "unknown": false
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "6834145ebc1f443d7603c8a7 startedMessageText",
+    "status": 0,
+    "successMessageText": "6834145ebc1f443d7603c8a7 successMessageText",
+    "traderId": "58330581ace78e27b8b10cee",
+    "type": "PickUp"
+  }
+}

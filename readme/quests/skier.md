@@ -27,3 +27,7 @@
 - Thirsty - Delivery (갈증 - 배달)
 - Top Secret (일급 기밀)
 - What's on the Flash Drive? (플래시 드라이브에 무엇이 있나?)
+- A Life Lesson (인생 수업)
+- Chumming (떡밥 뿌리기)
+- Connections Up North (북부의 연줄)
+- Easy Money - Part 1 [PVE ZONE] (쉬운 돈벌이 - 파트 1)

@@ -1,0 +1,231 @@
+{
+  "67af4c1cc0e59d55e2010b97": {
+    "QuestName": "A Life Lesson",
+    "_id": "67af4c1cc0e59d55e2010b97",
+    "acceptPlayerMessage": "67af4c1cc0e59d55e2010b97 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67af4c1cc0e59d55e2010b97 changeQuestMessageText",
+    "completePlayerMessage": "67af4c1cc0e59d55e2010b97 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67af71c90036a462a17a72d3",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5d40407c86f774318526545a"
+          ],
+          "value": 12,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67af71d6a6e77337205f5bfe",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5d403f9186f7743cac3f229b"
+          ],
+          "value": 20,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67af71f19ce81d8ebb21530f",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5d1b376e86f774252519444e"
+          ],
+          "value": 20,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67dac8d103ae3d17f7899648",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67af4c1a6c3ebfd8e6034916",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "67af4c1cc0e59d55e2010b97 declinePlayerMessage",
+    "description": "67af4c1cc0e59d55e2010b97 description",
+    "failMessageText": "67af4c1cc0e59d55e2010b97 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/67dabeaceec5372724076730.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "67af4c1cc0e59d55e2010b97 name",
+    "note": "67af4c1cc0e59d55e2010b97 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67dac8eb8740b61efb6b5264",
+          "isHidden": false,
+          "target": "Endurance",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67dac8f640e91262449d09e8",
+          "isHidden": false,
+          "target": "Strength",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67dac90029324c5a266e9db4",
+          "isHidden": false,
+          "target": "Metabolism",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67dac90a36c0f67bf534d37f",
+          "isHidden": false,
+          "target": "Charisma",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67dac913aa550bef4986f9cf",
+          "isHidden": false,
+          "target": "Intellect",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a70441a5b297865e6a4596d",
+          "isHidden": false,
+          "target": "HideoutManagement",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a70444f81336a35fcbab3da",
+          "isHidden": false,
+          "target": "Crafting",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a704463078b2ffd31326f7c",
+          "isHidden": false,
+          "target": "MagDrills",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a70449ade4a389ca91194d2",
+          "isHidden": false,
+          "target": "TroubleShooting",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67af4c1cc0e59d55e2010b97 startedMessageText",
+    "status": 0,
+    "successMessageText": "67af4c1cc0e59d55e2010b97 successMessageText",
+    "traderId": "58330581ace78e27b8b10cee",
+    "type": "PickUp"
+  }
+}

@@ -27,3 +27,7 @@
 - Thirsty - Delivery
 - Top Secret
 - What's on the Flash Drive?
+- A Life Lesson
+- Chumming
+- Connections Up North
+- Easy Money - Part 1 [PVE ZONE]
