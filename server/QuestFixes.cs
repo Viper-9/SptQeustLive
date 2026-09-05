@@ -1,5 +1,6 @@
 using System.Linq;
 using System.Reflection;
+using SPTarkov.Common.Models.Logging;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers.Server;
@@ -36,9 +37,11 @@ public record ModMetadata : IModMetadata
 [Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
 public class QuestFixesLoader(
     ModHelper modHelper,
-    TemplateTable templateTable) : IOnLoad
+    TemplateTable templateTable,
+    ISptLogger<QuestFixesLoader> logger) : IOnLoad
 {
-    private const string OverrideFileRelativePath = "db/quests.json";
+    private const string OverrideFolderRelativePath = "db/quests";
+    private const string LegacyOverrideFileRelativePath = "db/quests.json";
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
@@ -49,14 +52,18 @@ public class QuestFixesLoader(
         }
 
         var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
-        var overrideFilePath = System.IO.Path.Combine(modPath, OverrideFileRelativePath);
+        var overrideFolderPath = System.IO.Path.Combine(modPath, "db", "quests");
 
-        if (!File.Exists(overrideFilePath))
-        {
-            return Task.CompletedTask;
-        }
+        var overrideFilePaths = Directory.Exists(overrideFolderPath)
+            ? Directory.GetFiles(overrideFolderPath, "*.json", SearchOption.AllDirectories)
+                .OrderBy(path => path, StringComparer.Ordinal)
+                .ToList()
+            : [];
 
-        var overrides = modHelper.GetJsonDataFromFile<Dictionary<MongoId, Quest>>(modPath, OverrideFileRelativePath);
+        var overrides = overrideFilePaths.Count > 0
+            ? LoadFromFolder(modPath, overrideFilePaths)
+            : LoadFromLegacyFile(modPath);
+
         var quests = templateTable.Quests;
 
         foreach (var (questId, quest) in overrides)
@@ -66,6 +73,52 @@ public class QuestFixesLoader(
         }
 
         return Task.CompletedTask;
+    }
+
+    private Dictionary<MongoId, Quest> LoadFromFolder(string modPath, List<string> overrideFilePaths)
+    {
+        var merged = new Dictionary<MongoId, Quest>();
+        var sourceByQuestId = new Dictionary<MongoId, string>();
+
+        foreach (var filePath in overrideFilePaths)
+        {
+            var relativePath = System.IO.Path.GetRelativePath(modPath, filePath).Replace('\\', '/');
+            var fileOverrides = modHelper.GetJsonDataFromFile<Dictionary<MongoId, Quest>>(modPath, relativePath);
+
+            foreach (var (questId, quest) in fileOverrides)
+            {
+                if (sourceByQuestId.TryGetValue(questId, out var previousRelativePath))
+                {
+                    logger.Warning(
+                        $"Duplicate quest override '{questId}': '{relativePath}' overrides '{previousRelativePath}'");
+                }
+
+                sourceByQuestId[questId] = relativePath;
+                merged[questId] = quest;
+            }
+        }
+
+        logger.Info(
+            $"Loaded {merged.Count} quest override(s) from {overrideFilePaths.Count} file(s) in {OverrideFolderRelativePath}");
+
+        return merged;
+    }
+
+    private Dictionary<MongoId, Quest> LoadFromLegacyFile(string modPath)
+    {
+        var legacyFilePath = System.IO.Path.Combine(modPath, "db", "quests.json");
+
+        if (!File.Exists(legacyFilePath))
+        {
+            return [];
+        }
+
+        var overrides = modHelper.GetJsonDataFromFile<Dictionary<MongoId, Quest>>(
+            modPath, LegacyOverrideFileRelativePath);
+
+        logger.Info($"Loaded {overrides.Count} quest override(s) from {LegacyOverrideFileRelativePath}");
+
+        return overrides;
     }
 
     private void PruneUnresolvableRewardItems(Quest quest)
