@@ -11,3 +11,9 @@
 - House Arrest - Part 1
 - Long Road
 - Golden Swag
+- Chemical - Part 1
+- Chemical - Part 2
+- Chemical - Part 3
+- Chemical - Part 4
+- Supplier
+- Night Sweep

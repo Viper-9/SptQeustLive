@@ -1,0 +1,157 @@
+{
+  "60e71c11d54b755a3b53eb65": {
+    "QuestName": "Night Sweep",
+    "_id": "60e71c11d54b755a3b53eb65",
+    "acceptPlayerMessage": "60e71c11d54b755a3b53eb65 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "60e71c11d54b755a3b53eb65 changeQuestMessageText",
+    "completePlayerMessage": "60e71c11d54b755a3b53eb65 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60e82c12fd1bf4491c4e4547",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5fc64ea372b0dd78d51159dc"
+          ],
+          "value": 12,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60e82c5926b88043510e0ad7",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5fc64ea372b0dd78d51159dc"
+          ],
+          "value": 12,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6101464fe5b13723fc7609ae",
+          "index": 0,
+          "parentId": "",
+          "value": 50,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6101464accda1c5f7b1dd08f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5edabd13218d181e29451442",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "60e71c11d54b755a3b53eb65 declinePlayerMessage",
+    "description": "60e71c11d54b755a3b53eb65 description",
+    "failMessageText": "60e71c11d54b755a3b53eb65 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5d67b5ca86f7744dcc5e2f88.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "60e71c11d54b755a3b53eb65 name",
+    "note": "60e71c11d54b755a3b53eb65 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60f037339417a95e1c42086d",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 107000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "610298b160307362d01d8c80",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e5913fe27",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 6000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e5913fe27",
+          "type": "Item",
+          "unknown": false,
+          "value": 6000
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "610298da9386cf6f25373c4d",
+          "isHidden": false,
+          "target": "Shotgun",
+          "type": "Skill",
+          "unknown": true,
+          "value": 200
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "60e71c11d54b755a3b53eb65 startedMessageText",
+    "status": 0,
+    "successMessageText": "60e71c11d54b755a3b53eb65 successMessageText",
+    "traderId": "58330581ace78e27b8b10cee",
+    "type": "PickUp"
+  }
+}
