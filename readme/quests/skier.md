@@ -31,3 +31,7 @@
 - Chumming (떡밥 뿌리기)
 - Connections Up North (북부의 연줄)
 - Easy Money - Part 1 [PVE ZONE] (쉬운 돈벌이 - 파트 1)
+- Friend From the West - Part 1 (서쪽에서 온 친구 - 파트 1)
+- Informed Means Armed (아는 것이 힘이다)
+- No Swiping (훔치지 마)
+- Pyramid Scheme (피라미드 사기)

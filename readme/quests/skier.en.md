@@ -31,3 +31,7 @@
 - Chumming
 - Connections Up North
 - Easy Money - Part 1 [PVE ZONE]
+- Friend From the West - Part 1
+- Informed Means Armed
+- No Swiping
+- Pyramid Scheme
