@@ -430,5 +430,45 @@
     "count": 1,
     "productionLimitCount": 0,
     "isCodeProduction": false
+  },
+  "655b598db71eeb7c4168c626": {
+    "_id": "655b598db71eeb7c4168c626",
+    "areaType": 10,
+    "requirements": [
+      {
+        "areaType": 10,
+        "requiredLevel": 3,
+        "type": "Area"
+      },
+      {
+        "templateId": "590c31c586f774245e3141b2",
+        "count": 3,
+        "isEncoded": false,
+        "isFunctional": false,
+        "isSpawnedInSession": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "5d6fc78386f77449d825f9dc",
+        "count": 2,
+        "isEncoded": false,
+        "isFunctional": false,
+        "isSpawnedInSession": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "63a0b208f444d32d6f03ea1e",
+        "type": "Tool"
+      }
+    ],
+    "productionTime": 3000,
+    "endProduct": "5d6e6911a4b9361bd5780d52",
+    "isEncoded": false,
+    "locked": false,
+    "needFuelForAllProductionTime": false,
+    "continuous": false,
+    "count": 60,
+    "productionLimitCount": 0,
+    "isCodeProduction": false
   }
 }

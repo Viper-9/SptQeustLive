@@ -35,3 +35,8 @@
 - Informed Means Armed (아는 것이 힘이다)
 - No Swiping (훔치지 마)
 - Pyramid Scheme (피라미드 사기)
+- Safe Corridor (안전한 통로)
+- Silent Caliber (조용한 구경)
+- The Walls Have Eyes (벽에도 눈이 있다)
+- Vitamins (비타민, BEAR 전용)
+- Supplements (보충제, USEC 전용)

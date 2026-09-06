@@ -35,3 +35,8 @@
 - Informed Means Armed
 - No Swiping
 - Pyramid Scheme
+- Safe Corridor
+- Silent Caliber
+- The Walls Have Eyes
+- Vitamins (BEAR only)
+- Supplements (USEC only)
