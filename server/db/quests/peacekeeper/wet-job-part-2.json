@@ -181,26 +181,6 @@
             "regular",
             "pve"
           ],
-          "id": "5ac66eb986f77403de1f5d09",
-          "isHidden": false,
-          "items": [
-            {
-              "_id": "68a9695194f6582e59140528",
-              "_tpl": "59c1383d86f774290a37e0ca"
-            }
-          ],
-          "loyaltyLevel": 4,
-          "target": "68a9695194f6582e59140528",
-          "traderId": "5935c25fb3acc3127c3d8cd9",
-          "type": "AssortmentUnlock",
-          "unknown": false
-        },
-        {
-          "availableInGameEditions": [],
-          "gameMode": [
-            "regular",
-            "pve"
-          ],
           "id": "655b90e97f92d5105c6f7b7d",
           "isHidden": false,
           "items": [

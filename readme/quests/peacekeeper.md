@@ -13,3 +13,6 @@
 - Spa Tour - Part 1, 3–5, 7 (스파 관광 - 파트 1, 3–5, 7)
 - Humanitarian Supplies (인도주의적 보급품)
 - Cargo X - Part 3–4 (카고 X - 파트 3–4)
+- Confidential Info (기밀 정보)
+- Samples (견본)
+- Special Equipment (특수 장비)

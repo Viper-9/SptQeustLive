@@ -13,3 +13,6 @@
 - Spa Tour - Part 1, 3–5, 7
 - Humanitarian Supplies
 - Cargo X - Part 3–4
+- Confidential Info
+- Samples
+- Special Equipment
