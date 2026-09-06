@@ -9,10 +9,12 @@
 - Peacekeeping Mission
 - Trophies
 - The Cleaner
-- Wet Job - Part 1–4, 6
-- Spa Tour - Part 1, 3–5, 7
+- Wet Job - Part 1–6
+- Spa Tour - Part 1–5, 7
 - Humanitarian Supplies
 - Cargo X - Part 3–4
 - Confidential Info
 - Samples
 - Special Equipment
+- TerraGroup Employee
+- Your Car Needs a Service

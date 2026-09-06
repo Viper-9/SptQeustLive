@@ -250,5 +250,11 @@
   "608ab22755f4ac386d7e7fdc": "Eliminate any target in the underground warehouse on Reserve",
   "6a5ab8ac7119466cb512579d": "Hand over any found in raid keys for the underground storage warehouse (RB-PSP and RB-PSV)",
   "5b478eca86f7744642012254 name": "Vitamins",
-  "5b478ff486f7744d184ecbbf name": "Supplements"
+  "5b478ff486f7744d184ecbbf name": "Supplements",
+  "68bb25270e48a3afd7071216 Name": "AR-15 Magpul ACS Carbine stock (Black)",
+  "68bb25270e48a3afd7071216 ShortName": "ACS",
+  "68bb25270e48a3afd7071216 Description": "A quick-detach buttstock for AR-15/M16 carbines with a mil-spec telescoping tube, manufactured by Magpul Original Equipment. The frame design prevents binding and accidental release of the locking lever, while the standard-thickness rubber buttpad reduces slipping on armor or gear. Black version.",
+  "68bb2a3831ee03fbc00931e6 Name": "AR-15 Magpul ACS Carbine stock (FDE)",
+  "68bb2a3831ee03fbc00931e6 ShortName": "ACS",
+  "68bb2a3831ee03fbc00931e6 Description": "A quick-detach buttstock for AR-15/M16 carbines with a mil-spec telescoping tube, manufactured by Magpul Original Equipment. The frame design prevents binding and accidental release of the locking lever, while the standard-thickness rubber buttpad reduces slipping on armor or gear. Flat Dark Earth version."
 }

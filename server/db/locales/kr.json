@@ -250,5 +250,11 @@
   "608ab22755f4ac386d7e7fdc": "리저브(Reserve)맵에 위치한 지하 창고에서 아무 대상이나 처치하기",
   "6a5ab8ac7119466cb512579d": "레이드에서 발견한 지하 창고 열쇠(RB-PSP 또는 RB-PSV) 건네주기",
   "5b478eca86f7744642012254 name": "비타민",
-  "5b478ff486f7744d184ecbbf name": "보충제"
+  "5b478ff486f7744d184ecbbf name": "보충제",
+  "68bb25270e48a3afd7071216 Name": "AR-15 Magpul ACS 카빈 개머리판 (Black)",
+  "68bb25270e48a3afd7071216 ShortName": "ACS",
+  "68bb25270e48a3afd7071216 Description": "군 규격 신축식 튜브를 사용하는 Magpul Original Equipment의 AR-15/M16 카빈용 탈착식 개머리판입니다. 프레임 구조가 걸쇠의 걸림과 오작동에 의한 풀림을 막아주며, 표준 두께의 고무 개머리판 패드가 방탄복이나 모듈러 장비 위에서도 미끄러지지 않게 해줍니다. Black 버전입니다.",
+  "68bb2a3831ee03fbc00931e6 Name": "AR-15 Magpul ACS 카빈 개머리판 (FDE)",
+  "68bb2a3831ee03fbc00931e6 ShortName": "ACS",
+  "68bb2a3831ee03fbc00931e6 Description": "군 규격 신축식 튜브를 사용하는 Magpul Original Equipment의 AR-15/M16 카빈용 탈착식 개머리판입니다. 프레임 구조가 걸쇠의 걸림과 오작동에 의한 풀림을 막아주며, 표준 두께의 고무 개머리판 패드가 방탄복이나 모듈러 장비 위에서도 미끄러지지 않게 해줍니다. Flat Dark Earth 버전입니다."
 }
