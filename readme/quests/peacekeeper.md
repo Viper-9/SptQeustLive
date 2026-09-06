@@ -18,3 +18,7 @@
 - Special Equipment (특수 장비)
 - TerraGroup Employee (테라그룹 직원)
 - Your Car Needs a Service (차량 정비가 필요합니다)
+- Eagle Eye (매의 눈)
+- Insomnia (불면증)
+- New Day, New Paths (새로운 날, 새로운 길)
+- One Less Loose End (뒤탈 하나 줄이기)

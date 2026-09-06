@@ -18,3 +18,7 @@
 - Special Equipment
 - TerraGroup Employee
 - Your Car Needs a Service
+- Eagle Eye
+- Insomnia
+- New Day, New Paths
+- One Less Loose End
