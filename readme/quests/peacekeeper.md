@@ -22,3 +22,7 @@
 - Insomnia (불면증)
 - New Day, New Paths (새로운 날, 새로운 길)
 - One Less Loose End (뒤탈 하나 줄이기)
+- Overpopulation (인구 과잉)
+- Revision - Reserve (개정 작업 - 리저브)
+- The Cult - Part 2 (사이비 종교 - 파트 2)
+- The Guide (안내자)

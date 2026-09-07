@@ -260,5 +260,13 @@
   "5c1242fa86f7742aa04fed52": "Eliminate any targets in the time period of 21:00-06:00 on Lighthouse, Streets of Tarkov, Reserve, Ground Zero, or Shoreline",
   "69413241b1ce1e5fbb09ed0a Name": "CENS ProFlex DX5 tactical earplug",
   "69413241b1ce1e5fbb09ed0a ShortName": "ProFlex",
-  "69413241b1ce1e5fbb09ed0a Description": "A high-end solution in tactical hearing protection. Custom-made to fit the wearer, so this matching size is a real stroke of luck."
+  "69413241b1ce1e5fbb09ed0a Description": "A high-end solution in tactical hearing protection. Custom-made to fit the wearer, so this matching size is a real stroke of luck.",
+  "5c0e6876d09282029e2fffe0": "Survive and extract from Woods or Interchange with the \"Survived\" exit status",
+  "5c13982286f774365a69cc4d": "Survive and extract from Shoreline or Reserve with the \"Survived\" exit status",
+  "5c13989886f7747878361a50": "Survive and extract from Factory or Customs with the \"Survived\" exit status",
+  "5c1931e686f7747ce71bcbea": "Survive and extract from The Lab or Lighthouse with the \"Survived\" exit status",
+  "65e08b7a2f82d184fcf9ef61": "Survive and extract from Ground Zero or Streets of Tarkov with the \"Survived\" exit status",
+  "6a5cdc97790159682d2bc19e": "Eliminate any target",
+  "617bf4e152e86c73d372a95d": "Eliminate any targets around the chalet area on Lighthouse",
+  "6a5cd4d03a5504087ed636d3": "Hand over any 5 of the found in raid items: Topographic survey maps, Intelligence folder or TerraGroup \"Blue Folders\" materials"
 }

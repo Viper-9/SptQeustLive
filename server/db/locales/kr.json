@@ -260,5 +260,13 @@
   "5c1242fa86f7742aa04fed52": "등대, 타르코프 시내, 리저브, 그라운드 제로, 해안선에서 21:00-06:00 사이에 아무 표적 사살하기",
   "69413241b1ce1e5fbb09ed0a Name": "CENS ProFlex DX5 전술 귀마개",
   "69413241b1ce1e5fbb09ed0a ShortName": "ProFlex",
-  "69413241b1ce1e5fbb09ed0a Description": "고급 전술 청력 보호 장비. 착용자에게 맞춤 제작된 물건이라, 크기가 딱 맞는다면 그야말로 행운이다."
+  "69413241b1ce1e5fbb09ed0a Description": "고급 전술 청력 보호 장비. 착용자에게 맞춤 제작된 물건이라, 크기가 딱 맞는다면 그야말로 행운이다.",
+  "5c0e6876d09282029e2fffe0": "삼림(Woods) 또는 인터체인지(Interchange)에서 \"생존(Survived)\" 상태로 탈출하기",
+  "5c13982286f774365a69cc4d": "해안선(Shoreline) 또는 리저브(Reserve)에서 \"생존(Survived)\" 상태로 탈출하기",
+  "5c13989886f7747878361a50": "공장(Factory) 또는 세관(Customs)에서 \"생존(Survived)\" 상태로 탈출하기",
+  "5c1931e686f7747ce71bcbea": "연구소(The Lab) 또는 등대(Lighthouse)에서 \"생존(Survived)\" 상태로 탈출하기",
+  "65e08b7a2f82d184fcf9ef61": "그라운드 제로(Ground Zero) 또는 타르코프 시내(Streets of Tarkov)에서 \"생존(Survived)\" 상태로 탈출하기",
+  "6a5cdc97790159682d2bc19e": "아무 적이나 사살하기",
+  "617bf4e152e86c73d372a95d": "등대(Lighthouse)의 오두막(cottage) 지역에서 아무 대상이나 사살하기",
+  "6a5cd4d03a5504087ed636d3": "레이드에서 발견한 [지형 측량 지도], [정보 파일] 또는 [테라그룹 \"블루 폴더\" 자료] 중 5개 건네주기"
 }

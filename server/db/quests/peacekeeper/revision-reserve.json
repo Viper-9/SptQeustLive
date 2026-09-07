@@ -1,0 +1,603 @@
+{
+  "6086c852c945025d41566124": {
+    "QuestName": "Revision - Reserve",
+    "_id": "6086c852c945025d41566124",
+    "acceptPlayerMessage": "6086c852c945025d41566124 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6086c852c945025d41566124 changeQuestMessageText",
+    "completePlayerMessage": "6086c852c945025d41566124 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "6087d5b6d79a2b4e943482c0",
+                "target": "tadeush_bmp2_area_check_2",
+                "value": 1
+              }
+            ],
+            "id": "6087d553d79a2b4e943482be"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6087d553d79a2b4e943482bf",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6086c8ed1b0bb8063d5babb7",
+          "index": 1,
+          "parentId": "",
+          "plantTime": 10,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "6087d606c945025d415661d8",
+              "target": "6087d553d79a2b4e943482bf"
+            }
+          ],
+          "zoneId": "tadeush_bmp2_area_mark_2"
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "608827d8d241f77b8a49785e",
+                "target": "tadeush_bmp2_area_check_11",
+                "value": 1
+              }
+            ],
+            "id": "60882695949eb1096c454fcc"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60882695949eb1096c454fcd",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "608826d0a3994358a0751cfc",
+          "index": 3,
+          "parentId": "",
+          "plantTime": 10,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "6088298c6b50283a1e7a0af7",
+              "target": "60882695949eb1096c454fcd"
+            }
+          ],
+          "zoneId": "tadeush_bmp2_area_mark_11"
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "608827eac18cfa2a4e2afe5a",
+                "target": "tadeush_bmp2_area_check_12",
+                "value": 1
+              }
+            ],
+            "id": "608826f3949eb1096c454fcf"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "608826f3949eb1096c454fd0",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60882714c18cfa2a4e2afe59",
+          "index": 5,
+          "parentId": "",
+          "plantTime": 10,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "60882993949eb1096c454fd8",
+              "target": "608826f3949eb1096c454fd0"
+            }
+          ],
+          "zoneId": "tadeush_bmp2_area_mark_12"
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "608827f8dd27284bca3c0926",
+                "target": "tadeush_bmp2_area_check_13",
+                "value": 1
+              }
+            ],
+            "id": "6088274a82e40b3c727fd163"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6088274a82e40b3c727fd164",
+          "index": 6,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60882779d241f77b8a49785d",
+          "index": 7,
+          "parentId": "",
+          "plantTime": 10,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "608829994c484e02726b4c56",
+              "target": "6088274a82e40b3c727fd164"
+            }
+          ],
+          "zoneId": "tadeush_bmp2_area_mark_13"
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60bf75229903f107aa251f3b",
+          "index": 0,
+          "parentId": "",
+          "value": 14,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60bf751fdb5461623517069f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5a27b87686f77460de0252a8",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "63aac733f76b8a05dd70291e",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5a27d2af86f7744e1115b323",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "6086c852c945025d41566124 declinePlayerMessage",
+    "description": "6086c852c945025d41566124 description",
+    "failMessageText": "6086c852c945025d41566124 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5a29221d86f77457303da9fa.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e5fad2720bc05b8b4567",
+    "name": "6086c852c945025d41566124 name",
+    "note": "6086c852c945025d41566124 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60bf6d2bbf90bf6b431e8955",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 7300
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60bf6d454c8a3800da06e708",
+          "isHidden": false,
+          "target": "5935c25fb3acc3127c3d8cd9",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60bf6d8dc53a5709996b40b0",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140145",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 800
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140145",
+          "type": "Item",
+          "unknown": false,
+          "value": 800
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc6a46179f8541b846924c",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140148",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140149",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e59140148",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914014a",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914014b",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e5914014a",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914014c",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914014d",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e5914014c",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914014e",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914014f",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e5914014e",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140150",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140151",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e59140150",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140152",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140153",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e59140152",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140154",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140155",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e59140154",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140156",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140157",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e59140156",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140158",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140159",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e59140158",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914015a",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914015b",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e5914015a",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914015c",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914015d",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e5914015c",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914015e",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914015f",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e5914015e",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140160",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140161",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e59140160",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140162",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140163",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e59140162",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140164",
+              "_tpl": "5c11279ad174af029d64592b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140165",
+              "_tpl": "5c0d5ae286f7741e46554302",
+              "parentId": "68a9695194f6582e59140164",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140164",
+          "type": "Item",
+          "unknown": false,
+          "value": 15
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "6086c852c945025d41566124 startedMessageText",
+    "status": 0,
+    "successMessageText": "6086c852c945025d41566124 successMessageText",
+    "traderId": "5935c25fb3acc3127c3d8cd9",
+    "type": "Completion"
+  }
+}
