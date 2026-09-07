@@ -72,7 +72,7 @@ public static class QuestAlternativeConditions
 
             if (Enabled)
             {
-                ClientPlugin.Logger?.LogInfo(
+                ClientPlugin.Logger?.LogDebug(
                     $"[SptQuestLive.Client] loaded {groups.Count} alternative quest condition group(s)");
             }
         }

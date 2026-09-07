@@ -98,7 +98,7 @@ public class QuestFixesLoader(
             }
         }
 
-        logger.Info(
+        logger.Debug(
             $"Loaded {merged.Count} quest override(s) from {overrideFilePaths.Count} file(s) in {OverrideFolderRelativePath}");
 
         return merged;
@@ -116,7 +116,7 @@ public class QuestFixesLoader(
         var overrides = modHelper.GetJsonDataFromFile<Dictionary<MongoId, Quest>>(
             modPath, LegacyOverrideFileRelativePath);
 
-        logger.Info($"Loaded {overrides.Count} quest override(s) from {LegacyOverrideFileRelativePath}");
+        logger.Debug($"Loaded {overrides.Count} quest override(s) from {LegacyOverrideFileRelativePath}");
 
         return overrides;
     }

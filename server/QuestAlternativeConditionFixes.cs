@@ -85,7 +85,7 @@ public class QuestAlternativeConditionLoader(
                 typeof(QuestAlternativeConditionPostRaidPatch),
                 nameof(QuestAlternativeConditionPostRaidPatch.Postfix)));
 
-        logger.Info($"Loaded {groups.Count} alternative quest condition group(s)");
+        logger.Debug($"Loaded {groups.Count} alternative quest condition group(s)");
         return Task.CompletedTask;
     }
 

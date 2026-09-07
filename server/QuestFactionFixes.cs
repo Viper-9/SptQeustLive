@@ -54,7 +54,7 @@ public class QuestFactionLoader(
 
         if (applied > 0)
         {
-            logger.Info($"Applied {applied} quest faction restriction(s)");
+            logger.Debug($"Applied {applied} quest faction restriction(s)");
         }
 
         return Task.CompletedTask;
