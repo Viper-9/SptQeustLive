@@ -49,6 +49,15 @@
         "675c3fd3a2c0bad5f70af01c",
         "675c3fdd5af984e99db7b4e1"
       ]
+    },
+    {
+      "questId": "669fa39b91b0a8c9680fc467",
+      "operator": "any",
+      "conditionIds": [
+        "669fb647a5be751be095da27",
+        "669fb64aa7e974b27a9c7e1f",
+        "669fb64b5150ba5196dae347"
+      ]
     }
   ]
 }
