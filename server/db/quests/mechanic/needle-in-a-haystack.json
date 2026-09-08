@@ -1,0 +1,302 @@
+{
+  "67a0964e972c11a3f507731b": {
+    "QuestName": "Needle in a Haystack",
+    "_id": "67a0964e972c11a3f507731b",
+    "acceptPlayerMessage": "67a0964e972c11a3f507731b acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a0964e972c11a3f507731b changeQuestMessageText",
+    "completePlayerMessage": "67a0964e972c11a3f507731b completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "67a0bd223c1e9c0036f9b791",
+                "target": "event_labyrinth_02_mech_place_01",
+                "value": 1
+              }
+            ],
+            "id": "67a0bc817d2b872dfc5dfc51"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a0bc81fcbc1c559d09b58f",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "67a0bd2701d6f41ee0229ad7",
+                "target": "event_labyrinth_02_mech_place_02",
+                "value": 1
+              }
+            ],
+            "id": "67a0bc83e483f6871f80bb19"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a0bc83182c4b0c71edd0ce",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "67a0bd2e1d77b7f64c8ac7b2",
+                "target": "event_labyrinth_02_mech_place_03",
+                "value": 1
+              }
+            ],
+            "id": "67a0bc84811ee2c1fd9cd778"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a0bc84f19d5b1120a55762",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "67a0bd38870b5da984382e64",
+                "target": "event_labyrinth_02_mech_place_04",
+                "value": 1
+              }
+            ],
+            "id": "67a0bc87b8bcf7f2a068bca1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a0bc87c60a93d7a3f28b23",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "67a0bd44d25f5d1f4b43c0c5",
+                "target": "event_labyrinth_02_mech_place_05",
+                "value": 1
+              }
+            ],
+            "id": "67a0bc88cc3a821b120b8db4"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a0bc8848d9d2cbd274ffd9",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "67a0bd4acd1725adbc36c73d",
+                "target": "event_labyrinth_02_mech_place_06",
+                "value": 1
+              }
+            ],
+            "id": "67a0bc8a976dac4437824a63"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a0bc8ab12fe4b1baa60e4c",
+          "index": 5,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a0bc78ea1f2cdb5f329c90",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67a09636b8725511260bc421",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "67a0964e972c11a3f507731b declinePlayerMessage",
+    "description": "67a0964e972c11a3f507731b description",
+    "failMessageText": "67a0964e972c11a3f507731b failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/67e407ae4b7fec9ea8061780.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "67a0964e972c11a3f507731b name",
+    "note": "67a0964e972c11a3f507731b note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67b319c686f0c20510382ce9",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 9800
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67b319d6f51bf392064b15f9",
+          "isHidden": false,
+          "target": "5a7c2eca46aef81a7ca2145d",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67b319dec437095d76d2bfab",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140bd9",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 47000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140bd9",
+          "type": "Item",
+          "unknown": false,
+          "value": 47000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "2577bc6d6839e0174b7378e5",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "888b697e69c196d00194d52f",
+              "_tpl": "5aafbde786f774389d0cbc0f",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "888b697e69c196d00194d52f",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67a0964e972c11a3f507731b startedMessageText",
+    "status": 0,
+    "successMessageText": "67a0964e972c11a3f507731b successMessageText",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "type": "Exploration"
+  }
+}

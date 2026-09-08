@@ -1,0 +1,144 @@
+{
+  "67a0970744893b9f3f0d9b68": {
+    "QuestName": "Offensive Reconnaissance",
+    "_id": "67a0970744893b9f3f0d9b68",
+    "acceptPlayerMessage": "67a0970744893b9f3f0d9b68 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a0970744893b9f3f0d9b68 changeQuestMessageText",
+    "completePlayerMessage": "67a0970744893b9f3f0d9b68 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "67dbe1030a44b50c67fa2868",
+                "target": "event_labyrinth_05_mech_place_01",
+                "value": 1
+              }
+            ],
+            "id": "67dbe0f531e892ab3905f30e"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67dbe0f532ff08bfa13237a8",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a0dc94a4d798e79853f2eb",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "67dbe0f532ff08bfa13237a8",
+          "target": [
+            "679b9819a2f2dd4da9023512"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67e41d1f936ebf353ae78ed6",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67a0966817e34930e500754c",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "67a0970744893b9f3f0d9b68 declinePlayerMessage",
+    "description": "67a0970744893b9f3f0d9b68 description",
+    "failMessageText": "67a0970744893b9f3f0d9b68 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/67e3d474aa9c9449d10fd198.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "67a0970744893b9f3f0d9b68 name",
+    "note": "67a0970744893b9f3f0d9b68 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67b3342eeb55258aaf647a32",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 4500
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a707013357ddbde3e62c464",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "d35210bc2cb6bf21ad444a4f",
+              "_tpl": "679b9819a2f2dd4da9023512",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "d35210bc2cb6bf21ad444a4f",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67a0970744893b9f3f0d9b68 startedMessageText",
+    "status": 0,
+    "successMessageText": "67a0970744893b9f3f0d9b68 successMessageText",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "type": "Exploration"
+  }
+}

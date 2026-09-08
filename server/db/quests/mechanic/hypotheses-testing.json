@@ -1,0 +1,206 @@
+{
+  "67a0970f05d1611ed90be75d": {
+    "QuestName": "Hypotheses Testing",
+    "_id": "67a0970f05d1611ed90be75d",
+    "acceptPlayerMessage": "67a0970f05d1611ed90be75d acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a0970f05d1611ed90be75d changeQuestMessageText",
+    "completePlayerMessage": "67a0970f05d1611ed90be75d completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "67dbe177f8a9cd256822b013",
+                "target": "event_labyrinth_06_mech_place_01",
+                "value": 1
+              }
+            ],
+            "id": "67dbe16e209c3fbfa72de9e3"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67dbe16ece16a02860ed9d33",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a0dcf4ff6f74931359b9f9",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "679b992329acd1f2f60985a5"
+          ],
+          "value": 5,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a0dccc99ab8c7f8a0f479e",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67a0970744893b9f3f0d9b68",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "67a0970f05d1611ed90be75d declinePlayerMessage",
+    "description": "67a0970f05d1611ed90be75d description",
+    "failMessageText": "67a0970f05d1611ed90be75d failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/67e3d477ab7770f72902761c.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "6733700029c367a3d40b02af",
+    "name": "67a0970f05d1611ed90be75d name",
+    "note": "67a0970f05d1611ed90be75d note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67dbe19bf3f4cb01b7685ca5",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140e73",
+              "_tpl": "679b9819a2f2dd4da9023512",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140e73",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67b33444fc24e6ce25d51963",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 15900
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67b334574d0c378f11cbb24c",
+          "isHidden": false,
+          "target": "5a7c2eca46aef81a7ca2145d",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "67b33460db45c1fad035ec8c",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140e75",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 82000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140e75",
+          "type": "Item",
+          "unknown": false,
+          "value": 82000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6aa00e33c59fa6e2a2bf54df",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "6aa00e33540f393e438a3231",
+              "_tpl": "67600929bd0a0549d70993f6",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6aa00e33540f393e438a3231",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "67a0970f05d1611ed90be75d startedMessageText",
+    "status": 0,
+    "successMessageText": "67a0970f05d1611ed90be75d successMessageText",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "type": "PickUp"
+  }
+}
