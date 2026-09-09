@@ -50,7 +50,7 @@
           "minDurability": 0,
           "onlyFoundInRaid": false,
           "parentId": "",
-          "plantTime": 40,
+          "plantTime": 30,
           "target": [
             "5b4391a586f7745321235ab2"
           ],
@@ -136,7 +136,28 @@
     "restartable": false,
     "rewards": {
       "Fail": [],
-      "Started": [],
+      "Started": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a69338464d86727a7e5bb25",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "f665bbe05d8d8ea9c44346cd",
+              "_tpl": "5b4391a586f7745321235ab2"
+            }
+          ],
+          "loyaltyLevel": 1,
+          "target": "f665bbe05d8d8ea9c44346cd",
+          "traderId": "5a7c2eca46aef81a7ca2145d",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        }
+      ],
       "Success": [
         {
           "availableInGameEditions": [],

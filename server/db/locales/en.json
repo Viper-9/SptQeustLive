@@ -273,5 +273,7 @@
   "5ac5eff886f7740f43322559": "Hand over the items",
   "669fb647a5be751be095da27": "Locate and mark one of the three heat exchangers with an MS2000 Marker on Factory",
   "669fb64aa7e974b27a9c7e1f": "Locate and mark one of the three heat exchangers with an MS2000 Marker on Factory",
-  "669fb64b5150ba5196dae347": "Locate and mark one of the three heat exchangers with an MS2000 Marker on Factory"
+  "669fb64b5150ba5196dae347": "Locate and mark one of the three heat exchangers with an MS2000 Marker on Factory",
+  "60e71d6d7fcf9c556f325055 description": "Hello. I have a client who urgently needs a new optic, but all my usual couriers are tied up with other jobs. If you can deliver the package to the designated location, I'll make it worth your while.\n\nHere, take the optic. Head to the newer gas station on the customs territory. You'll find a set of dumpsters there - leave it there. Once you're done, come back for your payment.",
+  "60e71d6d7fcf9c556f325055 successMessageText": "My client confirmed the delivery. Excellent work, mercenary."
 }
