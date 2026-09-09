@@ -4,6 +4,8 @@ using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers.Server;
 using SPTarkov.Server.Core.Helpers.Traders;
+using SPTarkov.Server.Core.Models.Common;
+using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Spt.Tables;
 
 namespace SptQuestLive;
@@ -28,6 +30,21 @@ public static class TraderLevelUpPatch
 {
     private static readonly FieldInfo? TraderTableField = AccessTools.Field(typeof(TraderHelper), "<traderTable>P");
 
+    private static readonly HashSet<MongoId> VanillaTraderIds =
+    [
+        Traders.PRAPOR,
+        Traders.THERAPIST,
+        Traders.FENCE,
+        Traders.SKIER,
+        Traders.PEACEKEEPER,
+        Traders.MECHANIC,
+        Traders.RAGMAN,
+        Traders.JAEGER,
+        Traders.LIGHTHOUSEKEEPER,
+        Traders.BTR,
+        Traders.REF,
+    ];
+
     private static bool _enabled;
     private static bool _salesSumCleared;
 
@@ -49,8 +66,13 @@ public static class TraderLevelUpPatch
             return;
         }
 
-        foreach (var (_, trader) in traderTable)
+        foreach (var (traderId, trader) in traderTable)
         {
+            if (!VanillaTraderIds.Contains(traderId))
+            {
+                continue;
+            }
+
             var loyaltyLevels = trader.Base?.LoyaltyLevels;
             if (loyaltyLevels is null)
             {
