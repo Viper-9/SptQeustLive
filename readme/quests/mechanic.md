@@ -12,3 +12,8 @@
 - Gunsmith - Part 1–19, 22, 24 (건스미스 - 파트 1–19, 22, 24)
 - Gunsmith - Old Friend's Request (건스미스 - 옛 친구의 부탁)
 - Failed Setup (실패한 작전)
+- Secrets of Polikhim (폴리킴의 비밀)
+- Signal - Part 1 (시그널 - 파트 1)
+- Signal - Part 2 (시그널 - 파트 2)
+- Steady Signal (안정적인 신호)
+- The Door (그 문)

@@ -132,7 +132,7 @@
           "isHidden": false,
           "type": "Experience",
           "unknown": false,
-          "value": 5800
+          "value": 28000
         },
         {
           "availableInGameEditions": [],
@@ -162,14 +162,14 @@
               "_id": "68a9695194f6582e59141251",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 50000
+                "StackObjectsCount": 275000
               }
             }
           ],
           "target": "68a9695194f6582e59141251",
           "type": "Item",
           "unknown": false,
-          "value": 50000
+          "value": 275000
         },
         {
           "availableInGameEditions": [],
@@ -304,26 +304,6 @@
           "type": "Item",
           "unknown": true,
           "value": 3
-        },
-        {
-          "availableInGameEditions": [],
-          "gameMode": [
-            "regular",
-            "pve"
-          ],
-          "id": "63a19b9bfcae11642e50f9b6",
-          "isHidden": false,
-          "items": [
-            {
-              "_id": "68a9695194f6582e59141260",
-              "_tpl": "5a0c59791526d8dba737bba7"
-            }
-          ],
-          "loyaltyLevel": 2,
-          "target": "68a9695194f6582e59141260",
-          "traderId": "54cb50c76803fa8b248b4571",
-          "type": "AssortmentUnlock",
-          "unknown": false
         }
       ]
     },

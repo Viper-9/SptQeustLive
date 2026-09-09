@@ -12,3 +12,8 @@
 - Gunsmith - Part 1–19, 22, 24
 - Gunsmith - Old Friend's Request
 - Failed Setup
+- Secrets of Polikhim
+- Signal - Part 1
+- Signal - Part 2
+- Steady Signal
+- The Door
