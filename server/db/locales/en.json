@@ -275,5 +275,16 @@
   "669fb64aa7e974b27a9c7e1f": "Locate and mark one of the three heat exchangers with an MS2000 Marker on Factory",
   "669fb64b5150ba5196dae347": "Locate and mark one of the three heat exchangers with an MS2000 Marker on Factory",
   "60e71d6d7fcf9c556f325055 description": "Hello. I have a client who urgently needs a new optic, but all my usual couriers are tied up with other jobs. If you can deliver the package to the designated location, I'll make it worth your while.\n\nHere, take the optic. Head to the newer gas station on the customs territory. You'll find a set of dumpsters there - leave it there. Once you're done, come back for your payment.",
-  "60e71d6d7fcf9c556f325055 successMessageText": "My client confirmed the delivery. Excellent work, mercenary."
+  "60e71d6d7fcf9c556f325055 successMessageText": "My client confirmed the delivery. Excellent work, mercenary.",
+  "689479a4a733b1602007e2eb Name": "Spiritus Systems LV-119 Plate Carrier (Black Division V1)",
+  "689479eb30cc5ba7be00f5ff Name": "Spiritus Systems LV-119 Plate Carrier (Black Division V2)",
+  "689479cb47e5acd1e10be986 Name": "Ferro Concepts FCPC V5 Plate Carrier (Black Division)",
+  "68947a4be4bf255d1b0ca746 Name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (Black Division)",
+  "68947a8ce4bf255d1b0ca759 Name": "Tasmanian Tiger Modular Pack 45 Plus (MultiCam Black)",
+  "68947ab5a733b1602007e2fe Name": "Mystery Ranch 2 Day Assault Pack (Black)",
+  "68947ad3e4bf255d1b0ca75c Name": "Mystery Ranch NICE Frame Load Sling",
+  "68948ad72c87773b9f06d73f Name": "6B45 armored rig (General Purpose)",
+  "68948aebd8f2b85fb705e2b0 Name": "6B45 armored rig (Medic)",
+  "68948b118c57a8a52301d7ae Name": "6B45 armored rig (Assault)",
+  "68948a95d8f2b85fb705e2a6 Name": "6B45 body armor"
 }

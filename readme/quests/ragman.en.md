@@ -4,6 +4,10 @@
 
 [← Back to main README](../../README.en.md)
 
+- A Fuel Matter
+- Big Sale
+- Break the Deal
+- Circulate
 - Enough Drinks for That One
 - Long Line
 - Sew it Good - Part 1
