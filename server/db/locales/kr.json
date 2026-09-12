@@ -286,5 +286,20 @@
   "68948ad72c87773b9f06d73f Name": "6B45 방탄 리그 (범용)",
   "68948aebd8f2b85fb705e2b0 Name": "6B45 방탄 리그 (의무병용)",
   "68948b118c57a8a52301d7ae Name": "6B45 방탄 리그 (돌격용)",
-  "68948a95d8f2b85fb705e2a6 Name": "6B45 방탄복"
+  "68948a95d8f2b85fb705e2a6 Name": "6B45 방탄복",
+  "6937f02dfd6488bb27024839 Name": "도몬토비치 우샨카 방한모",
+  "6937f02dfd6488bb27024839 ShortName": "도몬토비치",
+  "6937f02dfd6488bb27024839 Description": "타르코프 거리에서 가끔 눈에 띄는 문양이 새겨진 우샨카입니다. 도몬토비치는 실종되기 전까지 직접 도시 전투에 참여했었습니다. 일각에서는 라이트키퍼가 그와 관련이 있다고 말합니다.",
+  "6937efd50543dcc2560a2c81 Name": "새해 우샨카 방한모",
+  "6937efd50543dcc2560a2c81 ShortName": "우샨카",
+  "6937efd50543dcc2560a2c81 Description": "새해를 맞아 개봉한, 랙맨의 재고에서 나온 하얀 우샨카입니다. 몸뿐만 아니라 마음까지 따뜻하게 해줍니다.",
+  "69b10ebfde4dda4a140bddb8 Name": "WARTECH TV-115 플레이트 캐리어 (Black)",
+  "69b10ebfde4dda4a140bddb8 ShortName": "TV-115",
+  "69b10ebfde4dda4a140bddb8 Description": "미니멀하게 구성한 TV-115 작전용 방탄 시스템입니다. WARTECH에서 제작했습니다. 검은색 버전입니다.",
+  "69b124822c6ed131290d921f Name": "LBT-1961A Load Bearing 체스트 리그 (DNC)",
+  "69b124822c6ed131290d921f ShortName": "LBCR",
+  "69b124822c6ed131290d921f Description": "낮은 프로파일의 방탄복을 착용한 상태에서 탄창, 수류탄, 특수 장비를 휴대할 수 있도록 설계된 전술 하중 분산 시스템입니다. London Bridge Trading 제조. Desert Night Camouflage 버전입니다.",
+  "69cfc2d7a9102bdca0080070 Name": "LBT-1961A Load Bearing 체스트 리그 (MultiCam)",
+  "69cfc2d7a9102bdca0080070 ShortName": "LBCR",
+  "69cfc2d7a9102bdca0080070 Description": "낮은 프로파일의 방탄복을 착용한 상태에서 탄창, 수류탄, 특수 장비를 휴대할 수 있도록 설계된 전술 하중 분산 시스템입니다. London Bridge Trading 제조. MultiCam 버전입니다."
 }

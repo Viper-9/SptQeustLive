@@ -8,8 +8,14 @@
 - Big Sale
 - Break the Deal
 - Circulate
+- Combat Proven
+- Dandies
+- Dressed to Kill
+- Drip-Out - Part 1
+- Drip-Out - Part 2
 - Enough Drinks for That One
 - Long Line
+- Minibus
 - Sew it Good - Part 1
 - Sew it Good - Part 4
 - Textile - Part 1

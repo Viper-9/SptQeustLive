@@ -1,0 +1,212 @@
+{
+  "6615141bfda04449120269a7": {
+    "QuestName": "Drip-Out - Part 2",
+    "_id": "6615141bfda04449120269a7",
+    "acceptPlayerMessage": "6615141bfda04449120269a7 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6615141bfda04449120269a7 changeQuestMessageText",
+    "completePlayerMessage": "6615141bfda04449120269a7 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6615129ed5fdc5962f600fec",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "exUsec"
+                ],
+                "target": "Savage",
+                "value": 0,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6615141bfda04449120269a9"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6615141bfda04449120269a8",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 100,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "661682aed31d408548016468",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "628baf0b967de16aab5a4f36",
+            "618cfae774bb2d036a049e7c",
+            "6038b4ca92ec1c3103795a0d",
+            "6038b4b292ec1c3103795a0b",
+            "5e9dcf5986f7746c417435b3",
+            "5e9db13186f7742f845ee9d3",
+            "5e4abc6786f77406812bd572",
+            "5e4abb5086f77406975c9342",
+            "67458794e21e5d724e066976",
+            "68bee2b431902bb4d90c3a2a",
+            "69b124822c6ed131290d921f",
+            "69cfc2d7a9102bdca0080070"
+          ],
+          "value": 50,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "661528e77acdd32dda13bafc",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2,
+            4
+          ],
+          "target": "65734c186dc1e402c80dc19e",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "6615141bfda04449120269a7 declinePlayerMessage",
+    "description": "6615141bfda04449120269a7 description",
+    "failMessageText": "6615141bfda04449120269a7 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6615141bfda04449120269a7 name",
+    "note": "6615141bfda04449120269a7 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": true,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6615141bfda0444912026a01",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 65000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6615141bfda0444912026a02",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "6615141bfda0444912026a10",
+              "_tpl": "6038b4ca92ec1c3103795a0d",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "6615141bfda0444912026a11",
+              "_tpl": "6575e71760703324250610c3",
+              "parentId": "6615141bfda0444912026a10",
+              "slotId": "Soft_armor_front",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "6615141bfda0444912026a12",
+              "_tpl": "6575e72660703324250610c7",
+              "parentId": "6615141bfda0444912026a10",
+              "slotId": "Soft_armor_back",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "6615141bfda0444912026a13",
+              "_tpl": "656fa76500d62bcd2e024080",
+              "parentId": "6615141bfda0444912026a10",
+              "slotId": "Front_plate",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "6615141bfda0444912026a14",
+              "_tpl": "656fa76500d62bcd2e024080",
+              "parentId": "6615141bfda0444912026a10",
+              "slotId": "Back_plate",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            }
+          ],
+          "target": "6615141bfda0444912026a10",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "6615141bfda04449120269a7 startedMessageText",
+    "status": 0,
+    "successMessageText": "6615141bfda04449120269a7 successMessageText",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "type": "Completion"
+  }
+}

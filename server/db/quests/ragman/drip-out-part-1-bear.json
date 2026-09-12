@@ -1,0 +1,257 @@
+{
+  "6613f3007f6666d56807c929": {
+    "QuestName": "Drip-Out - Part 1",
+    "_id": "6613f3007f6666d56807c929",
+    "acceptPlayerMessage": "6613f3007f6666d56807c929 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6613f3007f6666d56807c929 changeQuestMessageText",
+    "completePlayerMessage": "6613f3007f6666d56807c929 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6613f3a30d42e75c17feb5c4",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "pmcBot"
+                ],
+                "target": "Savage",
+                "value": 0,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6613f36c151e7815cc9261f9"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6613f36ca4dc044e13e02295",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 100,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6616819ac7c53d7769413d9c",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "64a536392d2c4e6e970f4121",
+            "5ca20d5986f774331e7c9602",
+            "5c0e746986f7741453628fe5",
+            "5ab8dab586f77441cd04f2a2",
+            "59e7643b86f7742cbf2c109a",
+            "69b10ebfde4dda4a140bddb8",
+            "68a986615db8a4a66404ff9a"
+          ],
+          "value": 50,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "661527e51b7f1848c3b809b0",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2,
+            4
+          ],
+          "target": "5b478d0f86f7744d190d91b5",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "6613f3007f6666d56807c929 declinePlayerMessage",
+    "description": "6613f3007f6666d56807c929 description",
+    "failMessageText": "6613f3007f6666d56807c929 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6613f3007f6666d56807c929 name",
+    "note": "6613f3007f6666d56807c929 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": true,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a7036726c66518ff9380b43",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 28000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a70364c1514c627e8968ebd",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "7fed0b6e947427da9328b496",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 275000
+              }
+            }
+          ],
+          "target": "7fed0b6e947427da9328b496",
+          "type": "Item",
+          "unknown": false,
+          "value": 275000
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a7036b0bf375f4492c43785",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "93c2dc87723f4ecc5d3f0a2a",
+              "_tpl": "61bcc89aef0f505f0c6cd0fc",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "83df9d7fbf80420bb0780d72",
+              "_tpl": "6572eb0e55beba16bc04079f",
+              "parentId": "93c2dc87723f4ecc5d3f0a2a",
+              "slotId": "Soft_armor_front",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "e8b6f8022c8293b6033e5a3c",
+              "_tpl": "6572eb1b04ee6483ef039882",
+              "parentId": "93c2dc87723f4ecc5d3f0a2a",
+              "slotId": "Soft_armor_back",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "91b2634ebfefd47c9acf5a33",
+              "_tpl": "6572eb3004ee6483ef039886",
+              "parentId": "93c2dc87723f4ecc5d3f0a2a",
+              "slotId": "Soft_armor_left",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "e412086195e68e7f00f642a6",
+              "_tpl": "6572eb3b04ee6483ef03988a",
+              "parentId": "93c2dc87723f4ecc5d3f0a2a",
+              "slotId": "soft_armor_right",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "118593e245cc8a917656a978",
+              "_tpl": "6572eb865b5eac12f10a03ee",
+              "parentId": "93c2dc87723f4ecc5d3f0a2a",
+              "slotId": "Groin",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "8feba26a7f6a604e187b167b",
+              "_tpl": "656fb21fa0dce000a2020f7c",
+              "parentId": "93c2dc87723f4ecc5d3f0a2a",
+              "slotId": "Front_plate",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "31f44b9dab2b226e85dd9541",
+              "_tpl": "656fb21fa0dce000a2020f7c",
+              "parentId": "93c2dc87723f4ecc5d3f0a2a",
+              "slotId": "Back_plate",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "93c2dc87723f4ecc5d3f0a2a",
+          "traderId": 2,
+          "type": "ProductionScheme",
+          "unknown": false
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "6613f3007f6666d56807c929 startedMessageText",
+    "status": 0,
+    "successMessageText": "6613f3007f6666d56807c929 successMessageText",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "type": "Completion"
+  }
+}

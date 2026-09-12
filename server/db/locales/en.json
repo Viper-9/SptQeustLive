@@ -286,5 +286,20 @@
   "68948ad72c87773b9f06d73f Name": "6B45 armored rig (General Purpose)",
   "68948aebd8f2b85fb705e2b0 Name": "6B45 armored rig (Medic)",
   "68948b118c57a8a52301d7ae Name": "6B45 armored rig (Assault)",
-  "68948a95d8f2b85fb705e2a6 Name": "6B45 body armor"
+  "68948a95d8f2b85fb705e2a6 Name": "6B45 body armor",
+  "6937f02dfd6488bb27024839 Name": "Domontovich ushanka hat",
+  "6937f02dfd6488bb27024839 ShortName": "Domont",
+  "6937f02dfd6488bb27024839 Description": "A ushanka with an emblem occasionally spotted on the streets of Tarkov. Domontovich used to take part in the urban battles himself — until he disappeared. Some say Lightkeeper had something to do with it.",
+  "6937efd50543dcc2560a2c81 Name": "New Year ushanka hat",
+  "6937efd50543dcc2560a2c81 ShortName": "Ushanka",
+  "6937efd50543dcc2560a2c81 Description": "A white ushanka from Ragman's reserves, opened for New Year. Warms not only the body but also the soul.",
+  "69b10ebfde4dda4a140bddb8 Name": "WARTECH TV-115 plate carrier (Black)",
+  "69b10ebfde4dda4a140bddb8 ShortName": "TV-115",
+  "69b10ebfde4dda4a140bddb8 Description": "The TV-115 Operational armor system in a minimalist setup. Manufactured by WARTECH. Black version.",
+  "69b124822c6ed131290d921f Name": "LBT-1961A Load Bearing Chest Rig (DNC)",
+  "69b124822c6ed131290d921f ShortName": "LBCR",
+  "69b124822c6ed131290d921f Description": "A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. Desert Night Camouflage version.",
+  "69cfc2d7a9102bdca0080070 Name": "LBT-1961A Load Bearing Chest Rig (MultiCam)",
+  "69cfc2d7a9102bdca0080070 ShortName": "LBCR",
+  "69cfc2d7a9102bdca0080070 Description": "A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. MultiCam version."
 }
