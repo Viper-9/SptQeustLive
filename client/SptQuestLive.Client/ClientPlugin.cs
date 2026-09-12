@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 namespace SptQuestLive.Client;
 
-[BepInPlugin("com.viper.sptquestlive.client", "SptQuestLive Client", "0.0.11")]
+[BepInPlugin("com.viper.sptquestlive.client", "SptQuestLive Client", "0.0.12")]
 public class ClientPlugin : BaseUnityPlugin
 {
     private const string ServerConfigRelativePath = "SPT_Runtime/user/mods/sptQuestLive/db/Config.json";
