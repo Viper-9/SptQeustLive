@@ -17,7 +17,7 @@
           "id": "5b478d8986f774563c7a4809",
           "index": 0,
           "parentId": "",
-          "plantTime": 30,
+          "plantTime": 15,
           "target": [
             "5991b51486f77447b112d44f"
           ],
@@ -32,7 +32,7 @@
           "id": "5b478daf86f7744d1c35339b",
           "index": 1,
           "parentId": "",
-          "plantTime": 30,
+          "plantTime": 15,
           "target": [
             "5991b51486f77447b112d44f"
           ],
@@ -47,13 +47,51 @@
           "id": "5b478dca86f7744d190d91c2",
           "index": 2,
           "parentId": "",
-          "plantTime": 30,
+          "plantTime": 15,
           "target": [
             "5991b51486f77447b112d44f"
           ],
           "value": 1,
           "visibilityConditions": [],
           "zoneId": "place_merch_21_3"
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a60b0d2b5ca989d33e5b7e0",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "63a0b208f444d32d6f03ea1e",
+            "619cbfccbedcde2f5b3f7bdd",
+            "62a0a098de7ac8199358053b",
+            "619cbfeb6b8a1b37a54eebfa",
+            "62a0a0bb621468534a797ad5",
+            "5d1b317c86f7742523398392",
+            "5d40419286f774318526545f",
+            "5d40425986f7743185265461",
+            "5af04b6486f774195a3ebb49",
+            "5d1b31ce86f7742523398394",
+            "66b37f114410565a8f6789e2",
+            "5d63d33b86f7746ea9275524",
+            "5d4042a986f7743185265463",
+            "61bf83814088ec1a363d7097",
+            "590c2b4386f77425357b6123",
+            "590c2c9c86f774245b1f03f2",
+            "590c2d8786f774245b1f03f3",
+            "590c2e1186f77425357b6124",
+            "590c311186f77424d1667482",
+            "60391afc25aff57af81f7085",
+            "5bc9c377d4351e3bac12251b"
+          ],
+          "value": 10,
+          "visibilityConditions": []
         }
       ],
       "AvailableForStart": [
@@ -159,43 +197,81 @@
             "regular",
             "pve"
           ],
-          "id": "5b48a5d286f77476751f0a99",
+          "id": "6a6fedae7ee7eee58537954e",
           "isEncoded": false,
           "isHidden": false,
           "items": [
             {
-              "_id": "68a9695194f6582e59140f60",
-              "_tpl": "5b44c6ae86f7742d1627baea",
+              "_id": "3d1d2afc45be5df53bdb2043",
+              "_tpl": "5d1b313086f77425227d1678",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "3d1d2afc45be5df53bdb2044",
+              "_tpl": "5d1b313086f77425227d1678",
               "upd": {
                 "SpawnedInSession": true,
                 "StackObjectsCount": 1
               }
             }
           ],
-          "target": "68a9695194f6582e59140f60",
+          "target": "3d1d2afc45be5df53bdb2044",
+          "type": "Item",
+          "unknown": false,
+          "value": 2
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a6fedbd17fdc8497aa9fdb5",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "dc00b0aec7960cd3453c5d79",
+              "_tpl": "5aa2ba71e5b5b000137b758f",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "dc00b0aec7960cd3453c5d79",
           "type": "Item",
           "unknown": false,
           "value": 1
         },
         {
           "availableInGameEditions": [],
+          "findInRaid": true,
           "gameMode": [
             "regular",
             "pve"
           ],
-          "id": "655b88f11f2b6843ec751fdd",
+          "id": "6a6fedc87c8435f29597df48",
+          "isEncoded": false,
           "isHidden": false,
           "items": [
             {
-              "_id": "68a9695194f6582e59140f71",
-              "_tpl": "64abd93857958b4249003418"
+              "_id": "b087ba64852e5936f4daa3ec",
+              "_tpl": "5f60cd6cf2bcbb675b00dac6",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
             }
           ],
-          "loyaltyLevel": 2,
-          "target": "68a9695194f6582e59140f71",
-          "traderId": "5ac3b934156ae10c4430e83c",
-          "type": "AssortmentUnlock",
-          "unknown": false
+          "target": "b087ba64852e5936f4daa3ec",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
         }
       ]
     },

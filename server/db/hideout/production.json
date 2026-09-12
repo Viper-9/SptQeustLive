@@ -1,4 +1,68 @@
 {
+  "655b63ac9db22d43ab42b70a": {
+    "_id": "655b63ac9db22d43ab42b70a",
+    "areaType": 2,
+    "requirements": [
+      {
+        "areaType": 2,
+        "requiredLevel": 2,
+        "type": "Area"
+      },
+      {
+        "templateId": "5e2af41e86f774755a234b67",
+        "count": 2,
+        "isEncoded": false,
+        "isFunctional": false,
+        "isSpawnedInSession": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "5e2af4d286f7746d4159f07a",
+        "count": 3,
+        "isEncoded": false,
+        "isFunctional": false,
+        "isSpawnedInSession": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "5e2af4a786f7746d3f3c3400",
+        "count": 1,
+        "isEncoded": false,
+        "isFunctional": false,
+        "isSpawnedInSession": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "61bf83814088ec1a363d7097",
+        "type": "Tool"
+      },
+      {
+        "templateId": "590c2e1186f77425357b6124",
+        "type": "Tool"
+      },
+      {
+        "questId": "5ae4495c86f7744e87761355",
+        "type": "QuestComplete"
+      },
+      {
+        "templateId": "656f9fa0498d1b7e3e071d98",
+        "count": 2,
+        "isEncoded": false,
+        "isFunctional": false,
+        "isSpawnedInSession": false,
+        "type": "Item"
+      }
+    ],
+    "productionTime": 9000,
+    "endProduct": "5d5d87f786f77427997cfaef",
+    "isEncoded": false,
+    "locked": true,
+    "needFuelForAllProductionTime": false,
+    "continuous": false,
+    "count": 1,
+    "productionLimitCount": 0,
+    "isCodeProduction": false
+  },
   "5dea63e21ecdbf7668030f24": {
     "_id": "5dea63e21ecdbf7668030f24",
     "areaType": 10,
