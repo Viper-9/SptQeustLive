@@ -1,0 +1,211 @@
+{
+  "5ae449c386f7744bde357697": {
+    "QuestName": "Sales Night",
+    "_id": "5ae449c386f7744bde357697",
+    "acceptPlayerMessage": "5ae449c386f7744bde357697 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5ae449c386f7744bde357697 changeQuestMessageText",
+    "completePlayerMessage": "5ae449c386f7744bde357697 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "5ae9e46686f77440d37ce046",
+                "target": [
+                  "Interchange"
+                ]
+              },
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "5bb60cc688a4507f2f385a76",
+                "status": [
+                  "Survived",
+                  "Transit"
+                ]
+              }
+            ],
+            "id": "5ae9e44f86f7746b6a466a8d"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5bb60cbc88a45011a8235cc5",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 7,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5af4196886f7742a2627a4be",
+          "index": 0,
+          "parentId": "",
+          "value": 30,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5af417c086f7742a2712c3c2",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5ae449b386f77446d8741719",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5ae449c386f7744bde357697 declinePlayerMessage",
+    "description": "5ae449c386f7744bde357697 description",
+    "failMessageText": "5ae449c386f7744bde357697 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5ae4a76086f774455f7d62d2.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5714dbc024597771384a510d",
+    "name": "5ae449c386f7744bde357697 name",
+    "note": "5ae449c386f7744bde357697 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc97fc1bdece56c249cbd9",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 17500
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60cc980341fd1e14d71e22f9",
+          "isHidden": false,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "5ae9e49d86f77440d37ce047",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59141035",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 35000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59141035",
+          "type": "Item",
+          "unknown": false,
+          "value": 35000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "5ae9e4b786f77443f2500fe0",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59141037",
+              "_tpl": "5ab8ebf186f7742d8b372e80",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59141038",
+              "_tpl": "5ab8ebf186f7742d8b372e80",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59141038",
+          "type": "Item",
+          "unknown": false,
+          "value": 2
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60b90e93634af31280203931",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59141039",
+              "_tpl": "5b40e2bc5acfc40016388216"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "68a9695194f6582e59141039",
+          "traderId": "5ac3b934156ae10c4430e83c",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5ae449c386f7744bde357697 startedMessageText",
+    "status": 0,
+    "successMessageText": "5ae449c386f7744bde357697 successMessageText",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "type": "Completion"
+  }
+}

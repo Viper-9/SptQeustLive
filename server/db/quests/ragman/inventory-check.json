@@ -1,0 +1,393 @@
+{
+  "608974af4b05530f55550c21": {
+    "QuestName": "Inventory Check",
+    "_id": "608974af4b05530f55550c21",
+    "acceptPlayerMessage": "608974af4b05530f55550c21 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "608974af4b05530f55550c21 changeQuestMessageText",
+    "completePlayerMessage": "608974af4b05530f55550c21 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "608c18eae0cc9c2d4d2ccb2b",
+                "target": "baraholshik_arsenal_area_1",
+                "value": 1
+              }
+            ],
+            "id": "608bd0a053b9dd01a116f473"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "608bd0a053b9dd01a116f474",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "608c18ffcd4a9b2b7212c915",
+                "target": "baraholshik_dejurniy_area_2",
+                "value": 1
+              }
+            ],
+            "id": "608bd2465e0ef91ab810f989"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "608bd2465e0ef91ab810f98a",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "608c190d5e0ef91ab810f98e",
+                "target": "baraholshik_arsenal_area_3",
+                "value": 1
+              }
+            ],
+            "id": "608bd0c20637f21f9934b6e3"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "608bd0c20637f21f9934b6e4",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "608c1916f597ad0a33574d7a",
+                "target": "baraholshik_arsenal_area_4",
+                "value": 1
+              }
+            ],
+            "id": "608bd136c61c4b541b381da2"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "608bd136c61c4b541b381da3",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "608c19282210e91c1c180ac8",
+                "target": "baraholshik_arsenal_area_5",
+                "value": 1
+              }
+            ],
+            "id": "608bd149f597ad0a33574d73"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "608bd149f597ad0a33574d74",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a5761ff44baf1d1830bfa5c",
+          "index": 5,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5ca2151486f774244a3b8d30",
+            "5e9dacf986f774054d6b89f4",
+            "545cdb794bdc2d3a198b456a"
+          ],
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6d0ec764f81ad96ce823eb",
+          "index": 6,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "6a5761ff44baf1d1830bfa5c",
+          "target": [
+            "545cdb794bdc2d3a198b456a",
+            "5ca2151486f774244a3b8d30",
+            "5e9dacf986f774054d6b89f4"
+          ],
+          "value": 3,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60bf72b7960b6d5d274caaf1",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "608974d01a66564e74191fc0",
+          "visibilityConditions": []
+        },
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60bf72bcc53a5709996b40be",
+          "index": 0,
+          "parentId": "",
+          "value": 15,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "608974af4b05530f55550c21 declinePlayerMessage",
+    "description": "608974af4b05530f55550c21 description",
+    "failMessageText": "608974af4b05530f55550c21 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/60c37416898b57521260e12a.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e5fad2720bc05b8b4567",
+    "name": "608974af4b05530f55550c21 name",
+    "note": "608974af4b05530f55550c21 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60bf6bd9b73d016d6838ad74",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 10000
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60bf6b3981c6e80e702ccbfb",
+          "isHidden": false,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60bf6b61d4526a054d42e107",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59141267",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 30000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59141267",
+          "type": "Item",
+          "unknown": false,
+          "value": 30000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60bf6bd2a2ae0728ec716f1c",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e5914126c",
+              "_tpl": "5aa7e454e5b5b0214e506fa2",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914126d",
+              "_tpl": "657f925dada5fadd1f07a57a",
+              "parentId": "68a9695194f6582e5914126c",
+              "slotId": "Helmet_top",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914126e",
+              "_tpl": "657f92acada5fadd1f07a57e",
+              "parentId": "68a9695194f6582e5914126c",
+              "slotId": "Helmet_back",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914126f",
+              "_tpl": "657f92e7f4c82973640b2354",
+              "parentId": "68a9695194f6582e5914126c",
+              "slotId": "Helmet_ears",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            }
+          ],
+          "target": "68a9695194f6582e5914126c",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "62bb0ec1917a85044146af01",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59141270",
+              "_tpl": "545cdae64bdc2d39198b4568"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "68a9695194f6582e59141270",
+          "traderId": "5ac3b934156ae10c4430e83c",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "66bb12e10b603c26902afdd8",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59141271",
+              "_tpl": "66b5f22b78bbc0200425f904"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "68a9695194f6582e59141271",
+          "traderId": "5ac3b934156ae10c4430e83c",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "608974af4b05530f55550c21 startedMessageText",
+    "status": 0,
+    "successMessageText": "608974af4b05530f55550c21 successMessageText",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "type": "Exploration"
+  }
+}
