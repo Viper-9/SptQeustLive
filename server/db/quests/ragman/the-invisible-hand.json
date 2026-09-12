@@ -1,0 +1,283 @@
+{
+  "6663149cfd5ca9577902e037": {
+    "QuestName": "The Invisible Hand",
+    "_id": "6663149cfd5ca9577902e037",
+    "acceptPlayerMessage": "6663149cfd5ca9577902e037 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6663149cfd5ca9577902e037 changeQuestMessageText",
+    "completePlayerMessage": "6663149cfd5ca9577902e037 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [
+                  [
+                    "5df8a4d786f77412672a1e3b"
+                  ],
+                  [
+                    "59e763f286f7742ee57895da"
+                  ],
+                  [
+                    "61b9e1aaef9a1b5d6a79899a"
+                  ],
+                  [
+                    "5ab8ebf186f7742d8b372e80"
+                  ],
+                  [
+                    "56e335e4d2720b6c058b456d"
+                  ],
+                  [
+                    "5ca20d5986f774331e7c9602"
+                  ],
+                  [
+                    "639346cc1c8f182ad90c8972"
+                  ],
+                  [
+                    "6034d103ca006d2dca39b3f0"
+                  ],
+                  [
+                    "60a2828e8689911a226117f9"
+                  ],
+                  [
+                    "5c0e805e86f774683f3dd637"
+                  ],
+                  [
+                    "5e4abc6786f77406812bd572"
+                  ],
+                  [
+                    "618cfae774bb2d036a049e7c"
+                  ],
+                  [
+                    "62a1b7fbc30cfa1d366af586"
+                  ],
+                  [
+                    "628e1ffc83ec92260c0f437f"
+                  ],
+                  [
+                    "619cf0335771dd3c390269ae"
+                  ],
+                  [
+                    "618bb76513f5097c8d5aa2d5"
+                  ],
+                  [
+                    "5f5e467b0bc58666c37e7821"
+                  ],
+                  [
+                    "5f5e46b96bdad616ad46d613"
+                  ],
+                  [
+                    "60a272cc93ef783291411d8e"
+                  ],
+                  [
+                    "5e9dcf5986f7746c417435b3"
+                  ],
+                  [
+                    "5c0e774286f77468413cc5b2"
+                  ],
+                  [
+                    "5b44c6ae86f7742d1627baea"
+                  ],
+                  [
+                    "6038d614d10cbf667352dd44"
+                  ],
+                  [
+                    "545cdae64bdc2d39198b4568"
+                  ],
+                  [
+                    "656e0436d44a1bb4220303a0"
+                  ],
+                  [
+                    "656ddcf0f02d7bcea90bf395"
+                  ],
+                  [
+                    "656f198fb27298d6fd005466"
+                  ],
+                  [
+                    "68947a8ce4bf255d1b0ca759"
+                  ],
+                  [
+                    "68947ab5a733b1602007e2fe"
+                  ],
+                  [
+                    "68947ad3e4bf255d1b0ca75c"
+                  ]
+                ],
+                "enemyHealthEffects": [],
+                "id": "66696fb20e44f59628cc8cbc",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 0,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "66696cd3b9dec13e9118e25b"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "66696cd3997231debad40d19",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 15,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "66696ca13916539846f84ac5",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5ae448a386f7744d3730fff0",
+          "visibilityConditions": []
+        },
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "667c388e3ab87fb42a140421",
+          "index": 1,
+          "parentId": "",
+          "value": 35,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "6663149cfd5ca9577902e037 declinePlayerMessage",
+    "description": "6663149cfd5ca9577902e037 description",
+    "failMessageText": "6663149cfd5ca9577902e037 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/6682a786b65c1b67d00bdd2c.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6663149cfd5ca9577902e037 name",
+    "note": "6663149cfd5ca9577902e037 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "66705275e1daedee900f1903",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 12800
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "667052819c339e2ca10431d6",
+          "isHidden": false,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "66743b307b0373b49700c514",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140d95",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 86000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140d95",
+          "type": "Item",
+          "unknown": false,
+          "value": 86000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "667052a79ae6c277d202e2e4",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140d97",
+              "_tpl": "5d235a5986f77443f6329bc6",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140d97",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "6663149cfd5ca9577902e037 startedMessageText",
+    "status": 0,
+    "successMessageText": "6663149cfd5ca9577902e037 successMessageText",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "type": "Elimination"
+  }
+}

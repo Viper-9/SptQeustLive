@@ -20,5 +20,7 @@
 - Sew it Good - Part 4
 - Textile - Part 1
 - Textile - Part 2
+- The Blood of War - Part 3
+- The Invisible Hand
 - The Key to Success
 - Vacate the Premises

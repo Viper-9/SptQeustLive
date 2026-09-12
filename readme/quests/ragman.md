@@ -20,5 +20,7 @@
 - Sew it Good - Part 4 (솜씨 좋은 바느질 - 파트 4)
 - Textile - Part 1 (원단 - 파트 1)
 - Textile - Part 2 (원단 - 파트 2)
+- The Blood of War - Part 3 (전쟁의 피 - 파트 3)
+- The Invisible Hand
 - The Key to Success (성공을 위한 열쇠)
 - Vacate the Premises (퇴거)
