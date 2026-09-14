@@ -8,6 +8,20 @@
 - The Tarkov Shooter - Part 1–4, 6–8
 - Pest Control
 - Rite of Passage
+- Hunter
+- Hunting Trip
+- Acquaintance
+- Ambulance
+- Courtesy Visit
+- Forester's Duty
+- Claustrophobia
+- Nostalgia
+- Slaughterhouse
+- Stray Dogs
+- Swift One
+- Thirsty - Hounds
+- Work Smarter
+- Broadcast - Part 3, 5
 - The Survivalist Path - Unprotected but Dangerous
 - The Survivalist Path - Thrifty
 - The Survivalist Path - Zhivchik
@@ -22,8 +36,9 @@
 - The Huntsman Path - Controller
 - The Huntsman Path - Justice
 - The Huntsman Path - Evil Watchman
-- The Huntsman Path - Eraser - Part 1
+- The Huntsman Path - Eraser - Part 1–2
 - The Huntsman Path - Sadist
 - The Huntsman Path - Relentless
 - The Huntsman Path - Big Game
 - The Huntsman Path - Crooked Cop
+- The Huntsman Path - Secured Perimeter

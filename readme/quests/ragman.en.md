@@ -14,13 +14,20 @@
 - Drip-Out - Part 1
 - Drip-Out - Part 2
 - Enough Drinks for That One
+- Gratitude
+- Hot Delivery
+- Inventory Check
+- Know Your Place!
+- Living High is Not a Crime - Part 1–2
 - Long Line
+- Make ULTRA Great Again
 - Minibus
-- Sew it Good - Part 1
-- Sew it Good - Part 4
+- Sales Night
+- Scavenger
+- Sew it Good - Part 1–4
 - Textile - Part 1
 - Textile - Part 2
-- The Blood of War - Part 3
+- The Blood of War - Part 1–3
 - The Invisible Hand
 - The Key to Success
 - Vacate the Premises

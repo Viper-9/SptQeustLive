@@ -2,14 +2,10 @@
 
 **Language: [한국어](README.md) | [English](README.en.md)**
 
-A quest override mod for [SPT (Single Player Tarkov)](https://sp-tarkov.com/) servers.
-It overwrites the original quest conditions/rewards and locale strings at server load time, using the data defined in `db/quests.json` and `db/locales/*.json`.
-Some quests also touch hideout production recipes (`db/hideout/production.json`) or trader assort/shop unlocks (`db/TraderAssortAdditions.json`, `db/QuestAssortUnlocks.json`).
-
 ## Purpose
 
 Overrides quests to match the latest version of EFT, on top of SPT.
-Since EFT has drastically changed quest structure, quest chains, and the trader reputation system, this mod does not apply EFT's EXP/roubles/reputation reward balance, as it no longer fits the current SPT version — start conditions and quest-chain requirements are kept as-is from SPT. Instead, it mainly changes kill conditions, map conditions, issued gear, and turn-in items.
+Since EFT has drastically changed quest structure, quest chains, and the trader reputation system, this mod does not apply EFT's EXP/roubles/reputation reward balance, as it no longer fits SPT v4.1.x — start conditions and quest-chain requirements are mostly kept as-is from SPT. Instead, it mainly changes kill conditions, map conditions, issued gear, turn-in items, and some rewards.
 
 ## Requirements
 
@@ -28,7 +24,7 @@ Since EFT has drastically changed quest structure, quest chains, and the trader 
 
 ## Excluded from scope
 
-Lightkeeper and Ref trader quests are excluded from changes. Ref's quests are mostly tied to Arena and don't need touching, and Lightkeeper's quests are end-game content that will be reviewed separately later.
+Lightkeeper, Ref, and BTR trader quests are excluded from changes. Ref's quests are mostly tied to Arena and don't need touching, and Lightkeeper's quests are end-game content that will be reviewed separately later.
 
 ## Config flags (db/Config.json)
 

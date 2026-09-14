@@ -17,3 +17,20 @@
 - Signal - Part 2
 - Steady Signal
 - The Door
+- Introduction
+- Calibration
+- Farming - Part 1, 3, 4
+- Fertilizers
+- Bad Habit
+- Energy Crisis
+- Import
+- The Courier
+- Assessment - Part 3
+- Black Swan
+- Broadcast - Part 2
+- Hidden Layer
+- Hobby Club
+- Hypotheses Testing
+- Needle in a Haystack
+- Offensive Reconnaissance
+- Shady Contractor
