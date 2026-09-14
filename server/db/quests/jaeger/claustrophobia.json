@@ -1,0 +1,202 @@
+{
+  "669fa3979b0ce3feae01a130": {
+    "QuestName": "Claustrophobia",
+    "_id": "669fa3979b0ce3feae01a130",
+    "acceptPlayerMessage": "669fa3979b0ce3feae01a130 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "669fa3979b0ce3feae01a130 changeQuestMessageText",
+    "completePlayerMessage": "669fa3979b0ce3feae01a130 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "669fb3b1b041bd8adb9cfe06",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "InZone",
+                "dynamicLocale": false,
+                "id": "66a2e2ce0d9f705feb2ee72c",
+                "zoneIds": [
+                  "nf2024_4_zone_kill1"
+                ]
+              }
+            ],
+            "id": "669fb1ff1aefeabc40e9b336"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "669fb1ffe34e78d618792b41",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 5,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "66aa3b5d39badb72cf499df7",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "5d25e2cc86f77443e47ae019",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "669fa3979b0ce3feae01a130 declinePlayerMessage",
+    "description": "669fa3979b0ce3feae01a130 description",
+    "failMessageText": "669fa3979b0ce3feae01a130 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/66acec41aa4a19c4f90881ca.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "55f2d3fd4bdc2d5f408b4567",
+    "name": "669fa3979b0ce3feae01a130 name",
+    "note": "669fa3979b0ce3feae01a130 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "66aa3b6a8b4a64b33204377b",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 25400
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "66aa3b73c26f13bd0403281f",
+          "isHidden": false,
+          "target": "5c0647fdd443bc2504c2d371",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "66aa3b80e0c9f9fafa08366e",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e5913fe85",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 89000
+              }
+            }
+          ],
+          "target": "68a9695194f6582e5913fe85",
+          "type": "Item",
+          "unknown": false,
+          "value": 89000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a6fbbe7fd7bd7a520b00a1f",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "be9e8a2a4b54041a901a1a30",
+              "_tpl": "5e2af29386f7746d4159f077",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "9a1345173ea842318f70b2aa",
+              "_tpl": "5e2af29386f7746d4159f077",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "33cfcb0e61211dc2d56f01b2",
+              "_tpl": "5e2af29386f7746d4159f077",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "33cfcb0e61211dc2d56f01b2",
+          "type": "Item",
+          "unknown": false,
+          "value": 3
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "669fa3979b0ce3feae01a130 startedMessageText",
+    "status": 0,
+    "successMessageText": "669fa3979b0ce3feae01a130 successMessageText",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "type": "Elimination"
+  }
+}

@@ -322,5 +322,18 @@
   "6a575575a7263e4961397d13": "Hand over any 15 of the found in raid body armor",
   "5ae9bc6e86f7746e0026222c": "Hand over the item: 6B43 Zabralo-Sh body armor",
   "5ae9bea886f77468ab400e64": "Hand over the found in raid item: Class 5 or 6 ballistic plate",
-  "5ae4496986f774459e77beb6 description": "Oh, brother, I’d be neck-deep in work without you. I'm doing it all so the city keeps on living, mind you, that’s why I do all the moves. Alright, I'll tell you about my secret affair, since it has been going so smoothly so far. I’m thinking of setting up garment manufacture, to sew and sell vests, holsters, armor. As in the best fashion houses in Europe, haha. This time I need a 6B43 armor vest, the full package. We want to figure out how everything is put together inside. Can you bring me one? And some plates for it. I'll make it worth your while."
+  "5ae4496986f774459e77beb6 description": "Oh, brother, I’d be neck-deep in work without you. I'm doing it all so the city keeps on living, mind you, that’s why I do all the moves. Alright, I'll tell you about my secret affair, since it has been going so smoothly so far. I’m thinking of setting up garment manufacture, to sew and sell vests, holsters, armor. As in the best fashion houses in Europe, haha. This time I need a 6B43 armor vest, the full package. We want to figure out how everything is put together inside. Can you bring me one? And some plates for it. I'll make it worth your while.",
+  "5d24ba7886f77439c92d6baa": "Hand over any items from the Food category",
+  "5d27446f86f77475a86565a3": "Hand over any 4 found in raid medkits",
+  "5ec1538a92e95f77ac7a2529": "Find any 4 medkits in raid",
+  "5ec1504183b69d213d3c2ee8": "Find any 4 first aid supplies in raid",
+  "5d7782c686f7742fa732bf07": "Hand over any 4 found in raid first aid supplies",
+  "5fd8aa3206fb3a6b8154a2c3": "Locate and neutralize any Boss with a bolt-action rifle",
+  "5d25e4ca86f77409dd5cdf2c description": "Come in, have a seat. Want some tea? Well, suit yourself.\n\nListen, I've got a bit of a situation. I'll be having guests before long, and I can't exactly take them hunting with worn-out old rifles, can I? I've got a couple of fine foreign bolt-action rifles, but they still need to be sighted in. Then it occurred to me... why not kill two birds with one stone? Break in the rifles and thin out the ranks of those gang leaders at the same time. Don't worry kid, I'll make it worth your while.",
+  "600302d73b897b11364cd161 name": "Hunter",
+  "600302d73b897b11364cd161 description": "Hey there, kid! Come on in. I've got a job for you, an important one. Remember when I asked you to rid the sawmill of scum? Well, it seems that they returned for good now. Shturman and his friends are once again bringing fear into people all around the area, however, I can't deal with them myself. Please, help me get rid of those bandits, and I won't disappoint with the reward. Mechanic introduced me to a new supplier, they're selling me some good and powerful western rifles, the .338 caliber ones. If you help me, you can get some of those for yourself, for shooting elephants, you know. A proper weapon for a good hunt! Well, boy, I'll be waiting for news from you.",
+  "600302d73b897b11364cd161 successMessageText": "The air in the whole Woods trembled from such furious firefight. The scum got what he deserved, and all thanks to you. Here, the appropriate reward for such a feat. Don't be shy, you can buy the new rifles too.",
+  "600303250b79c6604058ce30": "Eliminate Scavs on Interchange, Ground Zero, Woods, or Customs",
+  "66ab9da7eb102b9bcd08591d": "Eliminate Scavs on Lighthouse (In one raid)",
+  "66ab9da7eb102b9bcd085922": "Eliminate Scavs on Shoreline (In one raid)"
 }
