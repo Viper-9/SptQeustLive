@@ -1,0 +1,209 @@
+{
+    "5d25e45e86f77408251c4bfa": {
+        "QuestName": "The Huntsman Path - Eraser - Part 2",
+        "_id": "5d25e45e86f77408251c4bfa",
+        "acceptPlayerMessage": "5d25e45e86f77408251c4bfa acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "5d25e45e86f77408251c4bfa changeQuestMessageText",
+        "completePlayerMessage": "5d25e45e86f77408251c4bfa completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "5d2f3a5786f774169b7e006a",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    "pmcBot"
+                                ],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "5d273a4d86f774457411b265"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "5d273a4d86f774457411b266",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 6,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "compareMethod": ">=",
+                    "conditionType": "Level",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "5d777f5d86f7742fa901bc77",
+                    "index": 0,
+                    "parentId": "",
+                    "value": 30,
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "5d777ffd86f774319c488827",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "5d25e2b486f77409de05bba0",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "5d77a3b286f7745041358b44",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "5d25e44f86f77443e625e385",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "5d25e45e86f77408251c4bfa declinePlayerMessage",
+        "description": "5d25e45e86f77408251c4bfa description",
+        "failMessageText": "5d25e45e86f77408251c4bfa failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5d69483686f77414077d1cca.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "5d25e45e86f77408251c4bfa name",
+        "note": "5d25e45e86f77408251c4bfa note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "60cca95aac6eb02bc726de6a",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 22500
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "60cca9645f9e6175514de2d7",
+                    "isHidden": false,
+                    "target": "5c0647fdd443bc2504c2d371",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.02
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "5d667df386f774369120c2c0",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "68a9695194f6582e5913fea9",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 80000
+                            }
+                        }
+                    ],
+                    "target": "68a9695194f6582e5913fea9",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 80000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "60ccaa18ac6eb02bc726de6c",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "68a9695194f6582e5913feab",
+                            "_tpl": "5d1b5e94d7ad1a2b865a96b0",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "68a9695194f6582e5913feab",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 1
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "5d25e45e86f77408251c4bfa startedMessageText",
+        "status": 0,
+        "successMessageText": "5d25e45e86f77408251c4bfa successMessageText",
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "type": "Completion"
+    }
+}
