@@ -1,0 +1,808 @@
+{
+  "60e729cf5698ee7b05057439": {
+    "QuestName": "Swift One",
+    "_id": "60e729cf5698ee7b05057439",
+    "acceptPlayerMessage": "60e729cf5698ee7b05057439 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "60e729cf5698ee7b05057439 changeQuestMessageText",
+    "completePlayerMessage": "60e729cf5698ee7b05057439 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "5d25af5d86f77443e625d0b9",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [
+                  [
+                    "545cdb794bdc2d3a198b456a"
+                  ],
+                  [
+                    "5ab8e79e86f7742d8b372e78"
+                  ],
+                  [
+                    "5ab8e4ed86f7742d8e50c7fa"
+                  ],
+                  [
+                    "5c0e53c886f7747fa54205c7"
+                  ],
+                  [
+                    "5c0e51be86f774598e797894"
+                  ],
+                  [
+                    "5c0e541586f7747fa54205c9"
+                  ],
+                  [
+                    "5c0e5bab86f77461f55ed1f3"
+                  ],
+                  [
+                    "5c0e57ba86f7747fa141986d"
+                  ],
+                  [
+                    "5b44cd8b86f774503d30cba2"
+                  ],
+                  [
+                    "5b44cf1486f77431723e3d05"
+                  ],
+                  [
+                    "5b44d0de86f774503d30cba8"
+                  ],
+                  [
+                    "5b44d22286f774172b0c9de8"
+                  ],
+                  [
+                    "5ca2151486f774244a3b8d30"
+                  ],
+                  [
+                    "5ca21c6986f77479963115a7"
+                  ],
+                  [
+                    "5c0e655586f774045612eeb2"
+                  ],
+                  [
+                    "5c0e5edb86f77461f55ed1f7"
+                  ],
+                  [
+                    "5c0e625a86f7742d77340f62"
+                  ],
+                  [
+                    "59e7635f86f7742cbf2c1095"
+                  ],
+                  [
+                    "5648a7494bdc2d9d488b4583"
+                  ],
+                  [
+                    "5ab8dced86f774646209ec87"
+                  ],
+                  [
+                    "5c0e446786f7742013381639"
+                  ],
+                  [
+                    "5c0e3eb886f7742015526062"
+                  ],
+                  [
+                    "5b44cad286f77402a54ae7e5"
+                  ],
+                  [
+                    "5c0e746986f7741453628fe5"
+                  ],
+                  [
+                    "544a5caa4bdc2d1a388b4568"
+                  ],
+                  [
+                    "5d5d646386f7742797261fd9"
+                  ],
+                  [
+                    "5e9dacf986f774054d6b89f4"
+                  ],
+                  [
+                    "5e4ac41886f77406a511c9a8"
+                  ],
+                  [
+                    "5e4abb5086f77406975c9342"
+                  ],
+                  [
+                    "5fd4c474dd870108a754b241"
+                  ],
+                  [
+                    "5f5f41476bdad616ad46d631"
+                  ],
+                  [
+                    "5df8a2ca86f7740bfe6df777"
+                  ],
+                  [
+                    "5c0e722886f7740458316a57"
+                  ],
+                  [
+                    "6038b4ca92ec1c3103795a0d"
+                  ],
+                  [
+                    "6038b4b292ec1c3103795a0b"
+                  ],
+                  [
+                    "60a3c70cde5f453f634816a3"
+                  ],
+                  [
+                    "60a3c68c37ea821725773ef5"
+                  ],
+                  [
+                    "60a283193cb70855c43a381d"
+                  ],
+                  [
+                    "609e860ebd219504d8507525"
+                  ],
+                  [
+                    "609e8540d5c319764c2bc2e9"
+                  ],
+                  [
+                    "5645bc214bdc2d363b8b4571"
+                  ],
+                  [
+                    "5aa7cfc0e5b5b00015693143"
+                  ],
+                  [
+                    "5aa7e276e5b5b000171d0647"
+                  ],
+                  [
+                    "5df8a58286f77412631087ed"
+                  ],
+                  [
+                    "59e7711e86f7746cae05fbe1"
+                  ],
+                  [
+                    "5d5e7d28a4b936645d161203"
+                  ],
+                  [
+                    "5d5e9c74a4b9364855191c40"
+                  ],
+                  [
+                    "5a154d5cfcdbcb001a3b00da"
+                  ],
+                  [
+                    "5ac8d6885acfc400180ae7b0"
+                  ],
+                  [
+                    "5a7c4850e899ef00150be885"
+                  ],
+                  [
+                    "5aa7d193e5b5b000171d063f"
+                  ],
+                  [
+                    "5aa7d03ae5b5b00016327db5"
+                  ],
+                  [
+                    "5aa7e454e5b5b0214e506fa2"
+                  ],
+                  [
+                    "5aa7e4a4e5b5b000137b76f2"
+                  ],
+                  [
+                    "5b4329f05acfc47a86086aa1"
+                  ],
+                  [
+                    "5b40e3f35acfc40016388218"
+                  ],
+                  [
+                    "5b40e4035acfc47a87740943"
+                  ],
+                  [
+                    "5b432d215acfc4771e1c6624"
+                  ],
+                  [
+                    "5b40e1525acfc4771e1c6611"
+                  ],
+                  [
+                    "5b40e2bc5acfc40016388216"
+                  ],
+                  [
+                    "5c17a7ed2e2216152142459c"
+                  ],
+                  [
+                    "5ea17ca01412a1425304d1c0"
+                  ],
+                  [
+                    "5f60b34a41e30a4ab12a6947"
+                  ],
+                  [
+                    "5ea05cf85ad9772e6624305d"
+                  ],
+                  [
+                    "5d6d3716a4b9361bc8618872"
+                  ],
+                  [
+                    "5c091a4e0db834001d5addc8"
+                  ],
+                  [
+                    "5c0e874186f7745dc7616606"
+                  ],
+                  [
+                    "5c0d2727d174af02a012cf58"
+                  ],
+                  [
+                    "5f60c74e3b85f6263c145586"
+                  ],
+                  [
+                    "5c08f87c0db8340019124324"
+                  ],
+                  [
+                    "5c06c6a80db834001b735491"
+                  ],
+                  [
+                    "5e4bfc1586f774264f7582d3"
+                  ],
+                  [
+                    "5e00c1ad86f774747333222c"
+                  ],
+                  [
+                    "5e01ef6886f77445f643baa4"
+                  ],
+                  [
+                    "5ca20ee186f774799474abc2"
+                  ],
+                  [
+                    "61bc85697113f767765c7fe7"
+                  ],
+                  [
+                    "61bcc89aef0f505f0c6cd0fc"
+                  ],
+                  [
+                    "62a09d79de7ac81993580530"
+                  ],
+                  [
+                    "628b9784bcf6e2659e09b8a2"
+                  ],
+                  [
+                    "628b9c7d45122232a872358f"
+                  ],
+                  [
+                    "628cd624459354321c4b7fa2"
+                  ],
+                  [
+                    "628d0618d1ba6e4fa07ce5a4"
+                  ],
+                  [
+                    "628dc750b910320f4c27a732"
+                  ],
+                  [
+                    "62a09e08de7ac81993580532"
+                  ],
+                  [
+                    "62963c18dbc8ab5f0d382d0b"
+                  ],
+                  [
+                    "5b432b2f5acfc4771e1c6622"
+                  ],
+                  [
+                    "5d5d87f786f77427997cfaef"
+                  ],
+                  [
+                    "639343fce101f4caa40a4ef3"
+                  ],
+                  [
+                    "63737f448b28897f2802b874"
+                  ],
+                  [
+                    "64a5366719bab53bd203bf33"
+                  ],
+                  [
+                    "64a536392d2c4e6e970f4121"
+                  ],
+                  [
+                    "64abd93857958b4249003418"
+                  ],
+                  [
+                    "64be79c487d1510151095552"
+                  ],
+                  [
+                    "64be79e2bf8412471d0d9bcc"
+                  ],
+                  [
+                    "65719f0775149d62ce0a670b"
+                  ],
+                  [
+                    "65709d2d21b9f815e208ff95"
+                  ],
+                  [
+                    "657089638db3adca1009f4ca"
+                  ],
+                  [
+                    "6570aead4d84f81fd002a033"
+                  ],
+                  [
+                    "66b6296d7994640992013b17"
+                  ],
+                  [
+                    "66b6295a8ca68c6461709efa"
+                  ],
+                  [
+                    "66b6295178bbc0200425f995"
+                  ],
+                  [
+                    "66b5f666cad6f002ab7214c2"
+                  ],
+                  [
+                    "66b5f661af44ca0014063c05"
+                  ],
+                  [
+                    "66b5f65ca7f72d197e70bcd6"
+                  ],
+                  [
+                    "66bdc28a0b603c26902b2011"
+                  ],
+                  [
+                    "674d91ce6e862d5a95059ed6"
+                  ],
+                  [
+                    "6759af0f9c8a538dd70bfae6"
+                  ],
+                  [
+                    "67597d241d5a44f2f605df06"
+                  ],
+                  [
+                    "67597ceea35600b4c10cea86"
+                  ],
+                  [
+                    "6759655674aa5e0825040d62"
+                  ],
+                  [
+                    "675956062f6ddfe8ff0e2806"
+                  ],
+                  [
+                    "67ab4b2d6f7ae4aa550bbcf6"
+                  ],
+                  [
+                    "67ab3ea96d7ece17bf0096f6"
+                  ],
+                  [
+                    "67ab49aab9c7a1e18c095686"
+                  ],
+                  [
+                    "67ab2eecfe82855dcc0f2af6"
+                  ],
+                  [
+                    "67ab2f28dafe3b22670c9116"
+                  ],
+                  [
+                    "67ab2f5adafe3b22670c911f"
+                  ],
+                  [
+                    "67ab2f94dafe3b22670c912c"
+                  ],
+                  [
+                    "689479a4a733b1602007e2eb"
+                  ],
+                  [
+                    "689479cb47e5acd1e10be986"
+                  ],
+                  [
+                    "68947a4be4bf255d1b0ca746"
+                  ],
+                  [
+                    "689479eb30cc5ba7be00f5ff"
+                  ],
+                  [
+                    "68948aebd8f2b85fb705e2b0"
+                  ],
+                  [
+                    "68948ad72c87773b9f06d73f"
+                  ],
+                  [
+                    "68948b118c57a8a52301d7ae"
+                  ],
+                  [
+                    "68948a95d8f2b85fb705e2a6"
+                  ],
+                  [
+                    "68a89942431252e29a02dbf6"
+                  ],
+                  [
+                    "68a89146212dbbeead0d5636"
+                  ],
+                  [
+                    "68a97093431252e29a02dc06"
+                  ],
+                  [
+                    "69412e5573dcf473e50be464"
+                  ],
+                  [
+                    "693fd13aa490096a05028cc8"
+                  ],
+                  [
+                    "693fd1200ec97e98040bd3f9"
+                  ],
+                  [
+                    "693fd0e9deee848f70054999"
+                  ],
+                  [
+                    "68a85ab8ef22d08bf401fa68"
+                  ],
+                  [
+                    "68a99207aa809946e507c2f6"
+                  ],
+                  [
+                    "68a986ca5c0073fa2d0d8cb8"
+                  ],
+                  [
+                    "68a98762609a5cb2120ebd26"
+                  ],
+                  [
+                    "68a987a1609a5cb2120ebd2f"
+                  ],
+                  [
+                    "68a9a85c3e1ee5a70504c12e"
+                  ],
+                  [
+                    "68a9a92b838d65bcb3050176"
+                  ],
+                  [
+                    "68a9b3ca0a9c4f9398032c46"
+                  ],
+                  [
+                    "68a9b5a5863d2a71fa0494a6"
+                  ],
+                  [
+                    "68a9be93f260f4e1c2038686"
+                  ],
+                  [
+                    "68a9beecbba00932ed0bc256"
+                  ],
+                  [
+                    "68bee28f79c8186398098e6f"
+                  ],
+                  [
+                    "68bee2ccd6da72c13f03db95"
+                  ],
+                  [
+                    "68bee2d9af253218c00ebbb4"
+                  ],
+                  [
+                    "68bee2e0ede5c8489f08e1b5"
+                  ],
+                  [
+                    "68bee2e876e02b9e340ef113"
+                  ],
+                  [
+                    "693be003582cc8870b090b41"
+                  ],
+                  [
+                    "693be8f650fafa102607aed4"
+                  ],
+                  [
+                    "697c79b1daf4828686033fcb"
+                  ]
+                ],
+                "equipmentInclusive": [],
+                "id": "5d25af8586f77443fe4569c4"
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "5d2f064386f77459145a4d23",
+                "target": [
+                  "Woods"
+                ]
+              }
+            ],
+            "id": "60e729cf5698ee7b0505743d"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "60e729cf5698ee7b0505743c",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "61014a600631930ce97dea78",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            5
+          ],
+          "target": "5edab4b1218d181e29451435",
+          "visibilityConditions": []
+        },
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "61014a6570fd3f687c1a747f",
+          "index": 0,
+          "parentId": "",
+          "value": 50,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "60e729cf5698ee7b05057439 declinePlayerMessage",
+    "description": "60e729cf5698ee7b05057439 description",
+    "failMessageText": "60e729cf5698ee7b05057439 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/5979d3ea86f7746d0b3e3fdc.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e3c2d2720bac5b8b4567",
+    "name": "60e729cf5698ee7b05057439 name",
+    "note": "60e729cf5698ee7b05057439 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "60f037612c12cd10b41053f8",
+          "isHidden": false,
+          "type": "Experience",
+          "unknown": false,
+          "value": 107000
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "61028b87d51ac54f163ffa04",
+          "isHidden": false,
+          "target": "StressResistance",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "61029edf60307362d01d8c89",
+          "isHidden": false,
+          "target": "Endurance",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "619d04b5c55ada1a24438f3a",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140832",
+              "_tpl": "619bddffc9546643a67df6f0",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140832",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "61029f1637e8697a3e7a49f8",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e59140835",
+              "_tpl": "6489848173c462723909a14b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140836",
+              "_tpl": "5fc382a9d724d907e2077dab",
+              "parentId": "68a9695194f6582e59140835",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140837",
+              "_tpl": "6489848173c462723909a14b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140838",
+              "_tpl": "5fc382a9d724d907e2077dab",
+              "parentId": "68a9695194f6582e59140837",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140837",
+          "type": "Item",
+          "unknown": true,
+          "value": 2
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "61029f13e2795c58325bb367",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "68a9695194f6582e5914083b",
+              "_tpl": "6489851fc827d4637f01791b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914083c",
+              "_tpl": "601aa3d2b2bcb34913271e6d",
+              "parentId": "68a9695194f6582e5914083b",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914083d",
+              "_tpl": "6489851fc827d4637f01791b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914083e",
+              "_tpl": "601aa3d2b2bcb34913271e6d",
+              "parentId": "68a9695194f6582e5914083d",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e5914083f",
+              "_tpl": "6489851fc827d4637f01791b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140840",
+              "_tpl": "601aa3d2b2bcb34913271e6d",
+              "parentId": "68a9695194f6582e5914083f",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140841",
+              "_tpl": "6489851fc827d4637f01791b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140842",
+              "_tpl": "601aa3d2b2bcb34913271e6d",
+              "parentId": "68a9695194f6582e59140841",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140843",
+              "_tpl": "6489851fc827d4637f01791b",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "68a9695194f6582e59140844",
+              "_tpl": "601aa3d2b2bcb34913271e6d",
+              "parentId": "68a9695194f6582e59140843",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 20
+              }
+            }
+          ],
+          "target": "68a9695194f6582e59140843",
+          "type": "Item",
+          "unknown": true,
+          "value": 5
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "60e729cf5698ee7b05057439 startedMessageText",
+    "status": 0,
+    "successMessageText": "60e729cf5698ee7b05057439 successMessageText",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "type": "Elimination"
+  }
+}
