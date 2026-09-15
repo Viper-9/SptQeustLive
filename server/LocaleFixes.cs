@@ -12,6 +12,7 @@ public class LocaleFixesLoader(
     LocaleTable localeTable) : IOnLoad
 {
     private const string LocalesFolderRelativePath = "db/locales";
+    private const string FallbackLangCode = "en";
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
@@ -29,19 +30,28 @@ public class LocaleFixesLoader(
             return Task.CompletedTask;
         }
 
-        var globalLocales = localeTable.Global;
+        var overridesByLang = new Dictionary<string, Dictionary<string, string>>();
 
         foreach (var filePath in Directory.GetFiles(localesDir, "*.json"))
         {
             var langCode = Path.GetFileNameWithoutExtension(filePath);
-
-            if (!globalLocales.TryGetValue(langCode, out var lazyLoadedLocale))
-            {
-                continue;
-            }
-
             var relativePath = $"{LocalesFolderRelativePath}/{langCode}.json";
-            var overrides = modHelper.GetJsonDataFromFile<Dictionary<string, string>>(modPath, relativePath);
+            overridesByLang[langCode] = modHelper.GetJsonDataFromFile<Dictionary<string, string>>(modPath, relativePath);
+        }
+
+        if (!overridesByLang.TryGetValue(FallbackLangCode, out var fallback))
+        {
+            fallback = overridesByLang.Values.FirstOrDefault();
+        }
+
+        if (fallback == null)
+        {
+            return Task.CompletedTask;
+        }
+
+        foreach (var (langCode, lazyLoadedLocale) in localeTable.Global)
+        {
+            var overrides = overridesByLang.GetValueOrDefault(langCode, fallback);
 
             lazyLoadedLocale.AddTransformer(localeData =>
             {
