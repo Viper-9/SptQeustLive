@@ -271,201 +271,6 @@
         },
         {
           "availableInGameEditions": [],
-          "findInRaid": true,
-          "gameMode": [
-            "regular",
-            "pve"
-          ],
-          "id": "6762f5675910a8f6d35ef15d",
-          "isEncoded": false,
-          "isHidden": false,
-          "items": [
-            {
-              "_id": "68a9695194f6582e59141157",
-              "_tpl": "5c0e625a86f7742d77340f62",
-              "upd": {
-                "SpawnedInSession": true,
-                "StackObjectsCount": 1
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59141158",
-              "_tpl": "65764275d8537eb26a0355e9",
-              "parentId": "68a9695194f6582e59141157",
-              "slotId": "Soft_armor_front",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59141159",
-              "_tpl": "657642b0e6d5dd75f40688a5",
-              "parentId": "68a9695194f6582e59141157",
-              "slotId": "Soft_armor_back",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e5914115a",
-              "_tpl": "6576434820cc24d17102b148",
-              "parentId": "68a9695194f6582e59141157",
-              "slotId": "Soft_armor_left",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e5914115b",
-              "_tpl": "657643732bc38ef78e076477",
-              "parentId": "68a9695194f6582e59141157",
-              "slotId": "soft_armor_right",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e5914115c",
-              "_tpl": "657643a220cc24d17102b14c",
-              "parentId": "68a9695194f6582e59141157",
-              "slotId": "Collar",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e5914115d",
-              "_tpl": "656f63c027aed95beb08f62c",
-              "parentId": "68a9695194f6582e59141157",
-              "slotId": "Front_plate",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e5914115e",
-              "_tpl": "656fafe3498d1b7e3e071da4",
-              "parentId": "68a9695194f6582e59141157",
-              "slotId": "Back_plate",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e5914115f",
-              "_tpl": "64afd81707e2cf40e903a316",
-              "parentId": "68a9695194f6582e59141157",
-              "slotId": "Left_side_plate",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59141160",
-              "_tpl": "64afd81707e2cf40e903a316",
-              "parentId": "68a9695194f6582e59141157",
-              "slotId": "Right_side_plate",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59141161",
-              "_tpl": "5c0e625a86f7742d77340f62",
-              "upd": {
-                "SpawnedInSession": true,
-                "StackObjectsCount": 1
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59141162",
-              "_tpl": "65764275d8537eb26a0355e9",
-              "parentId": "68a9695194f6582e59141161",
-              "slotId": "Soft_armor_front",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59141163",
-              "_tpl": "657642b0e6d5dd75f40688a5",
-              "parentId": "68a9695194f6582e59141161",
-              "slotId": "Soft_armor_back",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59141164",
-              "_tpl": "6576434820cc24d17102b148",
-              "parentId": "68a9695194f6582e59141161",
-              "slotId": "Soft_armor_left",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59141165",
-              "_tpl": "657643732bc38ef78e076477",
-              "parentId": "68a9695194f6582e59141161",
-              "slotId": "soft_armor_right",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59141166",
-              "_tpl": "657643a220cc24d17102b14c",
-              "parentId": "68a9695194f6582e59141161",
-              "slotId": "Collar",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59141167",
-              "_tpl": "656f63c027aed95beb08f62c",
-              "parentId": "68a9695194f6582e59141161",
-              "slotId": "Front_plate",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59141168",
-              "_tpl": "656fafe3498d1b7e3e071da4",
-              "parentId": "68a9695194f6582e59141161",
-              "slotId": "Back_plate",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e59141169",
-              "_tpl": "64afd81707e2cf40e903a316",
-              "parentId": "68a9695194f6582e59141161",
-              "slotId": "Left_side_plate",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            },
-            {
-              "_id": "68a9695194f6582e5914116a",
-              "_tpl": "64afd81707e2cf40e903a316",
-              "parentId": "68a9695194f6582e59141161",
-              "slotId": "Right_side_plate",
-              "upd": {
-                "SpawnedInSession": true
-              }
-            }
-          ],
-          "target": "68a9695194f6582e59141161",
-          "type": "Item",
-          "unknown": false,
-          "value": 2
-        },
-        {
-          "availableInGameEditions": [],
           "gameMode": [
             "regular",
             "pve"
@@ -475,7 +280,13 @@
           "items": [
             {
               "_id": "ef6f884ee79dea6c1c5ec958",
-              "_tpl": "6499849fc93611967b034949"
+              "_tpl": "6499849fc93611967b034949",
+              "upd": {
+                "Repairable": {
+                  "Durability": 100,
+                  "MaxDurability": 100
+                }
+              }
             },
             {
               "_id": "9d248e3c30818874ce6b3b5e",
@@ -561,6 +372,205 @@
           "traderId": "54cb50c76803fa8b248b4571",
           "type": "AssortmentUnlock",
           "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a6615e19aeee933e4ecff04",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "94c9b3d50c3b096d1d629fc3",
+              "_tpl": "6499849fc93611967b034949",
+              "upd": {
+                "Repairable": {
+                  "Durability": 100,
+                  "MaxDurability": 100
+                },
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "ca0212e9a7ba59bea8018597",
+              "_tpl": "649ec107961514b22506b10c",
+              "parentId": "94c9b3d50c3b096d1d629fc3",
+              "slotId": "mod_gas_block"
+            },
+            {
+              "_id": "1ca4d8a010a82ec453e38c7c",
+              "_tpl": "5649ae4a4bdc2d1b2b8b4588",
+              "parentId": "94c9b3d50c3b096d1d629fc3",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "ecee7bfb81995a9d7fce9b67",
+              "_tpl": "649ec127c93611967b034957",
+              "parentId": "94c9b3d50c3b096d1d629fc3",
+              "slotId": "mod_handguard"
+            },
+            {
+              "_id": "f83e158d3060da9b7c82edae",
+              "_tpl": "5beecbb80db834001d2c465e",
+              "parentId": "ecee7bfb81995a9d7fce9b67",
+              "slotId": "mod_mount_001"
+            },
+            {
+              "_id": "381658dc1e615ebceaf2b09a",
+              "_tpl": "5c5952732e2216398b5abda2",
+              "parentId": "f83e158d3060da9b7c82edae",
+              "slotId": "mod_tactical_000"
+            },
+            {
+              "_id": "fb99ca497632dd0b6b51a139",
+              "_tpl": "5c1bc4812e22164bef5cfde7",
+              "parentId": "ecee7bfb81995a9d7fce9b67",
+              "slotId": "mod_foregrip"
+            },
+            {
+              "_id": "b8eb94e3b4c23e71fb258be2",
+              "_tpl": "64c196ad26a15b84aa07132f",
+              "parentId": "94c9b3d50c3b096d1d629fc3",
+              "slotId": "mod_muzzle"
+            },
+            {
+              "_id": "12a5063063411ad4e01c24e6",
+              "_tpl": "649ec2f3961514b22506b111",
+              "parentId": "94c9b3d50c3b096d1d629fc3",
+              "slotId": "mod_reciever"
+            },
+            {
+              "_id": "f4567c41774622977d8c9885",
+              "_tpl": "609a63b6e2ff132951242d09",
+              "parentId": "12a5063063411ad4e01c24e6",
+              "slotId": "mod_scope"
+            },
+            {
+              "_id": "927026ce76022147d2018b84",
+              "_tpl": "649ec87d8007560a9001ab36",
+              "parentId": "94c9b3d50c3b096d1d629fc3",
+              "slotId": "mod_stock_001"
+            },
+            {
+              "_id": "d38fd7838d035f933e981833",
+              "_tpl": "5beec8c20db834001d2c465c",
+              "parentId": "927026ce76022147d2018b84",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "dea7d53e4f8934f85263f5ec",
+              "_tpl": "649ec30cb013f04a700e60fb",
+              "parentId": "94c9b3d50c3b096d1d629fc3",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "4403d8c7af89a62334692c1f",
+              "_tpl": "5648ac824bdc2ded0b8b457d",
+              "parentId": "94c9b3d50c3b096d1d629fc3",
+              "slotId": "mod_charge"
+            }
+          ],
+          "target": "94c9b3d50c3b096d1d629fc3",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a6615f98cd0170a50e45e66",
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "a85403cd5bd8e81167771a1e",
+              "_tpl": "56dfef82d2720bbd668b4567",
+              "upd": {
+                "StackObjectsCount": 60
+              }
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "a85403cd5bd8e81167771a1e",
+          "traderId": 10,
+          "type": "ProductionScheme",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a661621327589b865393335",
+          "isEncoded": false,
+          "isHidden": false,
+          "items": [
+            {
+              "_id": "90b379a86e2839df14aff380",
+              "_tpl": "5737292724597765e5728562",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "a6eb8925e96d7d7ca701735f",
+              "_tpl": "56dfef82d2720bbd668b4567",
+              "parentId": "90b379a86e2839df14aff380",
+              "slotId": "cartridges",
+              "upd": {
+                "StackObjectsCount": 80
+              }
+            },
+            {
+              "_id": "d494d8df5df3ee9dde76e6a9",
+              "_tpl": "56dfef82d2720bbd668b4567",
+              "parentId": "90b379a86e2839df14aff380",
+              "slotId": "cartridges",
+              "location": 1,
+              "upd": {
+                "StackObjectsCount": 40
+              }
+            }
+          ],
+          "target": "90b379a86e2839df14aff380",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a667385a505c5e066cab460",
+          "isHidden": false,
+          "target": "LMG",
+          "type": "Skill",
+          "unknown": false,
+          "value": 400
+        },
+        {
+          "availableInGameEditions": [],
+          "gameMode": [
+            "regular",
+            "pve"
+          ],
+          "id": "6a667391774e0b75b8be0eb2",
+          "isHidden": false,
+          "target": "HMG",
+          "type": "Skill",
+          "unknown": false,
+          "value": 400
         }
       ]
     },
