@@ -1,5 +1,6 @@
 using System.Reflection;
 using System.Text.Json.Serialization;
+using SPTarkov.Common.Models.Logging;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers.Server;
@@ -174,6 +175,85 @@ public class TraderAssortAdditionLoader(
             }
         }
 
+        return Task.CompletedTask;
+    }
+}
+
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 3)]
+public class TraderAssortRemovalLoader(
+    ModHelper modHelper,
+    TradersTable tradersTable,
+    ISptLogger<TraderAssortRemovalLoader> logger) : IOnLoad
+{
+    private const string ConfigFileRelativePath = "db/TraderAssortRemovals.json";
+
+    public Task OnLoadAsync(CancellationToken cancellationToken)
+    {
+        ModConfig.EnsureLoaded(modHelper);
+        if (!ModConfig.QuestContentEnabled)
+        {
+            return Task.CompletedTask;
+        }
+
+        var modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
+        var configFilePath = System.IO.Path.Combine(modPath, ConfigFileRelativePath);
+
+        if (!File.Exists(configFilePath))
+        {
+            return Task.CompletedTask;
+        }
+
+        var removalsByTrader = modHelper.GetJsonDataFromFile<Dictionary<MongoId, List<MongoId>>>(
+            modPath, ConfigFileRelativePath);
+
+        var removed = 0;
+        foreach (var (traderId, assortItemIds) in removalsByTrader)
+        {
+            if (!tradersTable.TryGetValue(traderId, out var trader) || trader.Assort?.Items is null)
+            {
+                continue;
+            }
+
+            foreach (var assortItemId in assortItemIds)
+            {
+                var rootId = assortItemId.ToString();
+                if (!trader.Assort.Items.Any(item => item.Id.ToString() == rootId))
+                {
+                    logger.Warning($"TraderAssortRemovals: assort {rootId} not found for trader {traderId}");
+                    continue;
+                }
+
+                var treeIds = new HashSet<string> { rootId };
+                bool grew;
+                do
+                {
+                    grew = false;
+                    foreach (var item in trader.Assort.Items)
+                    {
+                        if (item.ParentId is not null && treeIds.Contains(item.ParentId) && treeIds.Add(item.Id.ToString()))
+                        {
+                            grew = true;
+                        }
+                    }
+                } while (grew);
+
+                trader.Assort.Items.RemoveAll(item => treeIds.Contains(item.Id.ToString()));
+                trader.Assort.BarterScheme?.Remove(assortItemId);
+                trader.Assort.LoyalLevelItems?.Remove(assortItemId);
+
+                if (trader.QuestAssort is not null)
+                {
+                    foreach (var stageMap in trader.QuestAssort.Values)
+                    {
+                        stageMap.Remove(assortItemId);
+                    }
+                }
+
+                removed++;
+            }
+        }
+
+        logger.Debug($"Removed {removed} trader assort row(s)");
         return Task.CompletedTask;
     }
 }
