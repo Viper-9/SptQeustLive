@@ -23,6 +23,7 @@ public class ClientPlugin : BaseUnityPlugin
         LoadServerConfig();
         new TraderTooltipPatch().Enable();
         new TradingPlayerPanelPatch().Enable();
+        new HandoverItemCachePatch().Enable();
 
         if (QuestContentEnabled)
         {
