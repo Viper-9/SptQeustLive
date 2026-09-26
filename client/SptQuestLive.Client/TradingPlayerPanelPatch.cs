@@ -1,4 +1,5 @@
 using System.Reflection;
+using EFT;
 using EFT.UI;
 using HarmonyLib;
 using SPT.Reflection.Patching;
@@ -11,9 +12,9 @@ public class TradingPlayerPanelPatch : ModulePatch
         => AccessTools.Method(typeof(TradingPlayerPanel), nameof(TradingPlayerPanel.UpdateStats));
 
     [PatchPostfix]
-    private static void PatchPostfix(TradingPlayerPanel __instance)
+    private static void PatchPostfix(TradingPlayerPanel __instance, Profile.TraderInfo traderInfo)
     {
-        if (!ClientPlugin.DisableSalesVolumeRequirement)
+        if (!ClientPlugin.DisableSalesVolumeRequirement || !VanillaTraders.Contains(traderInfo?.Id))
         {
             return;
         }
